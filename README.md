@@ -1,0 +1,2 @@
+# kore
+Kore AI
