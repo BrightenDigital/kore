@@ -9,18 +9,21 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/getting_started/introduction.md' },
+      { text: 'Key Features', link: '/getting_started/tldr_key_features.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
+        link: '/getting_started/introduction.md',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Quickstart', link: "/getting_started/quickstart.md" },
+          { text: 'TLDR Key Features', link: "/getting_started/tldr_key_features.md" },       
+          { text: 'FAQs', link: "/getting_started/frequently_asked.md" },          
+          { text: 'Known Issues', link: "/getting_started/known_issues.md" }
         ]
-      }
+      },
     ],
 
     socialLinks: [

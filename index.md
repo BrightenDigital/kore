@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Kore-Docs"
   text: "Kore AI Official Documentation"
-  tagline: My great project tagline
+  tagline: Let Kore Agents handle the core of your work while you focus on the details
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Try Kore today
+      link: https://kore-ai.brightenconsulting.com/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Quickstart
+      link: /getting_started/quickstart.md
 
 features:
   - title: Feature A
