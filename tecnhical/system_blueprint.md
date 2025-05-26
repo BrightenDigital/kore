@@ -1,6 +1,6 @@
 # 📐 Kore System Design Blueprint
 
-# Architecture Diagram
+## Architecture Diagram
 
 ![system_blueprint.svg](/tecnhical/assets/system_blueprint.svg)
 
