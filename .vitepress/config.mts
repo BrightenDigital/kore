@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Getting Started', link: '/getting_started/home.md' },      
       { text: 'Key Features', link: '/getting_started/tldr_key_features.md' },
       { text: 'Best Practices', link: '/best_practices/home.md' },
-      { text: 'Use Cases', link: '/use_cases/start_from_template.md' },
+      { text: 'Use Cases', link: '/use_cases/home.md' },
     ],
 
     sidebar: [
