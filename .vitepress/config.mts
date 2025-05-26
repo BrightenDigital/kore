@@ -5,10 +5,11 @@ export default defineConfig({
   title: "Kore-Docs",
   base: "/kore/",
   description: "Kore AI Official Documentation",
-  head: [['link', {rel: 'icon', href: '/Kore/favicon.ico'}]],
+  head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting_started/home.md' },      
       { text: 'Key Features', link: '/getting_started/tldr_key_features.md' },
       { text: 'Best Practices', link: '/best_practices/home.md' },
