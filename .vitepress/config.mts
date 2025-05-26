@@ -16,7 +16,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Getting Started',
-        link: '/getting_started/introduction.md',
+        link: '/getting_started/home.md',
         items: [
           { text: 'Quickstart', link: "/getting_started/quickstart.md" },
           { text: 'TLDR Key Features', link: "/getting_started/tldr_key_features.md" },       
