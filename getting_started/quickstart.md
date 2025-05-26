@@ -16,4 +16,4 @@
 - Add knowledge to help the agents understand your requirements better
 - Request one feature at a time for faster development cycles
 
-Need more details? Check out our [Best Practices](/best_practices/) and [Use Cases](/use_cases/) pages!
+Need more details? Check out our [Best Practices](/best_practices/home.md) and [Use Cases](/use_cases/home.md) pages!

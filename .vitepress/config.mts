@@ -38,6 +38,7 @@ export default defineConfig({
       },
       {
         text: 'Use Cases',
+        link: '/use_cases/home.md',
         items: [
           { text: 'Start from a Template', link: "/use_cases/start_from_template.md" },
           { text: 'Generate Documentation', link: "/use_cases/generate_documentation.md" },       
