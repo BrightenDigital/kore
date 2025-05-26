@@ -57,6 +57,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer: {
+      copyright: 'Copyright © 2024-present Kore-AI Team'
+    }
   }
 })
