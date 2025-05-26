@@ -9,8 +9,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/getting_started/home.md' },
-      { text: 'Key Features', link: '/getting_started/tldr_key_features.md' }
+      { text: 'Getting Started', link: '/getting_started/home.md' },      
+      { text: 'Key Features', link: '/getting_started/tldr_key_features.md' },
+      { text: 'Best Practices', link: '/best_practices/home.md' },
+      { text: 'Use Cases', link: '/use_cases/start_from_template.md' },
     ],
 
     sidebar: [
@@ -32,6 +34,15 @@ export default defineConfig({
           { text: 'Knowledge', link: "/best_practices/knowledge.md" },       
           { text: 'LLM Selection Tips', link: "/best_practices/llm_selection_tips.md" },          
           { text: 'Files Section', link: "/best_practices/files_section.md" }
+        ]
+      },
+      {
+        text: 'Use Cases',
+        items: [
+          { text: 'Start from a Template', link: "/use_cases/start_from_template.md" },
+          { text: 'Generate Documentation', link: "/use_cases/generate_documentation.md" },       
+          { text: 'Implement New Feature', link: "/use_cases/implement_new_feature.md" },          
+          { text: 'GreenField Development', link: "/use_cases/greenfield_development.md" }
         ]
       },
       {

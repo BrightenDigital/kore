@@ -11,15 +11,24 @@ hero:
       text: Try Kore today
       link: https://kore-ai.brightenconsulting.com/
     - theme: alt
+      text: User Guide
+      link: /getting_started/home.md
+    - theme: alt
       text: Quickstart
       link: /getting_started/quickstart.md
+    - theme: alt
+      text: Technical
+      link: /tecnhical/system_blueprint.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Start from a Template
+    details: Boost your development from one of our templates, including Angular, .NET, Python, React, SAPUI5 and more!
+    link: /use_cases/start_from_template.md
+  - title: Git Integration
+    details: Integrate effortlessly with your workflow by having our agents creating new branches and continue where you left off.
+    link: /best_practices/working_with_git.md
+  - title: GreenField Development
+    link: /use_cases/greenfield_development.md
+    details: Want to migrate your aging codebase to that new shiny stack? Our agents got you covered!
 ---
 
