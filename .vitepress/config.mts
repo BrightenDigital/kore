@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Kore-Docs",
-  base: "/Kore/",
+  base: "/kore/",
   description: "Kore AI Official Documentation",
   head: [['link', {rel: 'icon', href: '/Kore/favicon.ico'}]],
   themeConfig: {
