@@ -1,6 +1,6 @@
 # 🖿 Files Section
 
-# The Files section provides you with complete visibility and access to your codebase as it's being developed by the Kore agents.
+The Files section provides you with complete visibility and access to your codebase as it's being developed by the Kore agents.
 
 ## Overview
 
