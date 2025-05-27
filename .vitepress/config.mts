@@ -21,10 +21,18 @@ export default defineConfig({
         text: 'Getting Started',
         link: '/getting_started/home.md',
         items: [
-          { text: 'Quickstart', link: "/getting_started/quickstart.md" },
           { text: 'TLDR Key Features', link: "/getting_started/tldr_key_features.md" },       
+          { text: 'Quickstart', link: "/getting_started/quickstart.md" },
           { text: 'FAQs', link: "/getting_started/frequently_asked.md" },          
           { text: 'Known Issues', link: "/getting_started/known_issues.md" }
+        ]
+      },
+      {
+        text: 'Agents',
+        link: '/agents/home.md',
+        items: [
+          { text: 'AI Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
+          { text: 'AI Software team', link: "/agents/ai_software_team.md" }
         ]
       },
       {
@@ -60,7 +68,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024-present Kore-AI Team'
+      copyright: 'Copyright © 2025 Kore AI'
     }
   }
 })
