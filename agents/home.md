@@ -1,5 +1,7 @@
 # Available Teams and Agents
 
+Assemble teams of AI agents that collaborate seamlessly, harnessing their expertise to create files, execute tools, and streamline workflows—all to help you build something new now.
+
 ## The Knowledge base bot
 
 - Context-Aware Search Strategist: Bot dynamically switches between different search methods (semantic, keyword, fuzzy matching) based on query type and previous conversation context

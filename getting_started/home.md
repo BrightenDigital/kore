@@ -1,12 +1,12 @@
 # Kore User Guide
 
-Assemble teams of AI agents that collaborate seamlessly, harnessing their expertise to create files, execute tools, and streamline workflows—all to help you build something new now.
+Kore transforms how you handle complex tasks — from automating workflows and extracting insights to generating content and building software solutions. Our intelligent agents understand your context and get things done faster than traditional tools.
 
 ## Getting Started
 
 ### Quick Navigation
 
-- [🗞️ **Key Features**](/getting_started/tldr_key_features.md) - A visual guide to take advantage of Kore features
+- [🗞️ **Key Features**](/getting_started/tldr_key_features.md) - A Visual Guide to its Advanced Features and Workflows
 - [🚀**Quickstart**](/getting_started/quickstart.md) - Get up and running in minutes
 - [❓ **FAQ**](/getting_started/frequently_asked.md) - Common questions answered
 - [🌟 **Best Practices**](/best_practices/home.md) - Tips for optimal results
