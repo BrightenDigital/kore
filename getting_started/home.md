@@ -16,7 +16,7 @@ Assemble teams of AI agents that collaborate seamlessly, harnessing their expert
     - 🛠️ [Implement a new feature](/use_cases/implement_new_feature.md)
     - 🐲 [GreenField development](/use_cases/greenfield_development.md)
 - [⚠️ **Known Issues**](/getting_started/known_issues.md) - Current limitations and workarounds
-- [🔨 **Kore System Design Blueprint**](/tecnhical/system_blueprint.md)
+- [🔨 **Kore System Design Blueprint**](/technical/system_blueprint.md)
 
 ![image.png](/getting_started/assets/introduction.png)
 
@@ -69,7 +69,7 @@ The Kore AI Software Team is your intelligent software development companion. It
 
 [⚠️ Known Issues](/getting_started/known_issues.md)
 
-[🔨 Kore System Design Blueprint](/tecnhical/system_blueprint.md)
+[🔨 Kore System Design Blueprint](/technical/system_blueprint.md)
 
 ---
 

@@ -50,7 +50,7 @@ export default defineConfig({
       {
         text: 'Technical',
         items: [
-          { text: 'Kore System Design Blueprint', link: "/tecnhical/system_blueprint.md" }
+          { text: 'Kore System Design Blueprint', link: "/technical/system_blueprint.md" }
         ]
       },
     ],

@@ -2,7 +2,7 @@
 
 ## Architecture Diagram
 
-![system_blueprint.svg](/tecnhical/assets/system_blueprint.svg)
+![system_blueprint.svg](/technical/assets/system_blueprint.svg)
 
 ## 1. System Overview
 
