@@ -62,7 +62,7 @@ User submits a question
 ```mermaid
 graph TD
 A[User Question] --> B[Intent Analysis]
-B --> C[Initial Retrieval (RAG, DBs, Wikis)]
+B --> C[Initial Retrieval]
 C --> D{Context Found?}
 D -- Yes --> E[List References]
 E --> F[Generate Answer]
