@@ -14,7 +14,7 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Getting Started', link: '/getting_started/home.md' },      
-        { text: 'Key Features', link: '/getting_started/tldr_key_features.md' },
+        { text: 'AI Agents', link: '/agents/home.md' },
         { text: 'Best Practices', link: '/best_practices/home.md' },
         { text: 'Use Cases', link: '/use_cases/home.md' },
       ],
@@ -60,17 +60,12 @@ export default withMermaid(
           ]
         },
         {
-          text: 'Ecosystem',
+          text: 'Ecosystem & Technology',
           items: [
             { text: 'Kore RAG', link: "/ecosystem/kore_rag.md" },
             { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
             { text: 'Kore M365', link: "/ecosystem/kore_m365.md" },
             { text: 'Kore Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
-          ]
-        },
-        {
-          text: 'Technical',
-          items: [
             { text: 'Kore System Design Blueprint', link: "/technical/system_blueprint.md" },
             { text: 'Known Issues', link: "/getting_started/known_issues.md" }
           ]

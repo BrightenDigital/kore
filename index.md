@@ -11,24 +11,18 @@ hero:
       text: Try Kore today
       link: https://kore-ai.brightenconsulting.com/
     - theme: alt
-      text: User Guide
+      text: Getting Started
       link: /getting_started/home.md
-    - theme: alt
-      text: Quickstart
-      link: /getting_started/quickstart.md
-    - theme: alt
-      text: Technical
-      link: /tecnhical/system_blueprint.md
 
 features:
-  - title: Start from a Template
-    details: Boost your development from one of our templates, including Angular, .NET, Python, React, SAPUI5 and more!
-    link: /use_cases/start_from_template.md
-  - title: Git Integration
-    details: Integrate effortlessly with your workflow by having our agents creating new branches and continue where you left off.
-    link: /best_practices/working_with_git.md
-  - title: GreenField Development
-    link: /use_cases/greenfield_development.md
-    details: Want to migrate your aging codebase to that new shiny stack? Our agents got you covered!
+  - title: Autonomy in Action
+    details: Agents that observe, think, and act—Kore powers true autonomy with seamless perception-to-action flow.
+    #link: /use_cases/start_from_template.md
+  - title: Agentic RAG
+    details: Powers Kore agents to think, decide, and act with real-time knowledge grounded in your enterprise data.
+    #link: /best_practices/working_with_git.md
+  - title: Supercharged for Enterprise
+    #link: /use_cases/greenfield_development.md
+    details: Packed with Office 365, Git, MCP, masking, and observability—everything you need, ready out of the box.
 ---
 
