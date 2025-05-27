@@ -84,7 +84,7 @@ graph TD
     H --> I[BM25 Engine]
     I --> J[ReRankerService (NVIDIA)]
     J --> K[SearchResult]
-
+```
 
 🧑‍💼 Target Personas & Stories
 | Persona              | Goal                                                       |
@@ -97,6 +97,7 @@ graph TD
 | **Application User** | Search documents with intelligent context awareness.       |
 
 # 📦 Project Structure
+```
 ├── FastRAG.sln
 ├── infra/
 │   ├── azuredeploy.json
@@ -115,6 +116,7 @@ graph TD
         ├── Middleware/
         ├── Extensions/
         └── Configuration/
+```
 
 # 🧪 Key Interfaces & Services
 

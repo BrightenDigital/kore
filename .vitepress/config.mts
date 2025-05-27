@@ -63,7 +63,7 @@ export default withMermaid(
           text: 'Ecosystem',
           items: [
             { text: 'Kore Rag', link: "/ecosystem/kore_rag.md" },
-            { text: 'Known Issues', link: "/ecosystem/known_issues.md" },
+            { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
             { text: 'Kore Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
           ]
         },
