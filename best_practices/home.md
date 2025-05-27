@@ -30,6 +30,6 @@
 
 [🧠 Knowledge](/best_practices/knowledge.md)
 
-[🤖 LLM Selection Tips](/best_practices/llm_selection_tip.md)
+[🤖 LLM Selection Tips](/best_practices/llm_selection_tips.md)
 
 [🖿 Files Section](/best_practices/files_section.md)
