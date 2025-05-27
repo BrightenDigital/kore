@@ -37,15 +37,13 @@ At the heart of the agent lies the **Kore RAG (Retrieval-Augmented Generation) m
 
 All uploaded documents go through semantic parsing and are indexed accordingly:
 
-```plaintext
-+------------------+----------------------------+
-| Document Type    | Classification Strategy    |
-+------------------+----------------------------+
-| PDFs             | Vector embeddings + BM25   |
-| Spreadsheets     | Table parsing + embeddings |
-| Wikis / Markdown | Chunked + hierarchical RAG |
-+------------------+----------------------------+
-```
+| Document Type              | Description                                       |
+| -------------------------- | ------------------------------------------------- |
+| Multi-source knowledge     | Classification Strategy                           |
+| PDFs                       | Vector embeddings + BM25                          |
+| Spreadsheets               | Table parsing + embeddings                        |
+| Wikis / Markdown           | Chunked + hierarchical RAG                        |
+
 
 ## 🔄 Query Lifecycle
 Here's how the agent processes a question from start to finish:
