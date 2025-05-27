@@ -16,3 +16,6 @@ Visit the full documentation at: [https://brightendigital.github.io/kore/](https
 1. Clone this repository
 2. Run `npm install`
 3. Start the docs with `npm run docs:dev`
+
+## License
+MIT Licensed - See [LICENSE](LICENSE) file for details.

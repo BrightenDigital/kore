@@ -26,9 +26,7 @@ export default withMermaid(
           items: [
             { text: 'Key Features', link: "/getting_started/tldr_key_features.md" },       
             { text: 'Quickstart', link: "/getting_started/quickstart.md" },
-            { text: 'FAQs', link: "/getting_started/frequently_asked.md" },
-            { text: "What's new", link: "/getting_started/whats_new.md" }
-
+            { text: 'FAQs', link: "/getting_started/frequently_asked.md" }
           ]
         },
         {
@@ -57,13 +55,6 @@ export default withMermaid(
             { text: 'Generate Documentation', link: "/use_cases/generate_documentation.md" },       
             { text: 'Implement New Feature', link: "/use_cases/implement_new_feature.md" },          
             { text: 'GreenField Development', link: "/use_cases/greenfield_development.md" }
-          ]
-        },
-        {
-          text: 'Ecosystem',
-          items: [
-            { text: 'Kore System Design Blueprint', link: "/technical/system_blueprint.md" },
-            { text: 'Known Issues', link: "/getting_started/known_issues.md" }
           ]
         },
         {
