@@ -1,0 +1,106 @@
+:root {
+  /* Primary color palette - Red (#bd1634) */
+  --vp-c-brand: #bd1634;
+  --vp-c-brand-light: #d42a47;
+  --vp-c-brand-lighter: #e84a63;
+  --vp-c-brand-dark: #a0122d;
+  --vp-c-brand-darker: #830e25;
+
+  /* Secondary color palette - White (#e7ece5) */
+  --vp-c-secondary: #e7ece5;
+  --vp-c-secondary-light: #f0f4ef;
+  --vp-c-secondary-lighter: #f8faf7;
+  --vp-c-secondary-dark: #d0d8cd;
+  --vp-c-secondary-darker: #b9c4b5;
+
+  /* Background colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8f8f8;
+  --vp-c-bg-soft: #f2f2f2;
+
+  /* Text colors */
+  --vp-c-text-1: rgba(0, 0, 0, 0.92);
+  --vp-c-text-2: rgba(0, 0, 0, 0.72);
+  --vp-c-text-3: rgba(0, 0, 0, 0.48);
+
+  /* Borders */
+  --vp-c-divider: rgba(0, 0, 0, 0.12);
+  --vp-c-divider-light: rgba(0, 0, 0, 0.06);
+  --vp-c-divider-inverse: rgba(255, 255, 255, 0.12);
+
+  /* Special elements */
+  --vp-custom-block-tip-bg: rgba(189, 22, 52, 0.08);
+  --vp-custom-block-tip-border: rgba(189, 22, 52, 0.4);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+}
+
+.dark {
+  /* Primary color palette - Dark mode (same red but slightly darker) */
+  --vp-c-brand: #bd1634;
+  --vp-c-brand-light: #d42a47;
+  --vp-c-brand-lighter: #e84a63;
+  --vp-c-brand-dark: #a0122d;
+  --vp-c-brand-darker: #830e25;
+
+  /* Secondary color palette - Dark mode (darker complement) */
+  --vp-c-secondary: #2a2a2a;
+  --vp-c-secondary-light: #333333;
+  --vp-c-secondary-lighter: #3d3d3d;
+  --vp-c-secondary-dark: #222222;
+  --vp-c-secondary-darker: #1e1e1e;
+
+  /* Background colors */
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #242424;
+  --vp-c-bg-soft: #2e2e2e;
+
+  /* Text colors */
+  --vp-c-text-1: rgba(255, 255, 255, 0.92);
+  --vp-c-text-2: rgba(255, 255, 255, 0.72);
+  --vp-c-text-3: rgba(255, 255, 255, 0.48);
+
+  /* Borders */
+  --vp-c-divider: rgba(255, 255, 255, 0.12);
+  --vp-c-divider-light: rgba(255, 255, 255, 0.06);
+  --vp-c-divider-inverse: rgba(0, 0, 0, 0.12);
+
+  /* Special elements */
+  --vp-custom-block-tip-bg: rgba(189, 22, 52, 0.16);
+  --vp-custom-block-tip-border: rgba(189, 22, 52, 0.6);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lighter);
+}
+
+/* Button styles */
+.vp-button {
+  transition: all 0.15s ease;
+}
+.vp-button.brand {
+  background-color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
+}
+.vp-button.brand:hover {
+  background-color: var(--vp-c-brand-light);
+  border-color: var(--vp-c-brand-light);
+}
+
+/* Link styles */
+a {
+  color: var(--vp-c-brand);
+  transition: color 0.15s ease;
+}
+a:hover {
+  color: var(--vp-c-brand-light);
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--vp-c-text-1);
+}
+
+/* Code highlight */
+:root {
+  --vp-code-block-bg: var(--vp-c-bg-alt);
+}
+.dark {
+  --vp-code-block-bg: var(--vp-c-bg-soft);
+}

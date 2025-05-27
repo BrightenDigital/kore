@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vitepress'
 import { withMermaid } from "vitepress-plugin-mermaid";
 
@@ -8,7 +9,20 @@ export default withMermaid(
     base: "/kore/",
     description: "Kore AI Official Documentation",
     head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
-    appearance: 'dark',
+    appearance: true, // Enable both dark/light mode
+    markdown: {
+      theme: {
+        light: 'github-light',
+        dark: 'github-dark'
+      }
+    },
+    vite: {
+      css: {
+        preprocessorOptions: {
+          scss: { additionalData: `@import "./.vitepress/theme/styles/colors.scss";` }
+        }
+      }
+    },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -18,6 +32,16 @@ export default withMermaid(
         { text: 'Best Practices', link: '/best_practices/home.md' },
         { text: 'Use Cases', link: '/use_cases/home.md' },
       ],
+      
+      outline: {
+        level: 'deep',
+        label: 'On this page'
+      },
+      
+      editLink: {
+        pattern: 'https://github.com/BrightenDigital/kore/edit/main/docs/:path',
+        text: 'Edit this page on GitHub'
+      },
 
       sidebar: [
         {
@@ -69,7 +93,7 @@ export default withMermaid(
       socialLinks: [
         { icon: 'github', link: 'https://github.com/BrightenDigital/kore' }
       ],
-
+      
       footer: {
         copyright: 'Copyright © 2025 Kore AI'
       }
