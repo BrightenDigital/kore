@@ -1,4 +1,15 @@
-# 🗞️ TLDR Key Features
+# 🗞️ Key Features
+
+## TL;DR
+A powerful, enterprise-ready platform with a simple conversational UI that lets you:
+- Switch between or bring your own LLMs
+- Manage MCP servers and sensitive data at both org and project levels
+- Add and share custom knowledge with agents
+- Answer agent questions for deeper results
+- Use a smart assistant within projects
+- Access files, diagrams, and outputs created by agents
+- Start or analyze projects with full Git integration
+- Gain deep insights into code structure, quality, and patterns
 
 ## Simple conversational UI
 

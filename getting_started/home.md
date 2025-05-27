@@ -6,7 +6,7 @@ Assemble teams of AI agents that collaborate seamlessly, harnessing their expert
 
 ### Quick Navigation
 
-- [🗞️ **TLDR Key Features**](/getting_started/tldr_key_features.md) - A visual guide to take advantage of Kore features
+- [🗞️ **Key Features**](/getting_started/tldr_key_features.md) - A visual guide to take advantage of Kore features
 - [🚀**Quickstart**](/getting_started/quickstart.md) - Get up and running in minutes
 - [❓ **FAQ**](/getting_started/frequently_asked.md) - Common questions answered
 - [🌟 **Best Practices**](/best_practices/home.md) - Tips for optimal results

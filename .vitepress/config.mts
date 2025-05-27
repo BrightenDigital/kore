@@ -4,10 +4,11 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    title: "Kore-Docs",
+    title: "Kore Docs",
     base: "/kore/",
     description: "Kore AI Official Documentation",
     head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
+    appearance: 'dark',
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -23,18 +24,17 @@ export default withMermaid(
           text: 'Getting Started',
           link: '/getting_started/home.md',
           items: [
-            { text: 'TLDR Key Features', link: "/getting_started/tldr_key_features.md" },       
+            { text: 'Key Features', link: "/getting_started/tldr_key_features.md" },       
             { text: 'Quickstart', link: "/getting_started/quickstart.md" },
-            { text: 'FAQs', link: "/getting_started/frequently_asked.md" },          
-            { text: 'Known Issues', link: "/getting_started/known_issues.md" }
+            { text: 'FAQs', link: "/getting_started/frequently_asked.md" }
           ]
         },
         {
           text: 'Agents',
           link: '/agents/home.md',
           items: [
-            { text: 'AI Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
-            { text: 'AI Software team', link: "/agents/ai_software_team.md" }
+            { text: 'Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
+            { text: 'Software team', link: "/agents/ai_software_team.md" }
           ]
         },
         {
@@ -60,7 +60,8 @@ export default withMermaid(
         {
           text: 'Technical',
           items: [
-            { text: 'Kore System Design Blueprint', link: "/technical/system_blueprint.md" }
+            { text: 'Kore System Design Blueprint', link: "/technical/system_blueprint.md" },
+            { text: 'Known Issues', link: "/getting_started/known_issues.md" }
           ]
         },
       ],
