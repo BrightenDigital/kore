@@ -1,10 +1,10 @@
-# Kore Knowledge Base Agent
+# Knowledge Base agent
 
-The **Knowledge Base Agent** is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
+The **Knowledge Base** agent is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
 
 ## Introduction
 
-The Kore Knowledge Base Agent is a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
+The **Knowledge Base** agent is a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
 
 - Uploaded documents
 - Organization-managed knowledge bases
@@ -66,12 +66,6 @@ One standout feature of the agent is its ability to connect to databases and rea
 - Supports federated querying across multiple sources
 
 💡 This allows Kore to provide precise answers even when the knowledge resides in structured tabular formats.
-
-## Reference-Aware Responses
-The Knowledge Base Agent is designed to be transparent and traceable:
-- All responses include a reference block.
-- Users can review exact sources used to build the answer.
-- Responses are auditable, supporting compliance and trust.
 
 ## Adaptive Reasoning
 The Kore agent does not stop at the first layer of information. It adapts its approach:

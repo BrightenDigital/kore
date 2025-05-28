@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Kore Docs"
-  text: "Kore AI Official Documentation"
+  name: "Kore AI"
+  text: "Official Docs"
   tagline: Let Kore Agents handle the core of your work while you focus on the details
   actions:
     - theme: brand
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Getting Started
       link: /getting_started/home.md
+    - theme: alt
+      text: What's new
+      link: /getting_started/whats_new.md
 
 features:
   - title: Autonomy in Action
