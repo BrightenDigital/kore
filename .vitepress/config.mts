@@ -10,6 +10,7 @@ export default withMermaid(
     head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
     appearance: 'dark',
     themeConfig: {
+      logo: '/public/kore_logo.png',
       search: {
         provider: 'local'
       },
