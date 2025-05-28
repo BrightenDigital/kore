@@ -2,6 +2,29 @@
 
 Welcome to our collection of real-world success stories. Discover how businesses and teams are achieving more with **Kore**.
 
+## 🧠 Knowledge Discovery
+### Unlock the Intelligence in Your Data
+Your organization's most valuable asset is often hidden within mountains of unstructured data. Kore's Knowledge Base Team transforms this challenge into an opportunity, allowing you to effortlessly discover, navigate, and leverage critical information buried across diverse formats and locations. Whether you're sifting through internal documents or exploring external web resources, Kore makes your data intelligent and instantly accessible.
+
+**Seamlessly Integrate Diverse Knowledge Sources**:
+- **Connect Your Internal Repositories**: Easily integrate with your existing file storage solutions, including Microsoft OneDrive and SharePoint. Upload individual files or connect entire folders, allowing Kore to index and understand your internal knowledge base.
+- **Support for Multiple Document Formats**: Kore's agents are adept at parsing and understanding a wide array of document types. Effortlessly make questions to discover data from:
+  - **Word documents** (.docx, .doc)
+  - **Presentations** (.pptx, .ppt)
+  - **Spreadsheets** (.xlsx, .xls)
+  - **PDFs**, text files, and many more.
+
+- **Incorporate Web Scraping for External Insights**: Extend your knowledge base beyond internal documents. Simply provide URLs to the Knowledge Base Team, and our agents will automatically inspect, parse, and incorporate the web content into their understanding. This allows you to include dynamic web pages, articles, research papers, or any other online resource as part of your queryable knowledge.
+
+**Transforming Information into Actionable Insights**:
+Once your knowledge sources are connected, the Kore Knowledge Base Team enables a powerful new way to interact with your data:
+
+- **Intuitive Questioning**: Forget keyword searches. Simply ask natural language questions about your data, just as you would ask a colleague. Our agents understand the context and intent behind your queries, pulling relevant information from across all integrated sources.
+- **Cross-Document Data Synthesis**: Kore doesn't just find individual documents; it synthesizes information from multiple files and web pages to provide comprehensive answers. This allows you to quickly connect disparate pieces of information and gain holistic insights.
+- **Accelerated Research & Decision-Making**: Drastically reduce the time spent on manual data gathering and analysis. With Kore, you can rapidly answer complex questions, validate assumptions, and make more informed decisions based on a complete understanding of your available knowledge.
+
+Kore's Knowledge Base Team turns your scattered data into a unified, intelligent resource, empowering you to unlock hidden insights and drive innovation.
+
 ## 📄 Generate Documentation
 
 ### Effortless, Comprehensive, and Always Up-to-Date

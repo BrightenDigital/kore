@@ -23,8 +23,8 @@ export default withMermaid(
           link: '/getting_started/home.md',
           items: [
             { text: 'Key Features', link: "/getting_started/tldr_key_features.md" },       
-            { text: 'Quickstart', link: "/getting_started/quickstart.md" }
-
+            { text: 'Quickstart', link: "/getting_started/quickstart.md" },
+            { text: 'Use cases', link: "/agents/use_cases.md" }
           ]
         },
         {
@@ -33,8 +33,7 @@ export default withMermaid(
           items: [
             { text: 'Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
             { text: 'Software team', link: "/agents/ai_software_team.md" },
-            { text: 'Best practices', link: "/agents/best_practices.md" },
-            { text: 'Use cases', link: "/agents/use_cases.md" },
+            { text: 'Best practices', link: "/agents/best_practices.md" }
           ]
         },
         {
