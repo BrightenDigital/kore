@@ -44,6 +44,7 @@ export default withMermaid(
             { text: 'Kore M365', link: "/ecosystem/kore_m365.md" },
             { text: 'Kore Blueprint', link: "/technical/system_blueprint.md" },
             { text: 'Kore Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
+            { text: 'Roadmap', link: "/ecosystem/roadmap.md" },
             { text: 'Known Issues', link: "/getting_started/known_issues.md" }
           ]
         },
