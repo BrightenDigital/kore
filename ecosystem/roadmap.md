@@ -4,9 +4,7 @@ At Kore, we're relentlessly innovating to expand the frontiers of AI-driven ente
 
 We're driven by a singular mission: to make your interaction with AI agents more intuitive, intelligent, and impactful. Our upcoming enhancements focus on deeper contextual understanding, enhanced control, broader integrations, and even more robust performance, ensuring Kore remains at the cutting edge of AI-powered collaboration.
 
----
-
-### **Agent Intelligence & Workflow Optimisation**
+## **Agent Intelligence & Workflow Optimisation**
 
 Our core focus is on refining the intelligence and collaborative dynamics of Kore's AI agents to unlock new levels of efficiency:
 
@@ -19,9 +17,7 @@ Our core focus is on refining the intelligence and collaborative dynamics of Kor
 * **Short-Term Memory for Agents:** Introducing a new "short-term" memory type specifically for agent-to-agent communication (e.g., Martha to Engineer), facilitating more fluid and context-aware task handovers.
 * **Optimising `get_files` Performance:** Investigating and resolving performance bottlenecks within the `get_files` operation to significantly improve speed and responsiveness.
 
----
-
-### **Knowledge & Data Enrichment**
+## **Knowledge & Data Enrichment**
 
 We're expanding Kore's ability to ingest, process, and leverage information from a multitude of sources, turning raw data into actionable knowledge:
 
@@ -35,9 +31,7 @@ We're expanding Kore's ability to ingest, process, and leverage information from
 * **Persistent AsyncWebCrawler Sessions:** Ensuring that `AsyncWebCrawler` sessions remain open and active for continuous, efficient web data ingestion.
 * **Managed Container Platform (MCP):** Further development and integration of our Managed Container Platform for scalable and efficient service orchestration.
 
----
-
-### **Integrations & User Experience**
+## **Integrations & User Experience**
 
 Our roadmap includes key integrations and user experience enhancements to make Kore even more accessible, collaborative, and powerful:
 
