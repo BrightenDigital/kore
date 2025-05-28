@@ -10,6 +10,9 @@ export default withMermaid(
     head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
     appearance: 'dark',
     themeConfig: {
+      search: {
+        provider: 'local'
+      },
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: 'Home', link: '/' },
