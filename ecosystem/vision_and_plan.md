@@ -3,7 +3,7 @@
 Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unlock growth, and future-proof our SaaS platform. Our strategy spans **Entry**, **Expansion**, **Early Adoption**, and **Long-Term Vision**, each prioritized and color-coded by status.
 
 
-## 🚀 Entry Strategy
+## Entry Strategy
 
 ### 📌 Launch with free strategic pilots to prove ROI quickly
 - **Priority**: <Badge type="warning" text="P1" />
@@ -16,7 +16,7 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 - **Purpose**: Convert successful pilots into recurring revenue with minimal friction.
 
 
-## 🌱 Expansion
+## Expansion
 
 ### 🧭 Land-and-expand: one use case → cross-functional scale
 - **Priority**: <Badge type="default" text="P0" />
@@ -29,7 +29,7 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 - **Purpose**: Activate in-house advocates with curated tools to maximize reach.
 
 
-## 🔭 Long Term Vision
+## Long Term Vision
 
 ### 🌐 Build a community motion with reusable templates and knowledge sharing
 - **Priority**: <Badge type="info" text="P3" />
@@ -43,7 +43,7 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 - **Purpose**: Make Kore’s capabilities natively accessible within enterprise workflows.
 
 
-## 🧪 Early Adoption
+## Early Adoption
 
 ### 🎉 Onboarding 3–5 early adopters from internal digitalization teams and consulting units
 - **Priority**: <Badge type="warning" text="P1" />
@@ -69,7 +69,7 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 - **Status**: <Badge type="danger" text="Red" />
 
 
-## 🏁 Summary of Priorities
+## Priorities
 
 | Priority | Description                |
 |----------|----------------------------|
@@ -78,11 +78,8 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 | P2       | Strategic enabler          |
 | P3       | Long-term investment       |
 
-## 🎯 Status Key
+#### Status Key
 
 - <Badge type="success" text="Green" /> = On track
 - <Badge type="warning" text="Yellow" /> = At risk or blocked
 - <Badge type="danger" text="Red" /> = Off track or needs immediate action
-
-
-📌 _This page is a living document. For feedback or contributions, contact the strategy team at Kore._

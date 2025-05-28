@@ -1,10 +1,10 @@
 # Kore Knowledge Base Agent
 
-The **Kore Knowledge Base Agent** is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
+The **Knowledge Base Agent** is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
 
 ## Introduction
 
-The Kore Knowledge Base Agent is not just a search tool — it's a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
+The Kore Knowledge Base Agent is a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
 
 - Uploaded documents
 - Organization-managed knowledge bases
@@ -22,16 +22,6 @@ When a user interacts with the agent, the following process unfolds:
    - Internal knowledge systems (wikis, manuals, repositories)
    - Connected relational databases (PostgreSQL, MySQL, etc.)
 3. **Context Retrieval**: Uses vector similarity search, keyword ranking, and schema inference to retrieve relevant content.
-
-## Kore RAG Module
-
-At the heart of the agent lies the **Kore RAG (Retrieval-Augmented Generation) module**, which orchestrates the knowledge synthesis process.
-
-### Key Technologies Used:
-
-- **BM25**: A probabilistic information retrieval technique for keyword-based scoring.
-- **Vector Search**: Embedding-based similarity search across documents.
-- **OpenAI and NVIDIA Embeddings & Rerankers**: State-of-the-art transformer models fine-tuned for semantic understanding and reranking results with high precision.
 
 ### Semantic Classification
 

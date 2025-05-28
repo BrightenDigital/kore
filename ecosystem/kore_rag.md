@@ -1,6 +1,6 @@
 # Kore RAG
 
-Kore RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
+Kore RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system, which orchestrates the knowledge synthesis process. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
 
 ## Features
 
@@ -62,7 +62,7 @@ Functions:
 - Fully serverless architecture for horizontal scalability.
 - Resilient service design with retry logic and logging.
 
-## Architecture
+## Process flow
 
 ```mermaid
 graph TD
