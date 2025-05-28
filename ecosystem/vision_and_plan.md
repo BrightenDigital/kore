@@ -1,4 +1,4 @@
-# 🌐 Kore Strategic Plan & Long-Term Vision
+# Kore Strategic Plan & Long-Term Vision
 
 Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unlock growth, and future-proof our SaaS platform. Our strategy spans **Entry**, **Expansion**, **Early Adoption**, and **Long-Term Vision**, each prioritized and color-coded by status.
 

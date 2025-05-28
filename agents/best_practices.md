@@ -1,9 +1,5 @@
 # Best practices
 
-## Working with Git
-
-Git integration is a powerful feature of Kore that allows you to seamlessly connect your development workflow with version control. This guide covers best practices for working with Git repositories in Kore.
-
 ## Setting Up Git Integration
 
 ### Authentication Methods
@@ -67,15 +63,6 @@ As agents implement your requests:
 Kore attempts to maintain a clean Git history with meaningful commits that document the development process.
 
 
-## Git Integration Troubleshooting
-
-- **Authentication Issues**: Verify your PAT has the correct permissions and hasn't expired
-- **Clone Failures**: Ensure the repository URL is correct and accessible
-- **Push Failures**: Check that your PAT has write permissions to the repository
-
-Remember: Proper Git integration streamlines your workflow and makes it easier to incorporate Kore's output into your production codebase!
-
-
 ## LLM Selection Tips
 
 Choosing the right Large Language Model (LLM) for your task can significantly impact the quality, speed, and creativity of your results. Kore supports multiple LLMs, each with their own strengths and ideal use cases.
@@ -90,9 +77,9 @@ Choosing the right Large Language Model (LLM) for your task can significantly im
 
 **When to use**: Standard feature implementation, bug fixes, and routine development tasks
 
-### Sonnet 3.7 💭
+### Sonnet 4 💭
 
-**Best for**: Demanding tasks requiring creative thinking
+**Best for**: Demanding tasks requiring critical code
 
 - Complex problem-solving
 - Novel approaches to challenges

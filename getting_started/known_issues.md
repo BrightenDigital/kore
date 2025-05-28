@@ -1,4 +1,4 @@
-# ⚠️ Known Issues
+# Known Issues
 
 We're continuously improving Kore, but there are a few known issues to be aware of:
 

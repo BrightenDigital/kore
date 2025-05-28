@@ -34,16 +34,7 @@ export default withMermaid(
             { text: 'Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
             { text: 'Software team', link: "/agents/ai_software_team.md" },
             { text: 'Best practices', link: "/agents/best_practices.md" },
-          ]
-        },
-        {
-          text: 'Use Cases',
-          link: '/use_cases/home.md',
-          items: [
-            { text: 'Start from a Template', link: "/use_cases/start_from_template.md" },
-            { text: 'Generate Documentation', link: "/use_cases/generate_documentation.md" },       
-            { text: 'Implement New Feature', link: "/use_cases/implement_new_feature.md" },          
-            { text: 'GreenField Development', link: "/use_cases/greenfield_development.md" }
+            { text: 'Use cases', link: "/agents/use_cases.md" },
           ]
         },
         {
