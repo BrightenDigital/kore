@@ -1,10 +1,8 @@
-# Kore User Guide
+# Getting Started with Kore
 
 Kore transforms how you handle complex tasks — from automating workflows and extracting insights to generating content and building software solutions. Our intelligent agents understand your context and get things done faster than traditional tools.
 
-## Getting Started
-
-### Quick Navigation
+## Quick Navigation
 
 - [🗞️ **Key Features**](/getting_started/tldr_key_features.md) - A Visual Guide to its Advanced Features and Workflows
 - [🚀**Quickstart**](/getting_started/quickstart.md) - Get up and running in minutes
@@ -17,39 +15,3 @@ Kore transforms how you handle complex tasks — from automating workflows and e
     - 🐲 [GreenField development](/use_cases/greenfield_development.md)
 - [⚠️ **Known Issues**](/getting_started/known_issues.md) - Current limitations and workarounds
 - [🔨 **Kore System Design Blueprint**](/technical/system_blueprint.md)
-
-## UI
-
-![image.png](/getting_started/assets/introduction.png)
-
-## Key Features
-
-- **Git Integration** - Seamlessly connect with your repositories
-- **Knowledge Management** - Help agents understand your specific needs
-- **Multiple LLM Support** - Choose the right model for your task
-- **Team Collaboration** - Agents work together, just like a real team
-- **Visual Feedback** - Track progress through clear communication
-- **Model Context Protocol tools -** Allows registering MCP servers and exposing tools
-- **Personable identifiable information (PII)** - Identification, extraction and masking
-
-### **Ready to start building?** Head to the [🚀 Quickstart](/getting_started/quickstart.md) guide to begin your journey with Kore!
-
-## Pages:
-
-[🗞️ TLDR Key Features ](/getting_started/tldr_key_features.md)
-
-[🚀 Quickstart](/getting_started/quickstart.md)
-
-[❓ FAQ](/getting_started/frequently_asked.md)
-
-[🌟 Best Practices](/best_practices/home.md)
-
-[💡 Use Cases](/use_cases/home.md)
-
-[⚠️ Known Issues](/getting_started/known_issues.md)
-
-[🔨 Kore System Design Blueprint](/technical/system_blueprint.md)
-
----
-
-*Have questions or need support? Contact us at support@kore.ai*

@@ -14,9 +14,7 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Getting Started', link: '/getting_started/home.md' },      
-        { text: 'AI Agents', link: '/agents/home.md' },
-        { text: 'Best Practices', link: '/best_practices/home.md' },
-        { text: 'Use Cases', link: '/use_cases/home.md' },
+        { text: 'What\'s new', link: '/getting_started/whats_new.md' },
       ],
 
       sidebar: [
@@ -25,9 +23,7 @@ export default withMermaid(
           link: '/getting_started/home.md',
           items: [
             { text: 'Key Features', link: "/getting_started/tldr_key_features.md" },       
-            { text: 'Quickstart', link: "/getting_started/quickstart.md" },
-            { text: 'FAQs', link: "/getting_started/frequently_asked.md" },
-            { text: "What's new", link: "/getting_started/whats_new.md" }
+            { text: 'Quickstart', link: "/getting_started/quickstart.md" }
 
           ]
         },

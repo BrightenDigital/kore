@@ -1,140 +1,20 @@
 # Kore SLM
 
-Kore SLM is a Python-based FastAPI web application offering enterprise-grade PII detection and tokenization services with secure, scalable cloud-native deployment.
+Kore SLM (Small Language Model) provides a versatile suite of enterprise-grade services, including PII detection, tokenization, summarization, and classification capabilities, alongside a range of other powerful language model tasks, all within a secure, scalable cloud-native deployment.
 
-<figure>
-<img src="./assets/kore_slm_architecture.png" alt="Kore SLM Architecture Diagram" />
-<figcaption>Architecture Diagram</figcaption>
-</figure>
+## **Automated PII detection**
+Leverages advanced natural language processing models to identify and classify personally identifiable information (PII) such as names, addresses, social security numbers, and other sensitive data in unstructured text, with high accuracy and minimal false positives.
 
-**Main Technologies:**
+## **Secure, authenticated API**
+Provides robust API endpoints with multi-layer authentication and authorization mechanisms, ensuring that only verified applications and users can access the service. Built-in support for OAuth2 and API key management ensures enterprise-grade security.
 
-- **FastAPI**: High-performance API framework
-- **GLiNER**: Named Entity Recognition model for PII
-- **SQLAlchemy + aioodbc**: Async ORM for MS SQL Server
-- **Docker + Azure App Service**: Cloud-native deployment
-- **Azure DevOps Pipelines**: CI/CD automation
+## **NLP/tokenization**
+<br>
+Utilizes optimized machine learning pipelines for tokenization, part-of-speech tagging, and named entity recognition. Designed to handle high-throughput workloads, enabling lightning-fast processing with low latency for both batch and streaming inputs.
 
-## 🧩 Module Breakdown
+## **Real-time processing**
+<br>
+Supports real-time data ingestion and processing, making it ideal for applications requiring instant feedback and decision-making. Offers optional persistence of processed results in secure, encrypted storage for compliance auditing, traceability, or downstream analytics.
 
-### Authentication (`api/authentication/`)
-
-- API key validation
-- TTL caching
-- Pydantic models for auth data
-
-### Models (`api/models/`)
-
-- `pii.py`: GLiNER-based PII detection
-- `tokenizer.py`: Advanced tokenization
-- `models.py`: SQLAlchemy async DB models
-
-### Core
-
-- `main.py`: FastAPI entrypoint
-- `defaults.py`: Configuration values
-- `simple_tokenizer.py`: Basic tokenization
-
----
-
-## 🔐 API Endpoints
-
-### ✅ PII Detection
-
-- **Endpoint**: `/api/pii/detect`
-- **Method**: `POST`
-- **Auth**: Bearer Token (API Key)
-
-```json
-{
-  "text": "Sample input",
-  "model_config": { /* optional */ }
-}
-```
-
-### 🧠 Text Tokenization
-
-- **Endpoint**: `/api/tokenize`
-- **Method**: `POST`
-- **Auth**: Bearer Token (API Key)
-
-```json
-{
-  "text": "Some input text",
-  "tokenizer_type": "simple"
-}
-```
-
-### 🔍 Health Check
-
-- **Endpoint**: `/health`
-- **Method**: `GET`
-- **Auth**: None
-
-### 🔑 Authentication
-
-- **Endpoint**: `/auth/validate`
-- **Method**: `POST`
-- **Auth**: None
-
-```json
-{
-  "api_key": "your-api-key"
-}
-```
-
-## 🧬 Data Structures & Interfaces
-
-<figure>
-<img src="./assets/kore_slm_datastructures.png" alt="Data structures diagram" />
-<figcaption>Data model and interface layout</figcaption>
-</figure>
-
-## 🚀 Goals
-
-- Automated PII detection (GLiNER)
-- Secure, authenticated API access
-- High-performance NLP/tokenization
-- Azure cloud deployment via Docker
-- Real-time processing + MS SQL persistence
-
-## 👤 User Stories
-
-- 🕵️‍♀️ **Data Privacy Officer**: Detect PII using GLiNER to stay compliant.
-- 👨‍💻 **Developer**: Authenticate via API key + TTL caching.
-- 🖥️ **SysAdmin**: Monitor service via health endpoints.
-- 📊 **Data Analyst**: Tokenize text for NLP tasks.
-- 🔧 **DevOps Engineer**: Deploy via Docker containers.
-- 🏢 **Enterprise User**: Async processing + persistence.
-- 🔒 **Security Admin**: Use CORS middleware for control.
-- ☁️ **Cloud Architect**: CI/CD pipeline deployment on Azure.
-
-
-## 📋 Requirement Analysis
-
-The system aligns with functional and technical requirements:
-
-- ✅ PII detection via GLiNER
-- 🔐 API key authentication with TTL caching
-- 🧠 Real-time text tokenization
-- ⚡ Async DB (MS SQL) with SQLAlchemy + aioodbc
-- 🚢 Azure container deployment (Docker + App Service)
-- 🔁 CI/CD automation via Azure DevOps
-- 🌐 CORS middleware for controlled access
-- ⚙️ Uvicorn + FastAPI for REST performance
-
-## 🛡️ Roadmap 
-
-| Module | Recommendation |
-|--------|----------------|
-| `auth.py` | Add rate limiting, exponential backoff |
-| `ttl_cache.py` | Implement LRU eviction |
-| `pii.py` | Async model loading or background tasks |
-| `models.py` | Add connection pooling |
-| `main.py` | Restrict CORS origins |
-| `simple_tokenizer.py` | Limit input size |
-| `Dockerfile` | Use non-root user |
-| `tokenizer.py` | Reuse tokenizer via DI |
-| `defaults.py` | Validate env vars with fallbacks |
-
-
+## **Classification and sentiment analysis capabilities**
+Includes built-in models for categorizing text into predefined or custom labels, as well as assessing the sentiment (positive, neutral, negative) of any given input. Ideal for content moderation, customer feedback analysis, and social media monitoring.

@@ -1,7 +1,7 @@
 # 🗞️ Key Features
 
 ## TL;DR
-A powerful, enterprise-ready platform with a simple conversational UI that lets you:
+A powerful, enterprise-grade agentic platform with a simple conversational UI that lets you:
 - Manage MCP servers and sensitive data at both org and project levels
 - Add and share custom knowledge with agents
 - Switch between or bring your own LLMs
@@ -10,11 +10,11 @@ A powerful, enterprise-ready platform with a simple conversational UI that lets 
 - Use a smart assistant within projects
 - Access files, diagrams, and outputs created by agents
 
-## Simple conversational UI
+## Natural Language Interaction
 
-![image.png](/getting_started/assets/key_features/image1.png)
+![image.png](/getting_started/assets/key_features/image0.png)
 
-## Switch between LLMs for various tasks
+## Switch between LLMs
 
 ![image.png](/getting_started/assets/key_features/image1.png)
 
@@ -22,19 +22,20 @@ A powerful, enterprise-ready platform with a simple conversational UI that lets 
 
 ![image.png](/getting_started/assets/key_features/image2.png)
 
-## Managing MCP servers: Organisation-Wide and Per Project
-
+## Managing MCP servers
+### Organisation-Wide and Per Project
 ![image.png](/getting_started/assets/key_features/image3.png)
 
-## Managing Sensitive Data: Organisation-Wide and Per Project
-
+## Managing Sensitive Data
+### Organisation-Wide and Per Project
 ![image.png](/getting_started/assets/key_features/image4.png)
 
-## Answer agent's questions for Nitty Gritti results
-
+## Answer agent's questions 
+### For Nitty Gritti results
 ![image.png](/getting_started/assets/key_features/image5.png)
 
-## Add specific knowledge to individual agents or share it across the entire team using different types of memory.
+## Add knowledge
+### To individual agents or share it across the team using different types of memory.
 
 ![image.png](/getting_started/assets/key_features/image6.png)
 
@@ -42,18 +43,24 @@ A powerful, enterprise-ready platform with a simple conversational UI that lets 
 
 ![image.png](/getting_started/assets/key_features/image7.png)
 
-## Access project files, documents and diagrams produced by the agents
+## Access project files
+### Documents and diagrams produced by the agents
 
 ![image.png](/getting_started/assets/key_features/image8.png)
 
-## Start new projects with your preferred stack using built-in Git integration.
+## New projects
+### Start new projects with your preferred stack using built-in Git integration. 
 
 ![image.png](/getting_started/assets/key_features/image9.png)
 
-## Perform in-depth analysis of an existing Git repository to uncover key insights and assess code quality, structure, and patterns.
+## Existing Git repository
+
+### Perform in-depth analysis to uncover key insights and assess code quality, structure, and patterns.
 
 ![image.png](/getting_started/assets/key_features/image10.png)
 
-## Enterprise-level ready!
+## Enterprise-level ready
+
+Kore is engineered from the ground up to meet the stringent demands of modern enterprises. With granular controls for sensitive data and infrastructure (MCP servers), seamless integration into existing development workflows (Git), and the flexibility to manage your own LLMs, Kore delivers the security, scalability, and reliability required for mission-critical AI agent deployments.
 
 ![image.png](/getting_started/assets/key_features/image11.png)

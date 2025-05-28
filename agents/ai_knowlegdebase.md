@@ -2,7 +2,7 @@
 
 The **Kore Knowledge Base Agent** is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
 
-## 🚀 What Is the Knowledge Base Agent?
+## Introduction
 
 The Kore Knowledge Base Agent is not just a search tool — it's a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
 
@@ -12,7 +12,7 @@ The Kore Knowledge Base Agent is not just a search tool — it's a **cognitive a
 
 It bridges the gap between data availability and actionable knowledge by applying a layered understanding and retrieval strategy.
 
-## 🔍 Multi-Source Querying
+## Multi-Source Querying
 
 When a user interacts with the agent, the following process unfolds:
 
@@ -23,7 +23,7 @@ When a user interacts with the agent, the following process unfolds:
    - Connected relational databases (PostgreSQL, MySQL, etc.)
 3. **Context Retrieval**: Uses vector similarity search, keyword ranking, and schema inference to retrieve relevant content.
 
-## 🧠 The Kore RAG Module
+## Kore RAG Module
 
 At the heart of the agent lies the **Kore RAG (Retrieval-Augmented Generation) module**, which orchestrates the knowledge synthesis process.
 
@@ -31,7 +31,7 @@ At the heart of the agent lies the **Kore RAG (Retrieval-Augmented Generation) m
 
 - **BM25**: A probabilistic information retrieval technique for keyword-based scoring.
 - **Vector Search**: Embedding-based similarity search across documents.
-- **NVIDIA Embeddings & Rerankers**: State-of-the-art transformer models fine-tuned for semantic understanding and reranking results with high precision.
+- **OpenAI and NVIDIA Embeddings & Rerankers**: State-of-the-art transformer models fine-tuned for semantic understanding and reranking results with high precision.
 
 ### Semantic Classification
 
@@ -45,7 +45,7 @@ All uploaded documents go through semantic parsing and are indexed accordingly:
 | Wikis / Markdown           | Chunked + hierarchical RAG                        |
 
 
-## 🔄 Query Lifecycle
+## Query Lifecycle
 Here's how the agent processes a question from start to finish:
 
 User submits a question
@@ -68,7 +68,7 @@ D -- No --> G[Re-query / Refine]
 G --> C
 ```
 
-## 🔗 Database Intelligence
+## Database Intelligence
 One standout feature of the agent is its ability to connect to databases and reason about them dynamically:
 - Inspects schema on-the-fly
 - Generates safe, optimized SQL queries
@@ -77,28 +77,19 @@ One standout feature of the agent is its ability to connect to databases and rea
 
 💡 This allows Kore to provide precise answers even when the knowledge resides in structured tabular formats.
 
-## 📎 Reference-Aware Responses
+## Reference-Aware Responses
 The Knowledge Base Agent is designed to be transparent and traceable:
 - All responses include a reference block.
 - Users can review exact sources used to build the answer.
 - Responses are auditable, supporting compliance and trust.
 
-## 🔁 Adaptive Reasoning
+## Adaptive Reasoning
 The Kore agent does not stop at the first layer of information. It adapts its approach:
 - If initial results are ambiguous or incomplete, it expands its query.
 - Can switch strategies between keyword search and semantic reasoning.
 - Designed to respond only when confident, reducing hallucinations.
 
-## ✅ Summary
-| Feature                    | Description                                       |
-| -------------------------- | ------------------------------------------------- |
-| Multi-source knowledge     | Documents, internal KBs, live databases           |
-| Kore RAG pipeline          | Powered by BM25, vector search, NVIDIA embeddings |
-| Dynamic DB querying        | Schema-aware, AI-generated SQL                    |
-| Reference-based answers    | Includes citations and context                    |
-| Iterative & adaptive logic | Re-queries when needed, ensuring accuracy         |
-
-## 📌 Use Cases
+## Use Cases
 - Internal Q&A assistants for enterprises
 - Technical documentation bots
 - Support automation for complex product suites
