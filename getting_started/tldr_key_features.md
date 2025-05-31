@@ -40,24 +40,23 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 
 ## Smart In-Project Assistant
 ### An intelligent agent capable of providing insights about your project and code base.
-#### Available for the AI Software team
 ![image.png](/getting_started/assets/key_features/image7.png)
+#### Available for the AI Software team
 
 ## Access AI generated files
 ### Source code, diagrams and other documents produced by the agents
-#### Available for the AI Software team
 ![image.png](/getting_started/assets/key_features/image8.png)
+#### Available for the AI Software team
 
 ## New projects
 ### Start new projects with your preferred stack using built-in Git integration. 
-
 ![image.png](/getting_started/assets/key_features/image9.png)
+#### Available for the AI Software team
 
 ## Existing Git repository
-
 ### Perform in-depth analysis to uncover key insights and assess code quality, structure, and patterns.
-
 ![image.png](/getting_started/assets/key_features/image10.png)
+#### Available for the AI Software team
 
 ## Enterprise-level ready
 
