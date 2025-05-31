@@ -25,7 +25,7 @@ Once your knowledge sources are connected, the Kore Knowledge Base agent enables
 
 Kore's Knowledge Base agent turns your scattered data into a unified, intelligent resource, empowering you to unlock hidden insights and drive innovation.
 
-## 📄 Generate Documentation
+## 📄 Document Everything
 
 ### Effortless, Comprehensive, and Always Up-to-Date
 
