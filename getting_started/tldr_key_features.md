@@ -56,7 +56,7 @@ Available for the AI Software team
 ## Existing Git repository
 ### Perform in-depth analysis to uncover key insights and assess code quality, structure, and patterns.
 ![image.png](/getting_started/assets/key_features/image10.png)
-#### Available for the AI Software team
+Available for the AI Software team
 
 ## Enterprise-level ready
 
