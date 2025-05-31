@@ -8,7 +8,7 @@ Kore's AI agents are organized into dedicated teams, each tailored to excel in d
 
 ## **AI Knowledge Base**
 ### Context-Aware Search Strategist
-Unlock the full potential of your information with Kore's **Knowledge Base Team**. This sophisticated AI collective is more than just a search engine; it's a dynamic strategist for information retrieval.
+Unlock the full potential of your information with Kore's **Knowledge Base Agent**. This sophisticated AI collective is more than just a search engine; it's a dynamic strategist for information retrieval.
 
 * **Context-Aware Search Strategist:** This bot dynamically switches between different search methods (semantic, keyword, fuzzy matching) based on your query type and the evolving context of your conversation, ensuring you always get the most relevant results.
 * **Source Prioritization Engine:** Our intelligent engine automatically ranks and weights different data sources based on their relevance, freshness, and your interaction patterns, bringing the most valuable insights to the forefront.
