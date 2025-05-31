@@ -75,7 +75,7 @@ Kore empowers you to embark on entirely new software projects (Greenfield Develo
 - **Consistency and Standardization**: Ensure consistency across new projects, simplifying onboarding and long-term maintenance.
 - **Focus on Innovation**: Empower your team to concentrate on the truly innovative aspects of your project, rather than repetitive foundational tasks.
 
-## 🏛️ Legacy System Modernisation
+## 🏛️ Legacy Modernisation
 ### Transforming Your Past into a High-Performing Future
 
 For many enterprises, legacy systems represent both a critical asset and a significant burden. While they house invaluable business logic and core functionalities, their outdated technologies, monolithic architectures, and often sparse documentation can stifle innovation, increase maintenance costs, and pose substantial risks. Kore doesn't just analyse these systems; it becomes your indispensable partner in a seamless, accelerated journey from the historical past to a new, high-performing future.
