@@ -22,30 +22,30 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 
 ![image.png](/getting_started/assets/key_features/image2.png)
 
-## Managing MCP servers
-### Organisation-Wide and Per Project
+## Model Context Protocol
+### Manage Organisation-Wide and specific Per Project MCP servers
 ![image.png](/getting_started/assets/key_features/image3.png)
 
-## Managing Sensitive Data
-### Organisation-Wide and Per Project
+## Sensitive Data
+### Manage Organisation-Wide and specific Per Project
 ![image.png](/getting_started/assets/key_features/image4.png)
 
-## Answer agent's questions 
-### For Nitty Gritti results
+## Agent's questions 
+### Answer agent's questions For Nitty Gritti results
 ![image.png](/getting_started/assets/key_features/image5.png)
 
-## Add knowledge
-### To individual agents or share it across the team using different types of memory.
-
+## Knowledge
+### Add knowledge to individual agents or share it across the team using different types of memory.
 ![image.png](/getting_started/assets/key_features/image6.png)
 
 ## Smart In-Project Assistant
-
+### An intelligent agent capable of providing insights about your project and code base.
+#### Available for the AI Software team
 ![image.png](/getting_started/assets/key_features/image7.png)
 
-## Access project files
-### Documents and diagrams produced by the agents
-
+## Access AI generated files
+### Source code, diagrams and other documents produced by the agents
+#### Available for the AI Software team
 ![image.png](/getting_started/assets/key_features/image8.png)
 
 ## New projects
