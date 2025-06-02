@@ -1,6 +1,6 @@
 # AI Software Team
 
-Transform your ideas into reality faster and with unparalleled precision with The Kore AI Software Team. This advanced collective is your intelligent software development companion, seamlessly integrating into your workflow to help you build, modify, and gain deep insights into your codebase. This specialized team of AI agents works in unison, leveraging collective intelligence to streamline the entire development process, turning your vision into tangible, high-quality software.
+Transform your ideas into reality faster and with unparalleled precision with the AI Software Team. This advanced collective is your intelligent software development companion, seamlessly integrating into your workflow to help you build, modify, and gain deep insights into your codebase. This specialized team of AI agents works in unison, leveraging collective intelligence to streamline the entire development process, turning your vision into tangible, high-quality software.
 
 ## Introduction
 

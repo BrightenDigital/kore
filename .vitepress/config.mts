@@ -35,9 +35,17 @@ export default withMermaid(
           text: 'Agents',
           link: '/agents/home.md',
           items: [
-            { text: 'Knowlegde base', link: "/agents/ai_knowlegdebase.md" },
-            { text: 'Software team', link: "/agents/ai_software_team.md" },
+            { text: 'Knowlegde Base agent', link: "/agents/ai_knowlegdebase.md" },
+            { text: 'AI Software team', link: "/agents/ai_software_team.md" },
             { text: 'Best practices', link: "/agents/best_practices.md" }
+          ]
+        },
+        {
+          text: 'Organisation',
+          link: '',
+          items: [
+            { text: 'Enterprise Chatbots', link: "/org/chatbots.md" },
+            { text: 'Manage Knowlegde', link: "/org/buckets.md" }
           ]
         },
         {
