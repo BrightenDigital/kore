@@ -17,7 +17,7 @@ A truly distinctive and crucial feature of Kore's Knowledge Management is its **
       * **Write Permissions:** Allow designated members to contribute new documents, files, and information to a particular bucket, ensuring that content is curated by the right experts.
       * **Read Permissions:** Dictate whether a member, when interacting with an Enterprise Chatbot, can utilise the information available within that specific bucket. This is a critical distinction: a member can still use a connected Enterprise Chatbot, but without the appropriate Read permission for a given bucket, the chatbot will *not* be able to scan or leverage the information within that particular silo for that specific user's query. This level of fine-grained control over information accessibility for end-users interacting with chatbots is a key feature not commonly available in other platforms, ensuring sensitive data is never inadvertently exposed.
 
-### **Building Your Organisational Brain: The "Create New Bucket" Journey**
+### **Building the Organisational Brain: The "Create New Bucket" Journey**
 
 Kore simplifies the process of creating and populating these intelligent knowledge silos through an intuitive "Create New Bucket" wizard.
 
@@ -39,7 +39,7 @@ As detailed above, this critical tab is where your organisation precisely sets *
 
 This tab is crucial for connecting your knowledge silos to your intelligent AI assistants. Here is presented the list of Kore built-in chatbots alongside your **Published and Released Enterprise Chatbots**. By simply checking a box next to a chatbot (e.g., "SAP UI5 Experts," "AI Software Company," "AI Knowledge Base"), your organisation explicitly grants that chatbot permission to access and utilise the information contained within this newly created bucket. This selective access ensures that your AI agents operate with precisely the right context and relevant information, maintaining control and preventing over-exposure of sensitive data.
 
-### **Managing Bucket Files: Populating Your Organisational Brain**
+### **Managing Bucket Files: Populating the Organisational Brain**
 
 Once a bucket is created, populating it with valuable knowledge is seamless, leveraging Kore's robust document browser and powerful connectors. As shown in **Figure 13: Finance Knowledge Bucket - Upload Documents**, the "Import Files" option opens a world of possibilities for data ingestion.
 

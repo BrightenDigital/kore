@@ -17,7 +17,7 @@ In the age of AI, data is paramount, and its security is non-negotiable. Kore is
   * **Audit Trails & Transparency:** Kore provides comprehensive, immutable audit trails of all data access and AI agent activities. This meticulous logging is crucial for maintaining regulatory compliance and internal governance policies, offering complete transparency and accountability.
   * **Prompt Injection Protection & Content Filters:** Advanced mechanisms are in place to protect against malicious prompt injection attacks and enforce custom content filters, ensuring responsible, safe, and controlled AI interactions.
 
-## **Your Organisational Brain**
+## **Organisational Brain**
 #### Creating Intelligent Silos of Knowledge
 
 Traditional data silos often hinder innovation. Kore transforms this challenge by enabling the creation of *intelligent silos of knowledge* – controlled, secure repositories that fuel your AI agents with relevant, contextualised information. This is where your enterprise's collective wisdom truly becomes actionable.
