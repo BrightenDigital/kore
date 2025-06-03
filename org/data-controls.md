@@ -7,7 +7,7 @@ Kore's **Secure Data Management** feature is engineered precisely for this chall
 As you navigate the **Secure Data Management**, you'll see a clear overview of your masked items, representing the sensitive data points Kore is actively protecting within your AI workflows.
 
 ![image.png](./assets/secure-data.png)
-*Figure 14: Secure Data Management, showing masked items for LLM protection.*
+*Secure Data Management, showing masked items for LLM protection.*
 
 This sophisticated capability allows organisations to dynamically **mask sensitive or confidential information** – be it customer names, internal project codenames, strategic financial figures, or highly confidential organisational secrets. Kore ensures that this crucial, super-secretive enterprise data can securely transit between your internal systems and external LLMs, **never disclosing the real information** to the model.
 
@@ -17,10 +17,10 @@ The beauty of Kore's Secure Data Management lies in its transparent yet robust p
 
 **Visualising Protection in Action:**
 
-Even within the Kore user interface, the commitment to security is evident. By default, the view intelligently secures the most important organisation-valued secrets by obfuscating them, as seen in **Figure 15: Secure Data Management - Obfuscated View**. A simple toggle allows authorised users to "Show Sensitive Data" when required for specific management tasks.
+Even within the Kore user interface, the commitment to security is evident. By default, the view intelligently secures the most important organisation-valued secrets by obfuscating them, as seen in **Secure Data Management - Obfuscated View**. A simple toggle allows authorised users to "Show Sensitive Data" when required for specific management tasks.
 
 ![image.png](./assets/secure-data-secured.png)
-*Figure 15: Secure Data Management, showing obfuscated sensitive data for enhanced privacy.*
+*Secure Data Management, showing obfuscated sensitive data for enhanced privacy.*
 
 **Effortless Management of Your Enterprise Secrets:**
 
@@ -30,7 +30,7 @@ Kore makes the process of safeguarding your data intuitive and manageable:
   * **Real-time Masking Preview:** For user convenience and accuracy, a **real-time preview** of the masking process is presented during creation or editing. This allows you to immediately verify that your sensitive data will be correctly obfuscated according to your specified pattern before it's applied across the system.
 
 ![image.png](./assets/secure-data-add.png)
-*Figure 16: The Edit Secure Data interface, demonstrating the source data and mask pattern preview.*
+*The Edit Secure Data interface, demonstrating the source data and mask pattern preview.*
 
   * **Comprehensive Coverage:** You can confidently add all your organisation's critical secrets, codenames, and sensitive combinations here, assured that Kore will protect your information while enabling high-value results from your AI workflows.
   * **Secure Export Functionality:** For authorised users requiring offline review or backup, an "Export" function is available. This allows you to securely export all your defined organisation secrets to a file, providing an additional layer of data management and compliance.

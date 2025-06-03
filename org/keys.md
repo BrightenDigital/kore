@@ -2,12 +2,12 @@
 
 In today's interconnected digital landscape, the ability to securely integrate and extend platform functionalities is paramount for enterprise innovation. Kore's **API Keys** section within the Organization admin dashboard provides you with the essential toolkit to manage these critical credentials, enabling your organisation to seamlessly connect external applications and custom solutions to Kore's ecosystem.
 
-As displayed in the **API Keys dashboard (Figure 21)**, you gain an immediate, intuitive overview of all your organisation's API keys, their status, and easy management options.
+As displayed in the **API Keys dashboard**, you gain an immediate, intuitive overview of all your organisation's API keys, their status, and easy management options.
 
 ![image.png](./assets/keys.png)
-*Figure 21: API Keys management and status.*
+*API Keys management and status.*
 
-Think of Kore's API keys as digital passports, granting authorised external applications permission to interact with your Kore organisation on your behalf. This is incredibly powerful for custom development. Imagine your team building a bespoke internal application specifically designed to streamline ISO 9001 compliance, leveraging the deep expertise of your "ISO 9001 Chatbot" (as seen in Figure 21). When your users configure this custom application, they'll securely connect to Kore using a specific API key that's been designated for this purpose, ensuring authorised and controlled access to that particular enterprise chatbot and its connected knowledge buckets.
+Think of Kore's API keys as digital passports, granting authorised external applications permission to interact with your Kore organisation on your behalf. This is incredibly powerful for custom development. Imagine your team building a bespoke internal application specifically designed to streamline ISO 9001 compliance, leveraging the deep expertise of your "ISO 9001 Chatbot". When your users configure this custom application, they'll securely connect to Kore using a specific API key that's been designated for this purpose, ensuring authorised and controlled access to that particular enterprise chatbot and its connected knowledge buckets.
 
 **Unparalleled Ease and Flexibility in Key Management:**
 

@@ -5,7 +5,7 @@ At the heart of every successful digital transformation lies robust governance, 
 Kore empowers your organisation to harness the full potential of AI while maintaining absolute control over your most critical assets: your data and your intellectual property. As you can see in the **Organization General Settings dashboard below**, Kore offers a clear overview and granular control over your AI initiatives, making it easy to manage your setup, members, and vital statistics at a glance.
 
 ![image.png](./assets/orgs.png)
-*Figure 1: The Kore Organization General Settings dashboard, your central command centre.*
+*The Kore Organization Settings dashboard, your central command centre.*
 
 ## **Secure Enterprise Data**
 #### Granular Control & Compliance
@@ -34,6 +34,6 @@ Kore's Organization settings empower you to strategically deploy AI agents, equi
   * **Agent-Specific Knowledge Access:** Define precisely which knowledge silos each AI agent or team of agents can access. This ensures that a sales AI agent doesn't access HR data, and a finance agent doesn't touch product development secrets, maintaining strict data segregation and preventing information leakage.
   * **Customisable AI Agent Networks:** Orchestrate complex workflows by creating and configuring teams of AI agents (like our AI Software Team) and assigning them access to relevant knowledge bases. This allows for the development and deployment of sophisticated, multi-step automations grounded in your enterprise's specific, secure data.
   * **Scalable AI Operations:** Deploy and manage AI agents at scale across your organisation, confident that each agent operates within defined boundaries and accesses only authorised information, ensuring compliant and efficient AI adoption.
-  * **Centralised Management:** The Organization dashboard, as depicted in Figure 1, provides a unified view of your active members, API keys, and deployed chatbots, giving you a comprehensive overview of your AI footprint, resource utilisation, and activity history.
+  * **Centralised Management:** The Organization dashboard, as depicted in the screenshot, provides a unified view of your active members, API keys, and deployed chatbots, giving you a comprehensive overview of your AI footprint, resource utilisation, and activity history.
 
 By providing robust security, flexible knowledge management, and granular control over AI agent deployment, Kore transcends being just a development platform. It becomes the foundational AI layer that ensures your enterprise can innovate rapidly, manage sensitive data securely, and derive maximum value from its AI investments, all from a trusted platform.

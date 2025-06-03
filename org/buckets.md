@@ -2,10 +2,10 @@
 
 Kore's **Knowledge Management** features transcends traditional document repositories; it is the **central nervous system of your organisation's collective intelligence**. This is where raw data is transformed into accessible, actionable knowledge, empowering your AI agents and human teams to make smarter, faster, and more informed decisions.
 
-As you can see in the **Knowledge Management dashboard (Figure 9)**, Kore enables you to organise and manage your organisation’s knowledge base through intelligently designed "buckets."
+As you can see in the **Knowledge Management dashboard**, Kore enables you to organise and manage your organisation’s knowledge base through intelligently designed "buckets."
 
 ![image.png](./assets/knowledge.png)
-*Figure 9: The Kore Knowledge Management dashboard, showcasing intelligent knowledge buckets.*
+*The Kore Knowledge Management dashboard, showcasing intelligent knowledge buckets.*
 
 These buckets are essentially **secure, segregated silos of information**, acting as specialised brains for specific departments, projects, or topics – be it Finance, Human Resources, Engineering, or Marketing. Each bucket holds carefully curated knowledge that Enterprise Chatbots can then access, significantly augmenting their responses, increasing their certainty, and providing highly contextualised insights. The ability to segregate information as much as required is a cornerstone of Kore's design, ensuring data relevance and security.
 

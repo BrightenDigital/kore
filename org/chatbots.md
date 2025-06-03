@@ -2,10 +2,10 @@
 
 Kore's **Enterprise Chatbots** section provides your organisation with the robust tools to create, manage, and deploy intelligent chatbots, transforming how your teams interact with information and execute tasks. This capability moves beyond generic AI; it’s about crafting bespoke AI solutions that embody your organisation's unique knowledge, processes, and culture.
 
-As depicted in the **Enterprise Chatbot Manager dashboard (Figure 3)**, you gain a comprehensive overview of your chatbot portfolio, from conceptual drafts to fully deployed solutions.
+As depicted in the **Enterprise Chatbot Manager dashboard**, you gain a comprehensive overview of your chatbot portfolio, from conceptual drafts to fully deployed solutions.
 
 ![image.png](./assets/chatbots.png)
-*Figure 3: The Enterprise Chatbot Manager dashboard, showing deployed and drafted chatbots.*
+*The Enterprise Chatbot Manager dashboard, showing deployed and drafted chatbots.*
 
 Here, organisations can leverage existing Kore AI Agents to construct powerful, domain-specific chatbots. Imagine an internal expert system for SAP UI5 development, or a dedicated compliance assistant trained on proprietary standards – the possibilities are vast. For instance, an organisation heavily invested in SAP UI5 applications can create an **"SAP UI5 Experts"** chatbot. This powerful assistant would encapsulate the collective intelligence of the AI Software Team agents (Architect, Product Manager, Engineer), augmented with the organisation's own SAP UI5-specific project templates and best practice rules. Crucially, these chatbots can also be granted access to specific, secure knowledge bases, a topic we will delve into in a later section.
 
@@ -13,8 +13,8 @@ Here, organisations can leverage existing Kore AI Agents to construct powerful, 
 
 Kore provides a clear, manageable lifecycle for your enterprise chatbots, ensuring controlled deployment and visibility:
 
-  * **Draft Status:** When a chatbot is first created, it remains in `Draft` status (as seen with "ISO 27001 Compliance Assistant" in Figure 3). At this stage, it is not yet listed or accessible to users, allowing for iterative development and refinement.
-  * **Published Status:** Once a chatbot is `Published` (indicated by the "REVIEW" status for "SAP UI5 Experts" in Figure 3), it means it's under review and becomes visible to users, but it is not yet fully accessible for new chat interactions. This stage is ideal for internal validation and stakeholder feedback.
+  * **Draft Status:** When a chatbot is first created, it remains in `Draft` status (as seen with "ISO 27001 Compliance Assistant"). At this stage, it is not yet listed or accessible to users, allowing for iterative development and refinement.
+  * **Published Status:** Once a chatbot is `Published` (indicated by the "REVIEW" status for "SAP UI5 Experts"), it means it's under review and becomes visible to users, but it is not yet fully accessible for new chat interactions. This stage is ideal for internal validation and stakeholder feedback.
   * **Released Status:** A `Released` chatbot (marked with "PUBLISHED" as seen for "SAP UI5 Experts") is fully active. It is listed to users, and they can initiate new chat sessions, leveraging its intelligence for their tasks.
   * **Archived Status:** Should a chatbot's utility expire or its function cease, it can be `Archived`. An archived chatbot is no longer listed or accessible to users, allowing for efficient resource management and decluttering of the active chatbot list.
 
@@ -25,7 +25,7 @@ Kore’s intuitive "Create Chatbot" wizard guides you through the process of con
 
 **1. Chatbot – Defining Identity & Purpose**
 ![image.png](./assets/chatbot-tab1.png)
-*Figure 4: The Chatbot tab for initial chatbot definition.*
+*The Chatbot tab for initial chatbot definition.*
 
 This initial tab is where you lay the foundational identity for your chatbot. You'll define its:
 
@@ -36,7 +36,7 @@ This initial tab is where you lay the foundational identity for your chatbot. Yo
 
 **2. Kore Agents – AI Building Blocks Behind the Bot**
 ![image.png](./assets/chatbot-tab2.png)
-*Figure 5: Selecting Kore AI Agents to form the chatbot's core intelligence.*
+*Selecting Kore AI Agents to form the chatbot's core intelligence.*
 
 This is where you assemble the core intelligence of your chatbot. Kore is built on a multi-agent, multi-action framework, meaning you can select one or more of our powerful built-in AI agents to compose your chatbot. The combinations are virtually limitless, allowing you to create highly specialised or broadly capable assistants. As shown, you can select agents like:
 
@@ -53,7 +53,7 @@ By combining these expert agents, you can build a chatbot capable of tackling co
 
 **3. Personalize – Infusing Organisational Culture**
 ![image.png](./assets/chatbot-tab3.png)
-*Figure 6: Customising agent names and descriptions for unique chatbot personas.*
+*Customising agent names and descriptions for unique chatbot personas.*
 
 To foster a deeper connection and align with your organisation's culture, Kore allows you to personalise the AI agents that comprise your chatbot. In this tab, you can:
 
@@ -65,7 +65,7 @@ The user interface displays a configuration summary indicating whether everythin
 
 **4. Templates – Guiding Output with Structure & Best Practices**
 ![image.png](./assets/chatbot-tab4.png)
-*Figure 7: Selecting templates to guide chatbot output structure and content.*
+*Selecting templates to guide chatbot output structure and content.*
 
 This tab is pivotal for ensuring your chatbot's outputs are consistent, well-structured, and aligned with your organisation's standards. Kore provides a list of built-in stack templates, such as "Flutter," "VitePress," or various "SAP UI5" templates. A **stack template** represents a predefined folder structure with a specific set of files, often containing example documentation, boilerplate source code, or office file formats. These templates are crucial for:
 
@@ -75,7 +75,7 @@ This tab is pivotal for ensuring your chatbot's outputs are consistent, well-str
 
 **5. Advanced – Fine-Tuning AI Performance**
 ![image.png](./assets/chatbot-tab5.png)
-*Figure 8: Configuring advanced settings, including the default Large Language Model.*
+*Configuring advanced settings, including the default Large Language Model.*
 
 The Advanced tab provides critical configurations to fine-tune the underlying AI behaviour of your chatbot. Here, you can specify settings such as the **Default LLM** (Large Language Model) that the chatbot will primarily use when a user creates a new chat. As shown in the dropdown, you can select from a range of powerful models (e.g., `claude-3-7-sonnet-latest`, `gemini-2.5-pro-preview-03-25`, `gpt-4.1`), allowing you to optimise for cost, performance, or specific model capabilities. This flexibility ensures your chatbot is always running on the most suitable and performant AI foundation for its designated tasks.
 

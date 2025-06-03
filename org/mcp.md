@@ -5,7 +5,7 @@ In the quest for truly intelligent and actionable AI, the ability for Large Lang
 At its core, MCP is an **open standard** that defines a unified, standardised way for AI systems to access and interact with external resources. This means instead of being limited to static, potentially outdated information, your AI agents can now seamlessly pull live data from content management systems, interact with development tools, query business applications, and perform actions across various services, all through a singular, robust interface.
 
 ![image.png](./assets/mcp.png)
-*Figure 19: Model Context Protocol, hub for managing AI-external tool integrations.*
+*Model Context Protocol, hub for managing AI-external tool integrations.*
 
 ## **The Benefits of MCP**
 
@@ -40,7 +40,7 @@ For example, if you ask an Enterprise Chatbot, "What's the current stock level f
 With Kore, you simply **register an MCP Server** within the platform, making its capabilities instantly available to your AI agents.
 
 ![image.png](./assets/mcp-add.png)
-*Figure 20: The "Add Model Context Protocol Server" interface for seamless integration.*
+*The "Add Model Context Protocol Server" interface for seamless integration.*
 
   * **MCP Server Name:** A descriptive name to identify the server (e.g., "Filesystem Access," "CRM Database," "Git Operations").
   * **Description:** A clear explanation of what this server does and the specific resources/tools it connects to (e.g., "Local file operations, Database queries, Git repository actions").

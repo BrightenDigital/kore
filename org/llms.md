@@ -7,7 +7,7 @@ The **Language Models** page within the Organization admin dashboard is your com
 Kore offers a clear, organised overview of the LLM providers integrated into your **Kore** platform.
 
 ![image.png](./assets/llms.png)
-*Figure 17: Language Model Configuration, supported LLM providers and models.*
+*Language Model Configuration, supported LLM providers and models.*
 
 **Kore** prides itself on its extensive support for all the major LLM providers and many of their latest, most advanced models. This includes industry leaders such as **OpenAI (e.g., `gpt-4.1`, `o4-mini`, `o3-mini`, `o3`), Google (e.g., `gemini-2.5-pro-preview-03-25`), Anthropic (e.g., `claude-3-7-sonnet-latest`, `claude-sonnet-4-20250514`), Azure, DeepSeek, Mistral, and xAI**.
 
@@ -30,7 +30,7 @@ Whether your custom model is a fine-tuned version of an open-source model on **H
 
 **The "Bring Your Own Language Model" Process**
 ![image.png](./assets/llms-custom.png)
-*Figure 18: "Bring Your Own Language Model" interface for custom LLM integration.*
+*"Bring Your Own Language Model" interface for custom LLM integration.*
 
 The process of registering your custom LLM is intuitive and detailed, ensuring precise control over its behaviour:
 
