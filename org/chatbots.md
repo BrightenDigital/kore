@@ -1,6 +1,6 @@
 # Enterprise Chatbots
 
-In today's dynamic enterprise landscape, the ability to rapidly deploy AI-powered assistants tailored to specific business needs is a significant competitive advantage. Kore's **Enterprise Chatbots** section provides your organisation with the robust tools to create, manage, and deploy intelligent chatbots, transforming how your teams interact with information and execute tasks. This capability moves beyond generic AI; it’s about crafting bespoke AI solutions that embody your organisation's unique knowledge, processes, and culture.
+Kore's **Enterprise Chatbots** section provides your organisation with the robust tools to create, manage, and deploy intelligent chatbots, transforming how your teams interact with information and execute tasks. This capability moves beyond generic AI; it’s about crafting bespoke AI solutions that embody your organisation's unique knowledge, processes, and culture.
 
 As depicted in the **Enterprise Chatbot Manager dashboard (Figure 3)**, you gain a comprehensive overview of your chatbot portfolio, from conceptual drafts to fully deployed solutions.
 
