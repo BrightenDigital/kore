@@ -34,7 +34,7 @@ features:
     <div class="attribution-icon">✨</div>
     <div class="attribution-text">
       <span class="attribution-main">This documentation was entirely built using</span>
-      <strong class="attribution-brand"><a target="_blank" href="https://kore-ai.brightenconsulting.com/">Kore</a></strong>
+      <strong class="attribution-brand"><a target="_blank" href="https://kore-ai.brightenconsulting.com/">Kore</a> AI agents</strong>
     </div>
   </div>
 </div>
@@ -80,7 +80,7 @@ features:
 }
 
 .attribution-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   animation: sparkle 2s ease-in-out infinite;
 }
 
