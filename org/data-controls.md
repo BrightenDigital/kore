@@ -1,6 +1,8 @@
 # **Shielding Enterprise Secrets in the AI Era**
 
-As organisations increasingly integrate AI into their core operations, the challenge lies in leveraging the immense power of public or open LLMs (such as Google's Gemini, OpenAI's GPT, DeepSeek, and others) without compromising confidentiality. Kore's **Secure Data Management** feature is engineered precisely for this challenge, providing an impenetrable shield for your most critical information.
+As organisations increasingly integrate AI into their core operations, the challenge lies in leveraging the immense power of public or open LLMs (such as Google's Gemini, OpenAI's GPT, DeepSeek, and others) without compromising confidentiality.
+
+Kore's **Secure Data Management** feature is engineered precisely for this challenge, providing an impenetrable shield for your most critical information.
 
 As you navigate the **Secure Data Management**, you'll see a clear overview of your masked items, representing the sensitive data points Kore is actively protecting within your AI workflows.
 
