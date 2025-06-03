@@ -13,7 +13,7 @@ These buckets are essentially **secure, segregated silos of information**, actin
 
 A truly distinctive and crucial feature of Kore's Knowledge Management is its **granular access control**. This doesn't just apply to who can *read* or *write* to a knowledge bucket, but also to how that knowledge interacts with your deployed AI agents and the users leveraging them.
 
-  * **Member-Level Permissions:** As illustrated in **Figure 11: Create New Bucket - User Permissions**, Kore provides the ability to set precise **Read** and **Write** permissions for individual members.
+  * **Member-Level Permissions:** Kore provides the ability to set precise **Read** and **Write** permissions for individual members.
       * **Write Permissions:** Allow designated members to contribute new documents, files, and information to a particular bucket, ensuring that content is curated by the right experts.
       * **Read Permissions:** Dictate whether a member, when interacting with an Enterprise Chatbot, can utilise the information available within that specific bucket. This is a critical distinction: a member can still use a connected Enterprise Chatbot, but without the appropriate Read permission for a given bucket, the chatbot will *not* be able to scan or leverage the information within that particular silo for that specific user's query. This level of fine-grained control over information accessibility for end-users interacting with chatbots is a key feature not commonly available in other platforms, ensuring sensitive data is never inadvertently exposed.
 
