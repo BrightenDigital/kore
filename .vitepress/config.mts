@@ -42,10 +42,15 @@ export default withMermaid(
         },
         {
           text: 'Organisation',
-          link: '',
+          link: '/org/org.md',
           items: [
+            { text: 'Members', link: "/org/members.md" },
             { text: 'Enterprise Chatbots', link: "/org/chatbots.md" },
-            { text: 'Manage Knowlegde', link: "/org/buckets.md" }
+            { text: 'Knowlegde Management', link: "/org/buckets.md" },
+            { text: 'Secure Data', link: "/org/data-controls.md" },
+            { text: 'Language Models', link: "/org/llms.md" },
+            { text: 'Model Context Protocol', link: "/org/mcp.md" },
+            { text: 'API keys', link: "/org/keys.md" }            
           ]
         },
         {
