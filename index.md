@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Kore AI"
+  name: "Kore"
   text: "Official Docs"
   tagline: Let Kore Agents handle the core of your work while you focus on the details
   actions:
