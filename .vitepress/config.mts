@@ -18,7 +18,8 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Getting Started', link: '/getting_started/home.md' },    
-        { text: 'What\'s new', link: '/getting_started/whats_new.md' }
+        { text: 'What\'s new', link: '/getting_started/whats_new.md' },
+        { text: 'FAQ', link: '/getting_started/frequently_asked.md' }
       ],
 
       sidebar: [
