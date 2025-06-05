@@ -34,7 +34,7 @@ This release brings a suite of new features designed to give administrators grea
 
 ### Granular API Key & Organization Management
 
-* **New Org and ApiKey Models:** We've introduced new models and DTOs for robust organization and API key management.
+* **New Org and ApiKey Models:** We've introduced new models for robust organization and API key management.
 * **Enhanced API Key Endpoints:** New endpoints and role updates provide superior API key management, including strong API key generation utilities.
 * **Super User Access:** A new `super_user` field has been added to the user signup process, enabling elevated privileges for key administrators.
 
@@ -46,8 +46,7 @@ This release brings a suite of new features designed to give administrators grea
     * New `createdAt` and `updatedAt` fields for `TeamModel` provide better auditing.
     * Updated `CreateMarketTeamModel` to generate unique IDs using ULID.
     * Enhanced team handling with LLM configuration checks and improved retrieval logic.
-* **Revamped Agent/Market Team Terminology:** We've renamed 'agents' to 'market_teams' across the platform for clearer understanding and consistency.
-* **OrganizationalMarketHandler:** A new handler for managing team data and assets efficiently.
+* **Revamped Agent/Market Team Terminology:** We've renamed 'agents' to 'enterprise agents' across the platform for clearer understanding and consistency.
 * **Organizational Agent Categories:** List organization agent categories with a new endpoint and the `MarketCategories` model.
 
 ---
