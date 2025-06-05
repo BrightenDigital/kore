@@ -1,4 +1,4 @@
-# 🚀 Quickstart
+# 🚀 Getting Up and Running
 
 ## **Choose Your AI Team**
 On the Kore homepage, identify and select the AI team that aligns with your current objective. Kore offers various expert teams, from 'AI Knowledge Base' for information retrieval to 'AI Software Company' for development tasks, ensuring you have the right support for your needs.

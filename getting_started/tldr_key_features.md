@@ -1,4 +1,4 @@
-# 🗞️ Key Features
+# 🗞️ Core Capabilities
 
 ## TL;DR
 A powerful, enterprise-grade agentic platform with a simple conversational UI that lets you:

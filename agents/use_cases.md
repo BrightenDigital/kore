@@ -1,4 +1,4 @@
-# Use Cases
+# Real-World Examples
 
 Welcome to our collection of real-world success stories. Discover how businesses and teams are achieving more with **Kore**.
 
