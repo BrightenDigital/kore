@@ -26,7 +26,7 @@ Once your objective is set, you can begin interacting with Kore's specialized AI
 
 - **For Development & Implementation**: Direct your requests to the AI Software Team for tasks ranging from new feature development and code modifications to architectural planning. You can engage the entire team for comprehensive projects or target specific agents, like @Martha (Product Manager), @Bruce (Architect), or @Tilda (Software Engineer), for focused interventions.
 
-- **For Documentation & Insights**: Utilize the Knowledge Base agent to automatically generate comprehensive documentation, including system designs, product requirements, code explanations, or user guides. Beyond generation, you can ask natural language questions to swiftly extract insights and synthesize information from all your connected data sources.
+- **For Documentation & Insights**: Utilize the Knowledge Base agent to learn about your data sources. Beyond generation, you can ask natural language questions to swiftly extract insights and synthesize information from all your connected data sources.
 
 ## **Review, Refine, and Integrate**
 Kore emphasizes user control and iterative improvement:
@@ -36,6 +36,3 @@ Kore emphasizes user control and iterative improvement:
 - **Seamless Integration**: Once you are fully satisfied with the output, you can seamlessly integrate the changes – whether merging generated code into your main branch, downloading finalized documentation, or utilizing extracted knowledge for strategic decisions.
 
 We're confident that Kore will quickly become an indispensable asset for enhancing your enterprise productivity, enabling your teams to deliver high-quality outcomes faster and more efficiently.
-
---- 
-Ready to transform your enterprise's potential with Kore?
