@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: Getting Started
       link: /getting_started/home.md
-    - theme: alt
-      text: What's new
-      link: /getting_started/whats_new.md
 
 features:
   - title: Autonomy in Action
