@@ -106,16 +106,3 @@ Choosing the right Large Language Model (LLM) for your task can significantly im
 - Diverse solutions
 
 **When to use**: When you want to explore different implementation possibilities or creative solutions
-
-## Switching Models Mid-Project
-
-You can change the LLM at any point in your project:
-
-1. Select a different model from the dropdown
-2. Continue with your requests as normal
-
-This flexibility allows you to:
-
-- Use faster models for initial development
-- Switch to more capable models for complex challenges
-- Experiment with different approaches
