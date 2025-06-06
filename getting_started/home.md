@@ -1,4 +1,4 @@
-# 🚀 Getting Started with Kore: Accelerate Your Enterprise Productivity
+# 🚀 Getting Started
 
 Welcome to Kore! We're thrilled to help you transform your enterprise workflows and boost productivity through our intelligent platform of collaborative AI agents. Whether you're initiating a brand-new project, optimizing existing processes, or diving deep into your organizational knowledge, getting started is intuitive and rewarding.
 
