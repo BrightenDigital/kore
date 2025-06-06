@@ -1,13 +1,17 @@
 # 🚀 Getting Started with Kore: Accelerate Your Enterprise Productivity
 
-Kore transforms how you handle complex tasks — from automating workflows and extracting insights to generating content and building software solutions. Our intelligent agents understand your context and get things done faster than traditional tools.
-
 Welcome to Kore! We're thrilled to help you transform your enterprise workflows and boost productivity through our intelligent platform of collaborative AI agents. Whether you're initiating a brand-new project, optimizing existing processes, or diving deep into your organizational knowledge, getting started is intuitive and rewarding.
+
+Kore transforms how you handle complex tasks — from automating workflows and extracting insights to generating content and building software solutions. Our intelligent agents understand your context and get things done faster than traditional tools.
 
 ## **Access the Kore Platform**
 Your first step is to log in to the Kore platform. If you're new to Kore, our streamlined onboarding process will get you set up quickly. Once logged in, you'll land on your personalized dashboard, your central hub for accessing all of Kore's powerful capabilities.
 
 Click [here to signup now](https://kore-ai.brightenconsulting.com/) and get started.
+
+<br>
+
+##### 🔔 We're currently receiving a high volume of access requests for Kore. Our team is actively reviewing each request and granting access as quickly as possible. We appreciate your patience as we work through the waiting list.
 
 ## **Define Your Objective**
 ### New Project, Existing Assets, or Knowledge Discovery?
