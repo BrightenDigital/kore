@@ -24,7 +24,7 @@ Kore is designed for versatility, adapting seamlessly to your specific needs. Ch
 ## **Engage Your AI Agents**
 Once your objective is set, you can begin interacting with Kore's specialized AI agents:
 
-- **For Development & Implementation**: Direct your requests to the AI Software Team for tasks ranging from new feature development and code modifications to architectural planning. You can engage the entire team for comprehensive projects or target specific agents, like @Martha (Product Manager), @Bruce (Architect), or @Tilda (Software Engineer), for focused interventions.
+- **For Development & Implementation**: Direct your requests to the AI Software Team for tasks ranging from new feature development and code modifications to architectural planning. You can engage the entire team for comprehensive projects or target specific agents, like @Martha (Product Manager), @Bruce (Architect), or @Nova (Software Engineer), for focused interventions.
 
 - **For Documentation & Insights**: Utilize the Knowledge Base agent to learn about your data sources. Beyond generation, you can ask natural language questions to swiftly extract insights and synthesize information from all your connected data sources.
 

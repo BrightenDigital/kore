@@ -59,7 +59,7 @@ As agents implement your requests:
 
 1. Changes are committed with descriptive commit messages
 2. The branch is pushed to the remote repository
-3. You'll see commit details in Tilda's final summary
+3. You'll see commit details in Nova's final summary
 
 Kore attempts to maintain a clean Git history with meaningful commits that document the development process.
 

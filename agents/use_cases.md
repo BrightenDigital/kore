@@ -99,7 +99,7 @@ Kore’s intelligent agents go far beyond mere documentation, offering a compreh
 
 3.  **Strategic Conversion to New Technologies:**
     * **Seamless Tech Stack Transition:** Leveraging its deep understanding of your legacy system's core, Kore acts as your primary partner in converting to modern, 'shiny' technologies. Whether you're moving from a monolithic architecture to microservices, transitioning from an on-premise system to a cloud-native solution (e.g., Spring Boot, Node.js, Python, modern .NET, React, Angular, Vue.js), Kore handles the heavy lifting.
-    * **Code Generation for New Stacks:** Kore's AI Software Team, including Bruce (Architect) and Tilda (Software Engineer), will generate the foundational code for the new architecture, implementing the extracted business logic in your chosen modern technology stack. This includes setting up new project structures, defining modern APIs, and writing the core logic in the new language.
+    * **Code Generation for New Stacks:** Kore's AI Software Team, including Bruce (Architect) and Nova (Software Engineer), will generate the foundational code for the new architecture, implementing the extracted business logic in your chosen modern technology stack. This includes setting up new project structures, defining modern APIs, and writing the core logic in the new language.
     * **Minimising Rewrite Risk:** By intelligently extracting and re-implementing the business core, Kore drastically reduces the risk associated with complete rewrites, preserving your critical IP while eliminating technical debt.
 
 4.  **Empowering Your Team for Innovation:**

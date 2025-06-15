@@ -16,14 +16,14 @@
 - **Bruce (@Bruce)** - Architect
     - Ideal for new projects or major architecture changes
     - Focuses on creating solid structures for development
-- **Tilda (@Tilda)** - Software Engineer
+- **Nova (@Nova)** - Software Engineer
     - Your primary implementation partner
     - Creates task docs, analyses files, develops implementation plans, and writes code
 
 ### Workflow Tips
 
-- **Agent Collaboration**: The agents know how to work together. Tagging @Tilda will involve only her, while tagging @Bruce will trigger both Bruce's architecture work, followed by Tilda's implementation. Using @Martha (or no tag) will activate the full team workflow.
-- **Direct Requests**: For simple tasks or when in a rush, you can use @Tilda directly. However, we recommend involving the other agents for first requests to get better results (except when reconstructing from an existing repo).
+- **Agent Collaboration**: The agents know how to work together. Tagging @Nova will involve only her, while tagging @Bruce will trigger both Bruce's architecture work, followed by Nova's implementation. Using @Martha (or no tag) will activate the full team workflow.
+- **Direct Requests**: For simple tasks or when in a rush, you can use @Nova directly. However, we recommend involving the other agents for first requests to get better results (except when reconstructing from an existing repo).
 - **Existing Repositories**: When you provide a git repo during team creation, the agents will automatically analyse the codebase to build system design documentation and product requirements before you make your first request.
 
 [🌋 Working with Git](/best_practices/working_with_git.md)

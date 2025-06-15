@@ -18,7 +18,7 @@ Welcome to Kore's comprehensive FAQ guide. This section aims to provide clear an
 **Q: What core features and capabilities does Kore offer?**<br>
 **A:** Kore is a holistic platform offering a rich suite of features designed to cover the entire software development lifecycle and critical enterprise functions:
 
-* **AI Software Team:** Collaborate with specialised AI agents including Martha (Product Manager), Bruce (Architect), and Tilda (Software Engineer). Further agents like Francis (Prompt Engineer), Sarah (Versatile Assistant), and David (Research Assistant) augment this team for comprehensive project execution and insight generation.
+* **AI Software Team:** Collaborate with specialised AI agents including Martha (Product Manager), Bruce (Architect), and Nova (Software Engineer). Further agents like Francis (Prompt Engineer), Sarah (Versatile Assistant), and David (Research Assistant) augment this team for comprehensive project execution and insight generation.
 * **Greenfield Development:** Accelerate new project starts by generating entire applications from simple prompts, leveraging pre-built tech stack templates and best practices, significantly reducing initial setup time.
 * **Feature Implementation:** Seamlessly add new functionalities or modify existing code in your projects, with Kore’s AI agents handling the complex analysis and code generation.
 * **Documentation Generation:** Automatically produce comprehensive documentation, including system designs, Product Requirement Documents (PRDs), contextual code explanations, user guides, and API documentation from your codebase and project context.

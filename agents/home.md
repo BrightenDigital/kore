@@ -24,4 +24,4 @@ Transform your ideas into reality faster with **The Kore AI Software Team**. Thi
 
 * **Martha 📋 (Product Manager):** The visionary of the team, focused on meticulous requirements analysis and guiding the product direction.
 * **Bruce 📐 (Architect):** The master builder, meticulously designing the system structure and technical planning to ensure robust and scalable solutions.
-* **Tilda 💻 (Software Engineer):** The hands-on implementer, responsible for bringing designs to life through precise coding and efficient implementation.
+* **Nova 💻 (Software Engineer):** The hands-on implementer, responsible for bringing designs to life through precise coding and efficient implementation.

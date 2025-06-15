@@ -14,7 +14,7 @@ The Kore AI Software Team is comprised of specialized agents, each embodying a c
 |-----------|-----------------------|---------------|
 | Martha    | 📋 **Product Manager**   | The visionary of the team, focused on meticulous requirements analysis and guiding the product direction. Martha ensures the technical implementation aligns perfectly with your business goals and user needs. |
 | Bruce     | 📐 **Architect**         | The master builder, meticulously designing the system structure and technical planning to ensure robust, scalable, and maintainable solutions. Bruce provides the foundational technical blueprint for your project. |
-| Tilda     | 💻 **Software Engineer** | The hands-on implementer, responsible for bringing designs to life through precise coding, efficient implementation, and adherence to best practices. Tilda ensures your vision translates into high-quality, functional code. |
+| Nova     | 💻 **Software Engineer** | The hands-on implementer, responsible for bringing designs to life through precise coding, efficient implementation, and adherence to best practices. Nova ensures your vision translates into high-quality, functional code. |
 
 ## Orchestrated AI Development
 **The Collaborative Intelligence of the AI Software Team**:
@@ -35,8 +35,8 @@ Each agent within the Kore AI Software Team plays a distinct yet interconnected 
     - **File List**: Identifying relevant files for modification and proposing new file structures.
     - **Data Structures and Interfaces**: Defining the optimal data models and API contracts.
     - **Program Call Flow**: Illustrating the sequence of operations and function calls.
-- **Tilda, the Software Engineer**:
-  - **Precision Implementation**: Tilda seamlessly executes the architectural designs and product requirements by generating high-quality code. Her focus areas include:
+- **Nova, the Software Engineer**:
+  - **Precision Implementation**: Nova seamlessly executes the architectural designs and product requirements by generating high-quality code. Her focus areas include:
   - **Required Other Language Packages**: Identifying and integrating necessary external libraries or packages.
   - **Logic Analysis**: Breaking down complex business logic into manageable code units.
   - **API Specification** (if applicable): Documenting any new or modified API endpoints.
@@ -76,7 +76,7 @@ To maximize the efficiency and accuracy of the AI Software Team, consider these 
 ### Directing Individual Agents
 While sending a change request will engage the entire AI Software Team to collaboratively solve your request, Kore also provides the flexibility for more targeted interventions.
 
-- **Targeted Requests**: Alternatively, you may directly send a request to just one specific agent by using @<agent_name>. For instance, you could @Martha to refine a PRD detail, @Bruce to explore an architectural alternative, or @Tilda to implement a minor code change.
+- **Targeted Requests**: Alternatively, you may directly send a request to just one specific agent by using @<agent_name>. For instance, you could @Martha to refine a PRD detail, @Bruce to explore an architectural alternative, or @Nova to implement a minor code change.
 - **Improved Experience with Context**: This direct targeting can significantly improve the experience for specific tasks because, for a given request, the agents already have their context in place from prior interactions or analysis, allowing them to execute tasks with even greater precision and efficiency.
 
 ## Iterative Development
