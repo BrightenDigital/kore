@@ -4,16 +4,17 @@
 
 Welcome to our latest sprint update! This release for Kore delivers a significant leap forward in organizational intelligence, administrative control, and user experience. We've focused on empowering your teams with more robust management tools and a smoother, more intuitive interface.
 
+> **TL;DR**: The June 2025 Kore update (v1.0.12 backend, v1.0.156 UI) significantly enhances **organizational intelligence**, **administrative control**, and **user experience**. Key improvements include a refactored knowledge structure with full **bucket management**, streamlined **Git integration** for team content, granular **API key and organization management**, and a new **user invitation system**. The UI/UX sees a **complete overhaul** with a new admin layout, dark theme compatibility, and improved dialogs, all supported by core system enhancements for **consistency and stability**.
+
 ### Organizational Intelligence & Data Management
 
 We've supercharged how Kore handles your knowledge and data, making it more flexible and powerful.
 
-### Enhanced Organizational Brain Routes & Buckets
+### Enhanced Organizational Brain & Buckets
 
-* **Refactored Organizational Brain Routes:** We've completely overhauled how your organizational knowledge is structured, ensuring more efficient and scalable access.
+* **Refactored Organizational Brain API:** We've completely overhauled how your organizational knowledge is structured, ensuring more efficient and scalable access.
 * **Comprehensive Bucket Management:** Take control of your data like never before!
     * **Full CRUD for Buckets:** Create, update, and manage your data buckets with new dedicated functionality.
-    * **Intelligent File Counting:** Easily track the number of files within each bucket.
     * **Secure Content Retrieval:** Retrieve brain content documents for specific buckets, ensuring accurate knowledge access.
     * **Empty Bucket Registration:** Register empty buckets to keep your data organized from the start.
 
@@ -81,6 +82,8 @@ We've made significant improvements to the platform's core and user interface fo
 ## May 2025
 
 Welcome to the latest release update! We've been busy bringing powerful new capabilities, performance enhancements, and smarter experiences to Kore. Here's what shines this month:
+
+> **TL;DR**: The May 2025 Kore update introduces "Albert," an AI knowledge companion for intelligent information retrieval and decision-making. It also features next-gen sensitive data and PII management with asynchronous processing, enhanced masking, and new secure APIs. Users can now define custom LLM configurations per tenant, and there's native Microsoft Graph support for seamless integration with user profiles, emails, OneDrive, and SharePoint.
 
 ### Meet **Albert**
 ### Your New AI Knowlegde Companion

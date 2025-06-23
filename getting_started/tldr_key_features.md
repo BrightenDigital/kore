@@ -38,6 +38,13 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 ### Add knowledge to individual agents or share it across the team using different types of memory.
 ![image.png](/getting_started/assets/key_features/image6.png)
 
+### 📚 View also
+
+- [Database Intelligence](/agents/ai_knowlegdebase.html#database-intelligence)
+- [Kore RAG](/ecosystem/kore_rag.html)
+
+> View also: 
+
 ## Smart In-Project Assistant
 ### An intelligent agent capable of providing insights about your project and code base.
 ![image.png](/getting_started/assets/key_features/image7.png)

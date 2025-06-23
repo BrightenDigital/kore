@@ -55,7 +55,8 @@ export default withMermaid(
           ]
         },
         {
-          text: 'Ecosystem & Technology',
+          text: 'Ecosystem',
+          link: '/ecosystem/ecosystem.md',
           items: [
             { text: 'Kore RAG', link: "/ecosystem/kore_rag.md" },
             { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
@@ -64,7 +65,7 @@ export default withMermaid(
           ]
         },
         {
-          text: 'Strategy & Product Direction',
+          text: 'Strategy',
           items: [
             { text: 'Kore Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
             { text: 'Roadmap', link: "/ecosystem/roadmap.md" },

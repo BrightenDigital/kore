@@ -1,31 +1,35 @@
 # Knowledge Base agent
 
-The **Knowledge Base** agent is a powerful AI-driven component designed to ingest, understand, and retrieve knowledge from a multitude of structured and unstructured data sources. Its primary purpose is to enable intelligent, contextual responses to user queries using a sophisticated retrieval-augmented generation (RAG) pipeline.
+The **Knowledge Base** agent is a cutting-edge AI agent engineered to transform how you access and utilize information. Imagine an intelligent assistant that can instantly find, understand, and synthesize knowledge from all your company's data, providing precise and contextual answers to your questions. That's the power of the Knowledge Base agent.
+
+Its core is built upon a sophisticated <a target="_blank" href="/kore/ecosystem/kore_rag.html">**Retrieval-Augmented Generation (RAG) pipeline**</a>, ensuring that every response is not just generated but also firmly grounded in reliable, verifiable data.
 
 ## Introduction
 
-The **Knowledge Base** agent is a **cognitive agent** capable of dynamically sourcing, reasoning, and responding to questions by intelligently navigating through:
+The **Knowledge Base** agent acts as a **cognitive agent**, a truly intelligent entity capable of dynamically sourcing, reasoning over, and responding to your queries by intelligently navigating through:
 
-- Uploaded documents
-- Organization-managed knowledge bases
-- Live databases (via schema-aware queries)
+  * **Uploaded documents:** From reports to manuals, simply upload your files, and the agent will make sense of them.
+  * **Organization-managed knowledge bases:** Integrate with your existing wikis, internal repositories, and documentation systems.
+  * **Live databases:** Get real-time, precise answers by connecting directly to your structured data.
 
-It bridges the gap between data availability and actionable knowledge by applying a layered understanding and retrieval strategy.
+It masterfully bridges the gap between raw data and actionable knowledge, applying a layered understanding and retrieval strategy to deliver unparalleled accuracy and relevance.
 
 ## Multi-Source Querying
 
 When a user interacts with the agent, the following process unfolds:
 
-1. **Input Analysis**: The agent interprets the question using a language model, identifying key terms and intent.
-2. **Source Matching**: It queries multiple knowledge sources:
-   - Semantic documents uploaded to Kore
-   - Internal knowledge systems (wikis, manuals, repositories)
-   - Connected relational databases (PostgreSQL, MySQL, etc.)
-3. **Context Retrieval**: Uses vector similarity search, keyword ranking, and schema inference to retrieve relevant content.
+When you interact with the agent, a seamless and intelligent process unfolds:
+
+1.  **Input Analysis**: The agent first interprets your question using advanced language models, meticulously identifying key terms, intent, and any underlying nuances.
+2.  **Source Matching**: It then intelligently queries multiple knowledge sources in parallel, ensuring comprehensive coverage:
+      * **Semantic documents uploaded to Kore:** Leverages the rich understanding derived from your uploaded files.
+      * **Internal knowledge systems:** Accesses your organization's curated information in wikis, manuals, and internal repositories.
+      * **Connected relational databases:** Dynamically interacts with databases like PostgreSQL, MySQL, and others.
+3.  **Context Retrieval**: To pinpoint the most relevant information, the agent employs a combination of advanced techniques: vector similarity search for conceptual matches, keyword ranking for precise term identification, and schema inference for understanding database structures.
 
 ### Semantic Classification
 
-All uploaded documents go through semantic parsing and are indexed accordingly:
+All documents uploaded to Kore undergo a rigorous semantic parsing process and are intelligently indexed to optimize retrieval:
 
 | Document Type              | Description                                       |
 | -------------------------- | ------------------------------------------------- |
@@ -34,18 +38,10 @@ All uploaded documents go through semantic parsing and are indexed accordingly:
 | Spreadsheets               | Table parsing + embeddings                        |
 | Wikis / Markdown           | Chunked + hierarchical RAG                        |
 
+This multi-faceted approach ensures that regardless of the document format, the agent can extract and leverage its content effectively.
 
 ## Query Lifecycle
-Here's how the agent processes a question from start to finish:
-
-User submits a question
-1. Initial context search across:
-2. Kore RAG-indexed documents
-   - Live databases (with schema inference)
-   - Internal repositories
-3. Reference extraction: Lists supporting documents, tables, or database records.
-4. Answer synthesis: The agent generates a response only if the retrieved context is sufficient.
-5. Iterative search: If context is incomplete, the agent automatically re-queries or refines its strategy.
+Here's how the agent meticulously processes a question from your initial input to a comprehensive answer:
 
 ```mermaid
 graph TD
@@ -58,14 +54,71 @@ D -- No --> G[Re-query / Refine]
 G --> C
 ```
 
-## Database Intelligence
-One standout feature of the agent is its ability to connect to databases and reason about them dynamically:
-- Inspects schema on-the-fly
-- Generates safe, optimized SQL queries
-- Joins contextual data with document-based knowledge
-- Supports federated querying across multiple sources
+1.  **User submits a question:** Your journey begins with a natural language query.
+2.  **Initial context search:** The agent immediately casts a wide net, searching across:
+      * **Kore RAG-indexed documents:** Your uploaded and semantically processed files.
+      * **Live databases (with schema inference):** Real-time data from your connected databases.
+      * **Internal repositories:** Your organization's structured and unstructured internal knowledge.
+3.  **Reference extraction:** If relevant context is found, the agent meticulously identifies and lists the supporting documents, tables, or specific database records that contribute to the answer.
+4.  **Answer synthesis:** The agent generates a clear, concise, and accurate response *only if* the retrieved context is sufficient and unambiguous. This prevents speculative or "hallucinated" answers.
+5.  **Iterative search:** If the initial context is incomplete or ambiguous, the agent doesn't give up. It automatically re-queries its sources or refines its search strategy, diving deeper to find the information needed for a confident response.
 
-💡 This allows Kore to provide precise answers even when the knowledge resides in structured tabular formats.
+## Database Intelligence
+
+One of the most remarkable features of the Knowledge Base agent is its innate ability to connect to and dynamically reason about your databases. This allows Kore to provide real-time, precise answers, even when the knowledge resides in highly structured tabular formats.
+
+Here's a detailed breakdown of how it achieves this:
+
+  * **Inspects schema on-the-fly:** Based on your natural language query and the intended report or information need, Kore intelligently analyzes the database schema. This includes understanding table names, column types, relationships between tables (e.g., primary and foreign keys), and even indexed columns. It dynamically identifies the most relevant tables and relationships that best fit the report intent extrapolated from your prompt, ensuring efficient and accurate data retrieval.
+
+  * **Generates safe, optimized SQL queries:** Kore is designed for broad compatibility with most major database engines, including MSSQL Server, PostgreSQL, MySQL, and Oracle. When generating SQL queries, the agent prioritizes:
+
+      * **Safety:** Queries are carefully constructed to prevent SQL injection vulnerabilities and adhere to best practices for secure database interaction.
+      * **Optimization:** Kore considers factors like table indexes, data volume, and the specific characteristics of the target database engine to generate highly performant SQL queries. This ensures that even complex queries execute quickly, minimizing latency.
+      * **Readability:** While optimized for performance, the generated SQL is also structured to be clear and understandable, aiding in debugging and verification if needed.
+
+  * **Joins contextual data with document-based knowledge:** The agent doesn't just pull data from databases in isolation. After dynamically building and executing the multiple SQL queries identified to satisfy your request, Kore intelligently processes the results. It then seamlessly integrates this structured database output with other relevant document-based knowledge available within its knowledge base. This cross-referencing allows for a richer, more comprehensive, and contextually aware answer that spans both structured and unstructured data sources.
+
+  * **Supports federated querying across multiple sources:** The Knowledge Base agent excels at handling requests that require information from diverse locations. It can simultaneously query multiple databases, different document repositories, and internal knowledge systems. This "federated querying" capability allows it to piece together a complete answer from fragmented information sources, providing a unified view of your organizational knowledge.
+
+💡 This allows Kore to provide real-time precise answers even when the knowledge resides in structured tabular formats such as databases.
+
+<table>
+<tbody>
+  <tr>
+   <td>
+      <img src="./assets/db_step1.png"/><br>
+      <sub><b>Step 1: Connect your Database.</b> Begin by adding a new database connector within the Knowledge Base agent interface.</sub>
+   </td>
+   <td>
+      <img src="./assets/db_step2.png"/><br>
+      <sub><b>Step 2: Enter Connection Details.</b> Provide the connection string for the database you wish the agent to query. This allows Kore to establish a secure link.</sub>
+   </td>
+  </tr>
+  <tr>
+   <td>
+      <img src="./assets/db_step3.png"/><br>
+      <sub><b>Step 3: Optimize with Instructions (Optional).</b> You can optionally add specific instructions to guide the agent, helping it navigate your database schema more efficiently and quickly respond to complex queries.</sub>
+   </td>
+   <td>
+      <img src="./assets/db_step4.png"/><br>
+      <sub><b>Step 4: Query and Get Answers. Simply type your question.</b> The Knowledge Base agent will dynamically build and execute the appropriate SQL query, providing you with real-time answers directly from your database.</sub>
+   </td>
+  </tr>
+</tbody>
+</table>
+
+
+Connecting Kore to your databases requires careful consideration of network accessibility.
+
+  * **On-Premise Deployments:** If you are running Kore on-premise, please ensure robust network connectivity between your Kore server and your database server(s). This typically involves configuring firewall rules to allow traffic on the necessary database ports and ensuring proper routing.
+  * **Cloud Deployments:** If your Kore instance is running on the Cloud and your database is also cloud-hosted, you might need to add Kore server IP addresses or network ranges to your database's firewall and security group rules. This ensures that Kore has authorized access to your database instances.
+
+For detailed guidance on network configuration and security best practices, please contact Kore support. They can provide specific IP ranges or recommend secure connectivity patterns tailored to your deployment environment.
+
+### 📚 View also
+
+> [Organisation Knowlegde](/org/buckets.html)
 
 ## Adaptive Reasoning
 The Kore agent does not stop at the first layer of information. It adapts its approach:
@@ -77,4 +130,8 @@ The Kore agent does not stop at the first layer of information. It adapts its ap
 - Internal Q&A assistants for enterprises
 - Technical documentation bots
 - Support automation for complex product suites
-- Domain-specific compliance bots (e.g., pharma, legal, finance)
+- Domain-specific compliance chatbots (e.g., pharma, legal, finance)
+
+### 📚 View also
+
+> [Organisation Enterprise Chatbots](/org/chatbots.html)
