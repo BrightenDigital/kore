@@ -1,8 +1,8 @@
 # Knowledge Base agent
 
-The **Knowledge Base** agent is a cutting-edge AI agent engineered to transform how you access and utilize information. Imagine an intelligent assistant that can instantly find, understand, and synthesize knowledge from all your company's data, providing precise and contextual answers to your questions. That's the power of the Knowledge Base agent.
+The **Knowledge Base** agent is a cutting-edge AI agent engineered to transform how you access and utilize information. Imagine an intelligent assistant that can instantly find, understand, and synthesize knowledge from all your company's data, providing precise and contextual answers to your questions.
 
-Its core is built upon a sophisticated <a target="_blank" href="/kore/ecosystem/kore_rag.html">**Retrieval-Augmented Generation (RAG) pipeline**</a>, ensuring that every response is not just generated but also firmly grounded in reliable, verifiable data.
+At its core, the system is powered by a diverse set of connectors and a sophisticated <a target="_blank" href="/kore/ecosystem/kore_rag.html"><strong>Retrieval-Augmented Generation (RAG) pipeline</strong></a>, ensuring that every response is not only generated but also grounded in reliable, verifiable data.
 
 ## Introduction
 
@@ -16,13 +16,11 @@ It masterfully bridges the gap between raw data and actionable knowledge, applyi
 
 ## Multi-Source Querying
 
-When a user interacts with the agent, the following process unfolds:
-
 When you interact with the agent, a seamless and intelligent process unfolds:
 
 1.  **Input Analysis**: The agent first interprets your question using advanced language models, meticulously identifying key terms, intent, and any underlying nuances.
 2.  **Source Matching**: It then intelligently queries multiple knowledge sources in parallel, ensuring comprehensive coverage:
-      * **Semantic documents uploaded to Kore:** Leverages the rich understanding derived from your uploaded files.
+      * **Semantic documents uploaded to Kore:** Leverages the rich understanding derived from uploaded files.
       * **Internal knowledge systems:** Accesses your organization's curated information in wikis, manuals, and internal repositories.
       * **Connected relational databases:** Dynamically interacts with databases like PostgreSQL, MySQL, and others.
 3.  **Context Retrieval**: To pinpoint the most relevant information, the agent employs a combination of advanced techniques: vector similarity search for conceptual matches, keyword ranking for precise term identification, and schema inference for understanding database structures.
@@ -56,7 +54,7 @@ G --> C
 
 1.  **User submits a question:** Your journey begins with a natural language query.
 2.  **Initial context search:** The agent immediately casts a wide net, searching across:
-      * **Kore RAG-indexed documents:** Your uploaded and semantically processed files.
+      * **Kore RAG-indexed documents:** Uploaded and semantically processed files.
       * **Live databases (with schema inference):** Real-time data from your connected databases.
       * **Internal repositories:** Your organization's structured and unstructured internal knowledge.
 3.  **Reference extraction:** If relevant context is found, the agent meticulously identifies and lists the supporting documents, tables, or specific database records that contribute to the answer.
@@ -69,7 +67,7 @@ One of the most remarkable features of the Knowledge Base agent is its innate ab
 
 Here's a detailed breakdown of how it achieves this:
 
-  * **Inspects schema on-the-fly:** Based on your natural language query and the intended report or information need, Kore intelligently analyzes the database schema. This includes understanding table names, column types, relationships between tables (e.g., primary and foreign keys), and even indexed columns. It dynamically identifies the most relevant tables and relationships that best fit the report intent extrapolated from your prompt, ensuring efficient and accurate data retrieval.
+  * **Inspects schema on-the-fly:** Based on your natural language query and the intended report or information need, Kore intelligently analyzes the database schema. This includes understanding table names, column types, relationships between tables, and even indexed columns. It dynamically identifies the most relevant tables and relationships that best fit the report intent extrapolated from your prompt, ensuring efficient and accurate data retrieval.
 
   * **Generates safe, optimized SQL queries:** Kore is designed for broad compatibility with most major database engines, including MSSQL Server, PostgreSQL, MySQL, and Oracle. When generating SQL queries, the agent prioritizes:
 
