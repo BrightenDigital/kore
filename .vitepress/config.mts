@@ -38,6 +38,7 @@ export default withMermaid(
           items: [
             { text: 'Knowlegde Base agent', link: "/agents/ai_knowlegdebase.md" },
             { text: 'AI Software team', link: "/agents/ai_software_team.md" },
+            { text: 'SlideCraft team', link: "/agents/slide_craft.md" },
             { text: 'Best practices', link: "/agents/best_practices.md" }
           ]
         },

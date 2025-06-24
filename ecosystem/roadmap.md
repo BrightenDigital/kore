@@ -59,9 +59,9 @@ Initiatives focused on how users and systems interact with the platform, includi
 | Google Drive connector           | 💡 Planned      | Jan 2026 |
 | Single Sign-On with Google and Microsoft    | 💡 Planned      | Oct 2025 |
 | Contextual Git Branch Management | 🚀 Launched     | Mar 2025 |
-| API connector                | 💡 Planned      |          |
-| Databricks connector                | 💡 Planned      |          |
-| Document Editor & Preview          | 💡 Planned      |          |
+| API connector                    | 💡 Planned      |          |
+| Databricks connector             | 💡 Planned      |          |
+| Document Preview                 | 💡 Planned      |          |
 | GitHub Actions Integration       | 🔄 Under Review |          |
 
 
