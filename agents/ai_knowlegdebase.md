@@ -22,7 +22,7 @@ When you interact with the agent, a seamless and intelligent process unfolds:
 2.  **Source Matching**: It then intelligently queries multiple knowledge sources in parallel, ensuring comprehensive coverage:
       * **Semantic documents uploaded to Kore:** Leverages the rich understanding derived from uploaded files.
       * **Organisation knowledge:** Accesses your organization's curated information in buckets, wikis, manuals, and internal repositories.
-      > [📚 View also: Organisation Knowlegde](/org/buckets.html)
+      > 📚 View also: Organisation Knowlegde](/org/buckets.html)
 
       * **Connected relational databases:** Dynamically interacts with databases like PostgreSQL, MySQL, and others.
 3.  **Context Retrieval**: To pinpoint the most relevant information, the AI agents employs a combination of advanced techniques: vector similarity search for conceptual matches, keyword ranking for precise term identification, and schema inference for understanding database structures.
@@ -81,7 +81,8 @@ Here's a detailed breakdown of how it achieves this:
 
   * **Supports federated querying across multiple sources:** The Knowledge Base agent excels at handling requests that require information from diverse locations. It can simultaneously query multiple databases, different document repositories, and the **organisation** knowledge systems. This "federated querying" capability allows it to piece together a complete answer from fragmented information sources, providing a unified view of your organizational knowledge.
 
-💡 This allows Kore to provide real-time precise answers even when the knowledge resides in structured tabular formats such as databases.
+>💡 This allows Kore to provide real-time precise answers even when the knowledge resides in structured tabular formats such as databases.
+> Step by step instructions:
 
 <table>
 <tbody>
@@ -116,9 +117,7 @@ Connecting Kore to your databases requires careful consideration of network acce
 
 For detailed guidance on network configuration and security best practices, please contact Kore support. They can provide specific IP ranges or recommend secure connectivity patterns tailored to your deployment environment.
 
-### 📚 View also
-
-> [Organisation Knowlegde](/org/buckets.html)
+> 📚 View also: [Knowlegde Management](/org/buckets.html)
 
 ## Adaptive Reasoning
 The Kore agent does not stop at the first layer of information. It adapts its approach:
@@ -132,6 +131,4 @@ The Kore agent does not stop at the first layer of information. It adapts its ap
 - Support automation for complex product suites
 - Domain-specific compliance chatbots (e.g., pharma, legal, finance)
 
-### 📚 View also
-
-> [Organisation Enterprise Chatbots](/org/chatbots.html)
+> 📚 View also: [Enterprise Chatbots](/org/chatbots.html)

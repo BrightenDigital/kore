@@ -1,8 +1,8 @@
-# Mastering Kore AI Agents: Best Practices for Brilliant Results!
+# Mastering Kore AI Agents: Best Practices!
 
-Welcome to the exciting world of AI agents, where Kore becomes your intelligent partner! Just like any great collaboration, getting the most out of your AI agent comes down to effective communication and a few smart strategies.
+Welcome to the exciting world of AI agents, where Kore becomes your intelligent partner! Just like any great collaboration, getting the most out of your AI agents comes down to effective communication and a few smart strategies.
 
-Think of Kore as an incredibly fast and knowledgeable assistant, but one that benefits greatly from clear, concise, and well-structured instructions. The better you guide it, the more brilliant its responses and actions will be!
+Think of Kore as an incredibly fast and knowledgeable assistant, but one that benefits greatly from clear, concise, and well-structured instructions. 
 
 ## Prompt Engineering
 
@@ -16,9 +16,6 @@ This is by far the most important tip! AI agents don't "read between the lines" 
     * **Instead of:** "Tell me about sales."
     * **Try:** "Generate a concise summary of Q1 2025 sales performance for the EMEA region, highlighting key growth areas and any significant declines."
 * **Use Action Verbs:** Start your requests with strong verbs that clearly indicate what you want the agent to *do* (e.g., "Summarize," "Generate," "Analyze," "Draft," "Extract," "Compare").
-* **Specify Format (if needed):** If you need the output in a particular format (e.g., a bulleted list, a table, a JSON object), tell the agent upfront.
-    * "List the top 5 customer pain points in a bulleted format."
-    * "Provide the project timeline as a table with columns for Task, Owner, and Due Date."
 
 ### 2. Provide Context: Give the Agents the Full Picture
 
