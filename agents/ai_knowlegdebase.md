@@ -21,25 +21,27 @@ When you interact with the agent, a seamless and intelligent process unfolds:
 1.  **Input Analysis**: The agent first interprets your question using advanced language models, meticulously identifying key terms, intent, and any underlying nuances.
 2.  **Source Matching**: It then intelligently queries multiple knowledge sources in parallel, ensuring comprehensive coverage:
       * **Semantic documents uploaded to Kore:** Leverages the rich understanding derived from uploaded files.
-      * **Internal knowledge systems:** Accesses your organization's curated information in wikis, manuals, and internal repositories.
+      * **Organisation knowledge:** Accesses your organization's curated information in buckets, wikis, manuals, and internal repositories.
+      > [📚 View also: Organisation Knowlegde](/org/buckets.html)
+
       * **Connected relational databases:** Dynamically interacts with databases like PostgreSQL, MySQL, and others.
-3.  **Context Retrieval**: To pinpoint the most relevant information, the agent employs a combination of advanced techniques: vector similarity search for conceptual matches, keyword ranking for precise term identification, and schema inference for understanding database structures.
+3.  **Context Retrieval**: To pinpoint the most relevant information, the AI agents employs a combination of advanced techniques: vector similarity search for conceptual matches, keyword ranking for precise term identification, and schema inference for understanding database structures.
 
 ### Semantic Classification
 
-All documents uploaded to Kore undergo a rigorous semantic parsing process and are intelligently indexed to optimize retrieval:
+All semantic documents uploaded to Kore undergo a rigorous semantic parsing process and are intelligently indexed to optimize retrieval:
 
 | Document Type              | Description                                       |
 | -------------------------- | ------------------------------------------------- |
 | Multi-source knowledge     | Classification Strategy                           |
-| PDFs                       | Vector embeddings + BM25                          |
+| Office and PDFs            | Vector embeddings + BM25                          |
 | Spreadsheets               | Table parsing + embeddings                        |
 | Wikis / Markdown           | Chunked + hierarchical RAG                        |
 
 This multi-faceted approach ensures that regardless of the document format, the agent can extract and leverage its content effectively.
 
 ## Query Lifecycle
-Here's how the agent meticulously processes a question from your initial input to a comprehensive answer:
+Here's how the agents meticulously processes a question from your initial input to a comprehensive answer:
 
 ```mermaid
 graph TD
