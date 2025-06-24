@@ -7,7 +7,7 @@ With Kore, your agents are true partners, transforming complex challenges into a
 Kore's AI agents are organized into dedicated teams, each tailored to excel in distinct domains.
 
 ## **AI Knowledge Base**
-### Context-Aware Search Strategist
+### Context-Aware Search Strategist and Advisor
 Unlock the full potential of your information with Kore's **Knowledge Base Agent**. This sophisticated AI collective is more than just a search engine; it's a dynamic strategist for information retrieval.
 
 * **Context-Aware Search Strategist:** This bot dynamically switches between different search methods (semantic, keyword, fuzzy matching) based on your query type and the evolving context of your conversation, ensuring you always get the most relevant results.
@@ -16,7 +16,7 @@ Unlock the full potential of your information with Kore's **Knowledge Base Agent
 At the core of this team is **Albert 📋 (Knowledge Seeker)**, an agent perpetually seeking and synthesizing information from all available and relevant data sources, including your uploaded files and organizational knowledge. Get precise, reliable answers to even your most complex questions with intelligent tool selection.
 
 ## **AI Software team**
-### **Your Intelligent Development Companion**
+### **Your Intelligent Software Development Companion**
 
 Transform your ideas into reality faster with **The Kore AI Software Team**. This advanced collective is your intelligent software development companion, seamlessly integrating into your workflow to help you build, modify, and gain deep insights into code. This team of specialized AI agents works in unison to streamline the entire development process, turning your vision into tangible, high-quality software.
 
