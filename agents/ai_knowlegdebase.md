@@ -63,7 +63,7 @@ G --> C
 
 ## Database Intelligence
 
-One of the most remarkable features of the Knowledge Base agent is its innate ability to connect to and dynamically reason about your databases. This allows Kore to provide real-time, precise answers, even when the knowledge resides in highly structured tabular formats.
+One of the most remarkable features of the Knowledge Base agent is its innate ability to connect to and **dynamically reason** about your databases. This allows Kore to provide real-time, precise answers, even when the knowledge resides in highly structured tabular formats.
 
 Here's a detailed breakdown of how it achieves this:
 
