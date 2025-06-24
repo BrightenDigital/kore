@@ -1,4 +1,4 @@
-# Mastering Kore AI Agents: Best Practices!
+# Best Practices with Kore AI Agents
 
 Welcome to the exciting world of AI agents, where Kore becomes your intelligent partner! Just like any great collaboration, getting the most out of your AI agents comes down to effective communication and a few smart strategies.
 
