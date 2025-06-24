@@ -75,11 +75,11 @@ Here's a detailed breakdown of how it achieves this:
 
       * **Safety:** Queries are carefully constructed to prevent SQL injection vulnerabilities and adhere to best practices for secure database interaction.
       * **Optimization:** Kore considers factors like table indexes, data volume, and the specific characteristics of the target database engine to generate highly performant SQL queries. This ensures that even complex queries execute quickly, minimizing latency.
-      * **Readability:** While optimized for performance, the generated SQL is also structured to be clear and understandable, aiding in debugging and verification if needed.
+      * **Readability:** While optimized for performance, the generated SQL is also structured to be clear and understandable.
 
   * **Joins contextual data with document-based knowledge:** The agent doesn't just pull data from databases in isolation. After dynamically building and executing the multiple SQL queries identified to satisfy your request, Kore intelligently processes the results. It then seamlessly integrates this structured database output with other relevant document-based knowledge available within its knowledge base. This cross-referencing allows for a richer, more comprehensive, and contextually aware answer that spans both structured and unstructured data sources.
 
-  * **Supports federated querying across multiple sources:** The Knowledge Base agent excels at handling requests that require information from diverse locations. It can simultaneously query multiple databases, different document repositories, and internal knowledge systems. This "federated querying" capability allows it to piece together a complete answer from fragmented information sources, providing a unified view of your organizational knowledge.
+  * **Supports federated querying across multiple sources:** The Knowledge Base agent excels at handling requests that require information from diverse locations. It can simultaneously query multiple databases, different document repositories, and the **organisation** knowledge systems. This "federated querying" capability allows it to piece together a complete answer from fragmented information sources, providing a unified view of your organizational knowledge.
 
 💡 This allows Kore to provide real-time precise answers even when the knowledge resides in structured tabular formats such as databases.
 
