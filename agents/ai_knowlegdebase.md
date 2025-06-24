@@ -126,7 +126,7 @@ The Kore agent does not stop at the first layer of information. It adapts its ap
 
 ## Use Cases
 - Internal Q&A assistants for enterprises
-- Technical documentation bots
+- Technical documentation chatbots
 - Support automation for complex product suites
 - Domain-specific compliance chatbots (e.g., pharma, legal, finance)
 
