@@ -25,3 +25,8 @@ Transform your ideas into reality faster with **The Kore AI Software Team**. Thi
 * **Martha 📋 (Product Manager):** The visionary of the team, focused on meticulous requirements analysis and guiding the product direction.
 * **Bruce 📐 (Architect):** The master builder, meticulously designing the system structure and technical planning to ensure robust and scalable solutions.
 * **Nova 💻 (Software Engineer):** The hands-on implementer, responsible for bringing designs to life through precise coding and efficient implementation.
+
+## **SlideCraft Team**
+### Empowers you to effortlessly transform complex ideas and data into polished, visually compelling presentations ready for export to PowerPoint and PDF.
+
+Transform your ideas and data into compelling, visually stunning presentations with unparalleled ease and precision using the SlideCraft Team. This advanced collective is your intelligent presentation development companion, seamlessly integrating into your workflow to help you conceptualize, design, and create impactful slide decks. This specialized team of AI agents works in unison, leveraging collective intelligence to streamline the entire presentation creation process, turning your insights into tangible, high-quality visual narratives.
