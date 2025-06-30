@@ -62,6 +62,7 @@ export default withMermaid(
             { text: 'Kore RAG', link: "/ecosystem/kore_rag.md" },
             { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
             { text: 'Kore M365', link: "/ecosystem/kore_m365.md" },
+            { text: 'Kore MS Teams', link: "/ecosystem/kore_msteams.md" },
             { text: 'Kore Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },

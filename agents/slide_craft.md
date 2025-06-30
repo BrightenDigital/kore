@@ -20,34 +20,55 @@ The Kore SlideCraft Team is comprised of specialized agents, each embodying a cr
 **The Collaborative Intelligence of the SlideCraft Team**:
 Each agent within the Kore SlideCraft Team plays a distinct yet interconnected role in responding to your presentation development requests:
 
-- **Dekster, the Presentation Lead**:
-  - **Retrieve Knowledge**: Dekster's initial step involves gathering comprehensive information relevant to your presentation topic. This includes:
-    - Accessing **organizational knowledge bases** and **enabled connectors**.
-    - Leveraging **long-term memory files** and **semantic content** from the RAG system.
-    - Executing **SQL queries** to connected databases for specific data.
-  - **Prepare Presentation**: Based on the gathered knowledge, Dekster meticulously plans the presentation structure and content. This involves:
-    - **Understanding Your Purpose and Audience**: Defining the presentation's goal (informing, persuading, entertaining, inspiring) and identifying the **one key takeaway** for the audience.
-    - **Developing a Clear Structure**: Crafting a logical sequence including a compelling introduction, clearly digestible main content sections with supporting examples, data, or visuals, and a impactful conclusion with a call to action or final insight.
-    - **Crafting Engaging and Effective Slides**: Adhering to principles like **"One Atomic Core Idea per Slide," "Concise Content"** (6x6 rule), adopting a **"Storytelling Approach," "Balanced Data Usage,"** and focusing on **"Engagement & Emotion."**
-    - Ensuring **"Timing"** where each slide's content is narratable within 40-50 seconds.
-  - **Make Slides**: This is where Dekster fully develops the content for each slide, bringing the storyline to life. Her focus areas include:
-    - Completing **full content** for each slide.
-    - Generating **Speaker Notes** for seamless delivery.
-    - Providing **visual annotations** and defining the **best visuals** (including stunning images and diagrams) aligned with the content.
-- **Bruce, the Architect**:
-  - **Technical Blueprinting** (if applicable to underlying system): Bruce would translate complex data or integration requirements into a robust technical design, ensuring the presentation system's scalability and maintainability. His output might include:
-    - **Repository Analysis**: Deeply understanding existing data sources or content repositories for presentation generation.
-    - **Architecture Diagram**: Visualizing data flows or integration points for complex presentations.
-    - **File List**: Identifying relevant content files or proposing new structures for rich media.
-    - **Data Structures and Interfaces**: Defining optimal data models for presentation content.
-    - **Program Call Flow**: Illustrating sequences for dynamic content generation.
-- **Nova, the Software Engineer**:
-  - **Precision Implementation** (if applicable to underlying system or specific slide features): Nova seamlessly executes architectural designs and content requirements by generating high-quality code. Her focus areas might include:
-    - **Required Other Language Packages**: Identifying and integrating necessary libraries for data visualization or interactive elements.
-    - **Logic Analysis**: Breaking down complex presentation logic into manageable code units (e.g., for data-driven slides).
-    - **API Specification** (if applicable): Documenting any new or modified API endpoints for content integration.
-    - **Shared Knowledge** (Code Patterns): Applying established best practices for data handling or visual rendering.
-    - **Write Code**: Generating actual code for dynamic content, custom charts, or interactive components within the presentation.
+### **Dekster, the Presentation Lead**
+
+**Retrieve Knowledge**
+> Dekster's initial step involves gathering comprehensive information relevant to your presentation topic. This includes:
+
+- Accessing **organizational knowledge bases** and **enabled connectors**.
+- Leveraging **long-term memory files** and **semantic content** from the RAG system.
+- Executing **SQL queries** to connected databases for specific data.
+
+**Prepare Presentation**
+> Based on the gathered knowledge, Dekster meticulously plans the presentation structure and content. This involves:
+
+- **Understanding Your Purpose and Audience**: Defining the presentation's goal (informing, persuading, entertaining, inspiring) and identifying the **one key takeaway** for the audience.
+- **Developing a Clear Structure**: Crafting a logical sequence including a compelling introduction, clearly digestible main content sections with supporting examples, data, or visuals, and a impactful conclusion with a call to action or final insight.
+- **Crafting Engaging and Effective Slides**: Adhering to principles like **"One Atomic Core Idea per Slide," "Concise Content"** (6x6 rule), adopting a **"Storytelling Approach," "Balanced Data Usage,"** and focusing on **"Engagement & Emotion."**
+- Ensuring **"Timing"** where each slide's content is narratable within 40-50 seconds.
+
+**Make Slides**
+> This is where Dekster fully develops the content for each slide, bringing the storyline to life. Her focus areas include:
+- Completing **full content** for each slide.
+- Generating **Speaker Notes** for seamless delivery.
+- Providing **visual annotations** and defining the **best visuals** (including stunning images and diagrams) aligned with the content.
+
+
+---
+
+Dekster, your AI Presentation Lead, doesn't work alone. She teams up with two key members from the AI Software Team: **Bruce, the Architect**, and **Nova, the Software Engineer**. This powerful collaboration ensures that while Dekster focuses on crafting compelling content and stunning visuals, the technical integrity and functionality of your presentation are expertly handled.
+
+---
+
+### **Bruce, the Architect**
+
+Bruce steps in to provide the **technical blueprint** for your presentation, especially when it involves complex data or integrations. He ensures the underlying structure is sound and scalable. Think of Bruce as the master planner who:
+
+* **Analyzes your data sources**: He'll dig into your existing information and content repositories to understand how everything fits together.
+* **Designs the system**: Bruce visualizes how data flows and how different elements will integrate, creating a robust plan.
+* **Defines data structures**: He sets up the optimal way your presentation's content and underlying data are organized.
+
+---
+
+### **Nova, the Software Engineer**
+
+With Bruce's blueprint in hand, Nova, the Software Engineer, brings it to life with **precision implementation**. She's the one who handles the coding and technical execution, making sure everything runs smoothly and efficiently. Nova focuses on:
+
+* **Integrating necessary packages**: She'll pull in any external tools or libraries needed for things like data visualization or interactive elements.
+* **Building custom features**: If your presentation needs dynamic content, unique charts, or special interactive components, Nova writes the code to make it happen.
+* **Ensuring best practices**: She applies established coding standards and design patterns to guarantee high-quality, functional results.
+
+Together, Dekster, Bruce, and Nova form a cohesive unit, delivering not just an engaging presentation, but one that's also technically robust and flawlessly executed.
 
 ## Exporting Your Presentation
 
