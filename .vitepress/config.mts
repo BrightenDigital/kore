@@ -28,8 +28,8 @@ export default withMermaid(
           link: '/getting_started/home.md',
           items: [
             { text: 'Core Capabilities', link: "/getting_started/tldr_key_features.md" },       
-            { text: 'Getting Started', link: "/getting_started/quickstart.md" },
-            { text: 'Real-World Examples', link: "/agents/use_cases.md" }
+            { text: 'Real-World Examples', link: "/agents/use_cases.md" },
+            { text: 'Getting Up and Running', link: "/getting_started/quickstart.md" }
           ]
         },
         {
