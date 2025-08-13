@@ -36,6 +36,5 @@ In essence, Kore transforms **static** outputs into **living** projects, allowin
 
 ## Quick Tips
 
-- Direct your requests by tagging specific agents (e.g., @Nova, @Bruce)
 - Be specific about what you want to achieve
 - Add long-term and semantic knowledge to help the agents understand your requirements better

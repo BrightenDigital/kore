@@ -16,7 +16,7 @@ The Kore SlideCraft Team is comprised of specialized agents, each embodying a cr
 | Bruce     | 📐 **Architect**         | The master builder, meticulously designing the system structure and technical planning to ensure robust, scalable, and maintainable solutions. Bruce provides the foundational technical blueprint for your project. (Applicable for underlying system architecture if SlideCraft integrates with other tools or complex data sources) |
 | Nova     | 💻 **Software Engineer** | The hands-on implementer, responsible for bringing designs to life through precise coding, efficient implementation, and adherence to best practices. Nova ensures your vision translates into high-quality, functional code. (Applicable for developing underlying features or integrations of the SlideCraft tool itself, or for specific slide types requiring custom code/data display). |
 
-## Orchestrated AI Presentation Development
+## AI Presentation
 **The Collaborative Intelligence of the SlideCraft Team**:
 Each agent within the Kore SlideCraft Team plays a distinct yet interconnected role in responding to your presentation development requests:
 

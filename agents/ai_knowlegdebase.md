@@ -56,7 +56,7 @@ G --> C
 
 1.  **User submits a question:** Your journey begins with a natural language query.
 2.  **Initial context search:** The agent immediately casts a wide net, searching across:
-      * **Kore RAG-indexed documents:** Uploaded and semantically processed files.
+      * **Kore Agentic RAG-indexed documents:** Uploaded and semantically processed files.
       * **Live databases (with schema inference):** Real-time data from your connected databases.
       * **Internal repositories:** Your organization's structured and unstructured internal knowledge.
 3.  **Reference extraction:** If relevant context is found, the agent meticulously identifies and lists the supporting documents, tables, or specific database records that contribute to the answer.

@@ -1,10 +1,19 @@
-# Kore RAG
+# Kore Agentic RAG
 
-Kore RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system, which orchestrates the knowledge synthesis process. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
+Kore Agentic RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system, which orchestrates the knowledge synthesis process. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
+
+## Goals
+
+- **Agentic-first**: Engineered for seamless AI agent consumption, with humans in control of feeding and managing it.
+- **High-performance**: Optimize retrieval accuracy through BM25, Vector and Hybrid algorithms.
+- **AI-first search**: Embed and re-rank content with NVIDIA models for precise semantic relevance.
+- **Security-first**: Ensure protected access.
+- **Flexible ingestion**: Handle PDF, DOCX, CSV, JSON, YAML, XML, Markdown, and Excel.
+- **Cloud-native**: Azure Functions + ARM templates for autoscale and cost-effective deployments.
 
 ## Features
 
-**Kore RAG** delivers:
+**Kore Agentic RAG** delivers:
 - Multi-format document ingestion and intelligent chunking.
 - Seamless vector embeddings using NVIDIA and OpenAI models.
 - Hybrid search combining BM25 and vector similarity: query is scored by both methods, results are merged, then reranked for optimal relevance.
@@ -12,19 +21,11 @@ Kore RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) 
 - Secure API key access control.
 - Monitoring and caching for robust operations.
 
-## Goals
-
-- **High-performance RAG**: Optimize retrieval accuracy through BM25, Vector and Hybrid algorithms.
-- **AI-first search**: Embed and re-rank content with NVIDIA models for precise semantic relevance.
-- **Flexible ingestion**: Handle PDF, DOCX, CSV, JSON, YAML, XML, Markdown, and Excel.
-- **Security-first**: Ensure protected access via API key authentication and caching.
-- **Cloud-native**: Azure Functions + ARM templates for autoscale and cost-effective deployments.
-
 ## Document Processing
 
 ### Understanding Your Data
 
-Imagine Kore RAG as a brilliant librarian, but instead of just organizing books, Kore can read, understand, and categorize all sorts of documents – no matter their format! This is all thanks to Kore's incredible **Document Processing** capabilities.
+Imagine Kore Agentic RAG as a brilliant librarian, but instead of just organizing books, Kore can read, understand, and categorize all sorts of documents – no matter their format! This is all thanks to Kore's incredible **Document Processing** capabilities.
 
 At its heart, Document Processing is how Kore takes your raw information, whether it's a meticulously crafted report or a quick note, and turns it into something intelligent that it can work with. Think of it as Kore's way of "ingesting" knowledge.
 
@@ -74,11 +75,6 @@ By using these different chunking strategies, Kore can optimize how it understan
 - **Keyword Search** using BM25 scoring.
 - **Re-Ranking** via NVIDIA APIs for better precision.
 - **Search Function**: `/RetrievalFunction`
-
-## Secure API Key
-
-- API Key validation.
-- Whitelisting support for IP-based restrictions.
 
 ## Upload & Manage Documents
 

@@ -28,7 +28,7 @@ export default withMermaid(
           link: '/getting_started/home.md',
           items: [
             { text: 'Core Capabilities', link: "/getting_started/tldr_key_features.md" },       
-            { text: 'Getting Up and Running', link: "/getting_started/quickstart.md" },
+            { text: 'Getting Started', link: "/getting_started/quickstart.md" },
             { text: 'Real-World Examples', link: "/agents/use_cases.md" }
           ]
         },
@@ -36,10 +36,14 @@ export default withMermaid(
           text: 'Agents',
           link: '/agents/home.md',
           items: [
-            { text: 'Knowlegde Base agent', link: "/agents/ai_knowlegdebase.md" },
+            { text: 'AI Knowlegde Base', link: "/agents/ai_knowlegdebase.md" },
             { text: 'AI Software team', link: "/agents/ai_software_team.md" },
             { text: 'SlideCraft team', link: "/agents/slide_craft.md" },
-            { text: 'Best practices', link: "/agents/best_practices.md" }
+            { text: 'Best practices', link: "/agents/best_practices.md" },
+            { text: 'Tutorials', items:[
+              { text: 'Create Software team', link: "/tutorials/create-team-git.md" },
+            ]
+            }
           ]
         },
         {
@@ -59,7 +63,7 @@ export default withMermaid(
           text: 'Ecosystem',
           link: '/ecosystem/ecosystem.md',
           items: [
-            { text: 'Kore RAG', link: "/ecosystem/kore_rag.md" },
+            { text: 'Kore Agentic RAG', link: "/ecosystem/kore_rag.md" },
             { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
             { text: 'Kore M365', link: "/ecosystem/kore_m365.md" },
             { text: 'Kore MS Teams', link: "/ecosystem/kore_msteams.md" },

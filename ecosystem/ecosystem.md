@@ -6,7 +6,7 @@ The **Kore Ecosystem** is a growing suite of complementary tools, integrations, 
 
 Here’s how Kore extends its reach into key areas:
 
-* **Kore RAG**
+* **Kore Agentic RAG**
   Unlock context-aware answers with advanced retrieval-augmented generation. Ask sophisticated questions and get precise responses drawn from your enterprise data.
 
 * **Kore SLM**

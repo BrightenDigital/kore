@@ -38,12 +38,9 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 ### Add knowledge to individual agents or share it across the team using different types of memory.
 ![image.png](/getting_started/assets/key_features/image6.png)
 
-### 📚 View also
-
-- [Database Intelligence](/agents/ai_knowlegdebase.html#database-intelligence)
-- [Kore RAG](/ecosystem/kore_rag.html)
-
-> View also: 
+> View also:<br>
+> [Database Intelligence](/agents/ai_knowlegdebase.html#database-intelligence)<br>
+> [Kore Agentic RAG (Retrieval-Augmented Generation)](/ecosystem/kore_rag.html)
 
 ## Smart In-Project Assistant
 ### An intelligent agent capable of providing insights about your project and code base.
@@ -60,10 +57,9 @@ Available for the AI Software team
 ![image.png](/getting_started/assets/key_features/image9.png)
 Available for the AI Software team
 
-## Git repository
+## Working with existing codebase
 ### Perform in-depth analysis of an existing Git repository to uncover key insights and assess code quality, structure, and patterns.
 ![image.png](/getting_started/assets/key_features/image10.png)
-Available for the AI Software team
 
 ## Enterprise-level ready
 
