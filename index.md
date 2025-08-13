@@ -16,14 +16,14 @@ hero:
 
 features:
   - title: Autonomy in Action
-    details: Agents that observe, think, and act—Kore powers true autonomy with seamless perception-to-action flow.
+    details: Agents that observe, think, plan and act autonomously — Kore powers true autonomy with seamless perception-to-action flow.
     #link: /use_cases/start_from_template.md
   - title: Agentic RAG
     details: Powers Kore agents to think, decide, and act with real-time knowledge grounded in your enterprise data.
     #link: /best_practices/working_with_git.md
   - title: Supercharged for Enterprise
     #link: /use_cases/greenfield_development.md
-    details: Packed with Office 365, Git, MCP, masking, and observability—everything you need, ready out of the box.
+    details: Packed with MS365, Git, MCP, sensitive data masking and observability — everything you need, ready out of the box.
 ---
 
 <div class="kore-attribution">
@@ -31,7 +31,7 @@ features:
     <div class="attribution-icon">✨</div>
     <div class="attribution-text">
       <span class="attribution-main">This documentation was entirely built using</span>
-      <strong class="attribution-brand"><a target="_blank" href="https://kore-ai.brightenconsulting.com/">Kore AI agents</a></strong>
+      <strong class="attribution-brand"><a target="_blank" href="https://kore-ai.brightenconsulting.com/">Kore AI</a></strong>
     </div>
   </div>
 </div>
