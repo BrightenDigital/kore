@@ -2,6 +2,8 @@
 
 Welcome! This guide will walk you through creating a new AI-powered software team to build your project from the ground up. We'll cover selecting your AI agents, configuring version control with Git, and choosing the right Large Language Model (LLM) to power your team.
 
+<img src="./assets/create-software-company-git.gif" alt="Video Tutorial - Connecting AI Software Company to an existing Git Repo">
+
 ## Step 1: Assemble Your AI Team
 
 First, let's assemble your specialized AI team. For a typical software project, you'll have a core group of agents designed to emulate a real-world software company.
