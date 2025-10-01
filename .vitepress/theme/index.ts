@@ -9,6 +9,8 @@ export default {
       DefaultTheme.enhanceApp({ app, router, siteData })
     }
 
+    // Only run in browser environment
+    if (typeof window !== 'undefined') {
       if (!document.getElementById('kore-chat-widget-script')) {
         const script = document.createElement('script')
         script.id = 'kore-chat-widget-script'
@@ -24,5 +26,6 @@ export default {
         
         document.body.appendChild(script)
       }
+    }
   }
 }
