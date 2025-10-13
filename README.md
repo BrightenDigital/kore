@@ -273,7 +273,7 @@ Built with cutting-edge technologies:
 
 - [VitePress](https://vitepress.dev/) - Documentation framework
 - [Vue.js](https://vuejs.org/) - Progressive JavaScript framework
-- [Anthropic Claude](https://www.anthropic.com/) - Advanced language models
+- [Anthropic Claude](https://www.anthropic.com/) - Advanced language model
 - [Microsoft Graph](https://developer.microsoft.com/graph) - Enterprise integration
 
 ---
