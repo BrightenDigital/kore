@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Compass"
+  name: "Compass Agentic Platform"
   text: "Official Docs"
   tagline: Let Compass Agents handle the core of your work while you focus on the details
   actions:
     - theme: brand
       text: Try Compass today
-      link: https://kore-ai.brightenconsulting.com/
+      link: https://app.compassap.ai
     - theme: alt
       text: Getting Started
       link: /getting_started/home.md
@@ -31,7 +31,7 @@ features:
     <div class="attribution-icon">✨</div>
     <div class="attribution-text">
       <span class="attribution-main">This documentation was entirely built using</span>
-      <strong class="attribution-brand"><a target="_blank" href="https://compass-ai.brightenconsulting.com/">Compass AI</a></strong>
+      <strong class="attribution-brand"><a target="_blank" href="https://www.compassap.ai/">Compass AI</a></strong>
     </div>
   </div>
 </div>

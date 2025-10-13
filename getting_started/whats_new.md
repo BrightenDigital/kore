@@ -86,7 +86,7 @@ Welcome to the latest release update! We've been busy bringing powerful new capa
 > **TL;DR**: The May 2025 Compass update introduces "Albert," an AI knowledge companion for intelligent information retrieval and decision-making. It also features next-gen sensitive data and PII management with asynchronous processing, enhanced masking, and new secure APIs. Users can now define custom LLM configurations per tenant, and there's native Microsoft Graph support for seamless integration with user profiles, emails, OneDrive, and SharePoint.
 
 ### Meet **Albert**
-### Your New AI Knowlegde Companion
+### Your New AI Knowledge Companion
 
 A brand-new Compass **agent** has landed! This intelligent agent boosts your team's capabilities by:
 

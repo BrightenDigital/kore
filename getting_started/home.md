@@ -7,7 +7,7 @@ Compass transforms how you handle complex tasks — from automating workflows an
 ## **Access the Compass Platform**
 Your first step is to log in to the Compass platform. If you're new to Compass, our streamlined onboarding process will get you set up quickly. Once logged in, you'll land on your personalized dashboard, your central hub for accessing all of Compass's powerful capabilities.
 
-Click [here to signup now](https://compass-ai.brightenconsulting.com/) and get started.
+Click [here to signup now](https://app.compassap.ai/) and get started.
 
 <br>
 

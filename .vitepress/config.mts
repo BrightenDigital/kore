@@ -36,7 +36,7 @@ export default withMermaid(
           text: 'Agents',
           link: '/agents/home.md',
           items: [
-            { text: 'AI Knowlegde Base', link: "/agents/ai_knowlegdebase.md" },
+            { text: 'AI Knowledge Base', link: "/agents/ai_knowlegdebase.md" },
             { text: 'AI Software team', link: "/agents/ai_software_team.md" },
             { text: 'SlideCraft team', link: "/agents/slide_craft.md" },
             { text: 'Best practices', link: "/agents/best_practices.md" },
@@ -47,14 +47,23 @@ export default withMermaid(
           ]
         },
         {
+          text: 'Projects',
+          link: '',
+          items: [
+            { text: 'Simple workflows', link: "" },
+            { text: 'Complex workflows', link: "" }
+          ]
+        },
+        {
           text: 'Organisation',
           link: '/org/org.md',
           items: [
             { text: 'Members', link: "/org/members.md" },
             { text: 'Enterprise Chatbots', link: "/org/chatbots.md" },
-            { text: 'Knowlegde Management', link: "/org/buckets.md" },
+            { text: 'Knowledge Management', link: "/org/buckets.md" },
             { text: 'Secure Data', link: "/org/data-controls.md" },
             { text: 'Language Models', link: "/org/llms.md" },
+            { text: 'Connectors and Tools', link: "" },
             { text: 'Model Context Protocol', link: "/org/mcp.md" },
             { text: 'API keys', link: "/org/keys.md" }            
           ]
@@ -67,6 +76,7 @@ export default withMermaid(
             { text: 'Compass SLM', link: "/ecosystem/compass_slm.md" },
             { text: 'Compass M365', link: "/ecosystem/compass_m365.md" },
             { text: 'Compass MS Teams', link: "/ecosystem/compass_msteams.md" },
+            { text: 'Compass MCP Servers', link: "" },
             { text: 'Compass Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },
@@ -85,7 +95,7 @@ export default withMermaid(
       ],
 
       footer: {
-        copyright: 'Copyright © 2025 Compass AI'
+        copyright: 'Copyright © 2025 Compass Agentic Platform'
       }
     }
   })

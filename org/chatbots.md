@@ -46,7 +46,7 @@ This is where you assemble the core intelligence of your chatbot. Compass is bui
   * **Francis (Prompt Engineer):** For refining AI-generated responses.
   * **Sarah (Versatile Assistant):** For code writing and data interpretation.
   * **David (Research Assistant):** For web surfing and research.
-  * **Albert (Knowlegde Assistante):** For deep knowledge exploration and accurate insights.
+  * **Albert (Knowledge Assistante):** For deep knowledge exploration and accurate insights.
   * **Many more to come...**
 
 By combining these expert agents, you can build a chatbot capable of tackling complex, multi-faceted problems.
