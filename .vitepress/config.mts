@@ -5,9 +5,9 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 export default withMermaid(
   defineConfig({
     title: "Compass AI",
-    base: "/Compass/",
+    base: "/kore/",
     description: "Compass AI Official Documentation",
-    head: [['link', {rel: 'icon', href: '/Compass/favicon.ico'}]],
+    head: [['link', {rel: 'icon', href: '/compass/favicon.ico'}]],
     appearance: 'dark',
     themeConfig: {
       logo: '/compass_logo.png',
@@ -63,10 +63,10 @@ export default withMermaid(
           text: 'Ecosystem',
           link: '/ecosystem/ecosystem.md',
           items: [
-            { text: 'Compass Agentic RAG', link: "/ecosystem/Compass_rag.md" },
-            { text: 'Compass SLM', link: "/ecosystem/Compass_slm.md" },
-            { text: 'Compass M365', link: "/ecosystem/Compass_m365.md" },
-            { text: 'Compass MS Teams', link: "/ecosystem/Compass_msteams.md" },
+            { text: 'Compass Agentic RAG', link: "/ecosystem/compass_rag.md" },
+            { text: 'Compass SLM', link: "/ecosystem/compass_slm.md" },
+            { text: 'Compass M365', link: "/ecosystem/compass_m365.md" },
+            { text: 'Compass MS Teams', link: "/ecosystem/compass_msteams.md" },
             { text: 'Compass Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },
@@ -81,7 +81,7 @@ export default withMermaid(
       ],
 
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/BrightenDigital/Compass' }
+        { icon: 'github', link: 'https://github.com/BrightenDigital/compass' }
       ],
 
       footer: {

@@ -10,7 +10,7 @@ Official documentation for Compass AI - a powerful AI agent framework for softwa
 - Knowledge management systems
 - Technical architecture blueprints
 
-Visit the full documentation at: [https://brightendigital.github.io/Compass/](https://brightendigital.github.io/Compass/)
+Visit the full documentation at: [https://brightendigital.github.io/compass/](https://brightendigital.github.io/kore/)
 
 ## Quick Start
 1. Clone this repository

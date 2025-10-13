@@ -2,7 +2,7 @@
 
 The **Knowledge Base** agent is a cutting-edge AI agent engineered to transform how you access and utilize information. Imagine an intelligent assistant that can instantly find, understand, and synthesize knowledge from all your company's data, providing precise and contextual answers to your questions.
 
-At its core, the agent is powered by a diverse set of connectors and a sophisticated <a target="_blank" href="/Compass/ecosystem/Compass_rag.html"><strong>Retrieval-Augmented Generation (RAG) pipeline</strong></a>, ensuring that every response is not only generated but also grounded in reliable, verifiable data.
+At its core, the agent is powered by a diverse set of connectors and a sophisticated <a target="_blank" href="/compass/ecosystem/compass_rag.html"><strong>Retrieval-Augmented Generation (RAG) pipeline</strong></a>, ensuring that every response is not only generated but also grounded in reliable, verifiable data.
 
 ## Introduction
 

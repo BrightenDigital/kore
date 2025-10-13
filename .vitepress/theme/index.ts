@@ -14,7 +14,7 @@ export default {
       if (!document.getElementById('Compass-chat-widget-script')) {
         const script = document.createElement('script')
         script.id = 'Compass-chat-widget-script'
-        script.src = 'https://repo.brightenconsulting.com/Compass/widgets/Compass-chat-widget.min.js'
+        script.src = 'https://repo.brightenconsulting.com/kore/widgets/kore-chat-widget.min.js'
         script.async = true
         
         // Set data attributes for the Compass chat widget

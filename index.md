@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Try Compass today
-      link: https://Compass-ai.brightenconsulting.com/
+      link: https://kore-ai.brightenconsulting.com/
     - theme: alt
       text: Getting Started
       link: /getting_started/home.md
@@ -31,7 +31,7 @@ features:
     <div class="attribution-icon">✨</div>
     <div class="attribution-text">
       <span class="attribution-main">This documentation was entirely built using</span>
-      <strong class="attribution-brand"><a target="_blank" href="https://Compass-ai.brightenconsulting.com/">Compass AI</a></strong>
+      <strong class="attribution-brand"><a target="_blank" href="https://compass-ai.brightenconsulting.com/">Compass AI</a></strong>
     </div>
   </div>
 </div>
