@@ -4,11 +4,11 @@ Transform your ideas into reality faster and with unparalleled precision with th
 
 ## Introduction
 
-Imagine having a dedicated, expert software team at your fingertips, capable of understanding your needs, designing robust solutions, and meticulously implementing code. That's the power of the Kore AI Software Team – designed to accelerate your development cycles, enhance code quality, and provide continuous architectural and product insights.
+Imagine having a dedicated, expert software team at your fingertips, capable of understanding your needs, designing robust solutions, and meticulously implementing code. That's the power of the Compass AI Software Team – designed to accelerate your development cycles, enhance code quality, and provide continuous architectural and product insights.
 
 **Meet Your Expert AI Development Team:**
 
-The Kore AI Software Team is comprised of specialized agents, each embodying a critical role within the software development lifecycle. They collaborate to ensure comprehensive understanding, meticulous planning, and precise execution of your requests.
+The Compass AI Software Team is comprised of specialized agents, each embodying a critical role within the software development lifecycle. They collaborate to ensure comprehensive understanding, meticulous planning, and precise execution of your requests.
 
 | Agent     | Role                  | Core Function |
 |-----------|-----------------------|---------------|
@@ -18,7 +18,7 @@ The Kore AI Software Team is comprised of specialized agents, each embodying a c
 
 ## Orchestrated AI Development
 **The Collaborative Intelligence of the AI Software Team**:
-Each agent within the Kore AI Software Team plays a distinct yet interconnected role in responding to your development requests:
+Each agent within the Compass AI Software Team plays a distinct yet interconnected role in responding to your development requests:
 
 - **Martha, the Product Manager**:
   - **Detailed PRD Compilation**: Martha synthesizes your input and the project's context to compile a comprehensive Product Requirements Document (PRD). This includes:
@@ -46,23 +46,23 @@ Each agent within the Kore AI Software Team plays a distinct yet interconnected 
 
 ## Starting a new project
 
-Embark on new development ventures with a significant head start. The Kore AI Software Team enables you to quickly establish robust, standardized projects from a curated collection of tech stack templates.
+Embark on new development ventures with a significant head start. The Compass AI Software Team enables you to quickly establish robust, standardized projects from a curated collection of tech stack templates.
 
 ![image.png](./assets/start_from_template.png)
 
-- **Choose from Our Growing Collection of Tech Stacks**: Select the ideal foundational technologies for your project from Kore's pre-configured and optimized templates. These templates represent battle-tested environments designed for efficiency and scalability.
+- **Choose from Our Growing Collection of Tech Stacks**: Select the ideal foundational technologies for your project from Compass's pre-configured and optimized templates. These templates represent battle-tested environments designed for efficiency and scalability.
 - **Get a Standardized Project Structure**: Instantly generate a clean, well-organized project directory with all necessary configurations, dependency management, and build scripts in place. This eliminates tedious manual setup and ensures consistency across your projects.
 - **Begin Development with Best Practices Already Implemented**: Our templates are not just empty shells; they are pre-populated with foundational elements that adhere to modern coding standards, architectural patterns, and security considerations, guiding your development team from day one.
-- **Each Stack Comprises a Set of KoreRules Specifically Designed to Guide LLMs**: Crucially, each tech stack template includes pre-defined KoreRules. These intelligent guidelines are tailored to the specific nuances of the chosen technology stack, providing the underlying Large Language Models (LLMs) with precise instructions to generate contextually accurate and high-quality code, ensuring compatibility and optimal performance.
+- **Each Stack Comprises a Set of CompassRules Specifically Designed to Guide LLMs**: Crucially, each tech stack template includes pre-defined CompassRules. These intelligent guidelines are tailored to the specific nuances of the chosen technology stack, providing the underlying Large Language Models (LLMs) with precise instructions to generate contextually accurate and high-quality code, ensuring compatibility and optimal performance.
 
 ## Implement a new feature
 
-Adding features to your existing codebase is where Kore truly shines, demonstrating the collaborative power of the AI Software Team to seamlessly integrate new functionalities.
+Adding features to your existing codebase is where Compass truly shines, demonstrating the collaborative power of the AI Software Team to seamlessly integrate new functionalities.
 
-1. **Connect Your Repository**: Utilize Kore's robust Git integration to securely link your existing codebase. This provides the AI Software Team with real-time access to your project's history, current state, and structure.
+1. **Connect Your Repository**: Utilize Compass's robust Git integration to securely link your existing codebase. This provides the AI Software Team with real-time access to your project's history, current state, and structure.
 2. **Let Agents Analyze**: Upon connection, the entire AI Software Team springs into action. They automatically perform a deep, contextual analysis of your codebase, understanding its architecture, dependencies, coding patterns, and existing logic. This foundational analysis ensures that any new feature implementation is perfectly integrated.
 3. **Request Your Feature**: Clearly articulate the feature you wish to implement. Be specific about the desired functionality, user interaction, and any expected outputs. The AI Software Team will then process this request, leveraging their collective intelligence to plan and execute the implementation.
-4. **Review Implementation**: Once the agents have generated the proposed code changes, Kore presents them for your review. This allows you to inspect the generated code, evaluate its correctness, and ensure it meets your expectations.
+4. **Review Implementation**: Once the agents have generated the proposed code changes, Compass presents them for your review. This allows you to inspect the generated code, evaluate its correctness, and ensure it meets your expectations.
 Merge When Ready: When you are completely satisfied with the generated code and have validated its functionality, you can seamlessly merge the changes into your main branch, accelerating your delivery pipeline.
 
 **For Best Results When Requesting Features**:
@@ -74,14 +74,14 @@ To maximize the efficiency and accuracy of the AI Software Team, consider these 
 
 ## Fine-Grained Control
 ### Directing Individual Agents
-While sending a change request will engage the entire AI Software Team to collaboratively solve your request, Kore also provides the flexibility for more targeted interventions.
+While sending a change request will engage the entire AI Software Team to collaboratively solve your request, Compass also provides the flexibility for more targeted interventions.
 
 - **Targeted Requests**: Alternatively, you may directly send a request to just one specific agent by using @<agent_name>. For instance, you could @Martha to refine a PRD detail, @Bruce to explore an architectural alternative, or @Nova to implement a minor code change.
 - **Improved Experience with Context**: This direct targeting can significantly improve the experience for specific tasks because, for a given request, the agents already have their context in place from prior interactions or analysis, allowing them to execute tasks with even greater precision and efficiency.
 
 ## Iterative Development
 ### Iterative Development & Continuous Insight
-The Kore AI Software Team fosters an iterative development cycle, providing you with continuous insights and control over the process.
+The Compass AI Software Team fosters an iterative development cycle, providing you with continuous insights and control over the process.
 
-- **Agent-Driven Questions for Deeper Understanding**: At each cycle of their operation (e.g., after analysis, planning, or initial implementation), the agents will produce intelligent questions based on their findings. Kore allows you to answer these questions directly, gaining deeper insight over your codebase and ensuring the agents have all the necessary information to proceed accurately. This interactive feedback loop guarantees alignment and prevents misinterpretations.
+- **Agent-Driven Questions for Deeper Understanding**: At each cycle of their operation (e.g., after analysis, planning, or initial implementation), the agents will produce intelligent questions based on their findings. Compass allows you to answer these questions directly, gaining deeper insight over your codebase and ensuring the agents have all the necessary information to proceed accurately. This interactive feedback loop guarantees alignment and prevents misinterpretations.
 - **Next Steps and Recommendations for Guided Evolution**: By the end of each cycle, the agents also identify "Next Steps" and "Recommendations." They pinpoint, often by file, the exact suggested changes, potential improvements, or areas requiring further attention. This proactive guidance helps you optimize your development roadmap and maintain a healthy, evolving codebase.

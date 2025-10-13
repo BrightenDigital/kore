@@ -3,41 +3,41 @@
 layout: home
 
 hero:
-  name: "Kore"
+  name: "Compass"
   text: "Official Docs"
-  tagline: Let Kore Agents handle the core of your work while you focus on the details
+  tagline: Let Compass Agents handle the core of your work while you focus on the details
   actions:
     - theme: brand
-      text: Try Kore today
-      link: https://kore-ai.brightenconsulting.com/
+      text: Try Compass today
+      link: https://Compass-ai.brightenconsulting.com/
     - theme: alt
       text: Getting Started
       link: /getting_started/home.md
 
 features:
   - title: Autonomy in Action
-    details: Agents that observe, think, plan and act autonomously — Kore powers true autonomy with seamless perception-to-action flow.
+    details: Agents that observe, think, plan and act autonomously — Compass powers true autonomy with seamless perception-to-action flow.
     #link: /use_cases/start_from_template.md
   - title: Agentic RAG
-    details: Powers Kore agents to think, decide, and act with real-time knowledge grounded in your enterprise data.
+    details: Powers Compass agents to think, decide, and act with real-time knowledge grounded in your enterprise data.
     #link: /best_practices/working_with_git.md
   - title: Supercharged for Enterprise
     #link: /use_cases/greenfield_development.md
     details: Packed with MS365, Git, MCP, sensitive data masking and observability — everything you need, ready out of the box.
 ---
 
-<div class="kore-attribution">
+<div class="Compass-attribution">
   <div class="attribution-content">
     <div class="attribution-icon">✨</div>
     <div class="attribution-text">
       <span class="attribution-main">This documentation was entirely built using</span>
-      <strong class="attribution-brand"><a target="_blank" href="https://kore-ai.brightenconsulting.com/">Kore AI</a></strong>
+      <strong class="attribution-brand"><a target="_blank" href="https://Compass-ai.brightenconsulting.com/">Compass AI</a></strong>
     </div>
   </div>
 </div>
 
 <style>
-.kore-attribution {
+.Compass-attribution {
   margin-top: 3rem;
   padding: 1.5rem 0;
   display: flex;
@@ -51,7 +51,7 @@ features:
   overflow: hidden;
 }
 
-.kore-attribution::before {
+.Compass-attribution::before {
   content: '';
   position: absolute;
   top: 0;
@@ -120,18 +120,18 @@ features:
 }
 
 /* Dark mode adjustments */
-.dark .kore-attribution {
+.dark .Compass-attribution {
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
   border: 1px solid rgba(99, 102, 241, 0.2);
 }
 
-.dark .kore-attribution::before {
+.dark .Compass-attribution::before {
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
 }
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .kore-attribution {
+  .Compass-attribution {
     margin: 2rem 1rem;
     padding: 1.5rem 1rem;
   }

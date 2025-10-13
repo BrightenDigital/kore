@@ -24,9 +24,9 @@ With your team assembled, it's time to set up the foundation for your project. T
 
 ### New Project vs. Existing Project
 
-Kore AI gives you two options to start:
+Compass AI gives you two options to start:
 
-  * **New Project:** Choose this if you're starting from scratch. Kore AI will expect a new, empty Git repository to save and version your agents' work.
+  * **New Project:** Choose this if you're starting from scratch. Compass AI will expect a new, empty Git repository to save and version your agents' work.
   * **Existing Project:** Choose this if you already have a codebase in a Git repository that you want your new AI team to analyze and work on.
 
 For this tutorial, we will focus on creating a **New Project**.
@@ -36,7 +36,7 @@ For this tutorial, we will focus on creating a **New Project**.
 To enable version control, you need to provide credentials for your Git repository.
 
   * **Git url:** This is the URL to your remote Git repository (e.g., on GitHub, GitLab, or Bitbucket). For a new project, this should point to an empty repository.
-  * **Personal access token (PAT):** This is a secure token that grants Kore AI permission to push code to your repository on your behalf.
+  * **Personal access token (PAT):** This is a secure token that grants Compass AI permission to push code to your repository on your behalf.
 
 :::warning SECURITY NOTICE
 Your **Personal Access Token** is a sensitive credential. Treat it like a password. Ensure it has the minimum required permissions (e.g., `repo` scope for GitHub) and set an expiration date.
@@ -66,11 +66,11 @@ Click on the **Configure the LLM** bar to expand the options. You can select you
 <img src="./assets/llm-configuration.png" alt="LLM configuration section expanded with a model selected.">
 
 :::info Model Suitability
-Please note the informational message: "Some configured models may be unavailable because their performance is not suitable for this type of team." Kore AI ensures that you only use models that are optimized for the complex tasks of software development.
+Please note the informational message: "Some configured models may be unavailable because their performance is not suitable for this type of team." Compass AI ensures that you only use models that are optimized for the complex tasks of software development.
 :::
 
 ## Step 4: Launch Your Team!
 
 Once you've reviewed all your settings, simply click the **Create team** button.
 
-Congratulations! You've successfully configured and launched your first AI software team. Kore AI will now begin working on your project based on your specifications, pushing all progress directly to your Git repository. Happy building!
+Congratulations! You've successfully configured and launched your first AI software team. Compass AI will now begin working on your project based on your specifications, pushing all progress directly to your Git repository. Happy building!

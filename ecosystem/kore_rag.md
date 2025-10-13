@@ -1,6 +1,6 @@
-# Kore Agentic RAG
+# Compass Agentic RAG
 
-Kore Agentic RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system, which orchestrates the knowledge synthesis process. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
+Compass Agentic RAG is a high-performance, serverless Retrieval-Augmented Generation (RAG) system, which orchestrates the knowledge synthesis process. Designed for enterprise-grade intelligent document search, it enables the ingestion, processing, embedding, and querying of diverse document types using advanced AI-powered semantic understanding and hybrid retrieval strategies.
 
 ## Goals
 
@@ -13,7 +13,7 @@ Kore Agentic RAG is a high-performance, serverless Retrieval-Augmented Generatio
 
 ## Features
 
-**Kore Agentic RAG** delivers:
+**Compass Agentic RAG** delivers:
 - Multi-format document ingestion and intelligent chunking.
 - Seamless vector embeddings using NVIDIA and OpenAI models.
 - Hybrid search combining BM25 and vector similarity: query is scored by both methods, results are merged, then reranked for optimal relevance.
@@ -25,48 +25,48 @@ Kore Agentic RAG is a high-performance, serverless Retrieval-Augmented Generatio
 
 ### Understanding Your Data
 
-Imagine Kore Agentic RAG as a brilliant librarian, but instead of just organizing books, Kore can read, understand, and categorize all sorts of documents – no matter their format! This is all thanks to Kore's incredible **Document Processing** capabilities.
+Imagine Compass Agentic RAG as a brilliant librarian, but instead of just organizing books, Compass can read, understand, and categorize all sorts of documents – no matter their format! This is all thanks to Compass's incredible **Document Processing** capabilities.
 
-At its heart, Document Processing is how Kore takes your raw information, whether it's a meticulously crafted report or a quick note, and turns it into something intelligent that it can work with. Think of it as Kore's way of "ingesting" knowledge.
+At its heart, Document Processing is how Compass takes your raw information, whether it's a meticulously crafted report or a quick note, and turns it into something intelligent that it can work with. Think of it as Compass's way of "ingesting" knowledge.
 
 ### Multi-Format Document Processing
 
-We know your information comes in all shapes and sizes, and Kore is built to handle that diversity effortlessly. No need to convert your files into a specific format just for Kore – chances are, we've got you covered!
+We know your information comes in all shapes and sizes, and Compass is built to handle that diversity effortlessly. No need to convert your files into a specific format just for Compass – chances are, we've got you covered!
 
-Take a look at the wide range of formats Kore can seamlessly process:
+Take a look at the wide range of formats Compass can seamlessly process:
 
 * **Your Everyday Office Files:**
-    * **PDF (.pdf):** Those universally shareable documents, perfect for reports, manuals, and presentations. Kore can dig into them!
-    * **DOCX (.docx):** Your Microsoft Word documents – all your written content, ready for Kore to understand.
-    * **XLSX (.xlsx):** Microsoft Excel spreadsheets – Kore can even make sense of your structured data, numbers, and tables.
-    * **CSV (.csv):** Comma-separated values, often used for simple datasets. Kore handles these like a pro.
+    * **PDF (.pdf):** Those universally shareable documents, perfect for reports, manuals, and presentations. Compass can dig into them!
+    * **DOCX (.docx):** Your Microsoft Word documents – all your written content, ready for Compass to understand.
+    * **XLSX (.xlsx):** Microsoft Excel spreadsheets – Compass can even make sense of your structured data, numbers, and tables.
+    * **CSV (.csv):** Comma-separated values, often used for simple datasets. Compass handles these like a pro.
 
 * **Developer & Structured Data Formats:**
-    * **JSON (.json):** JavaScript Object Notation – a lightweight format often used for data exchange, especially in web applications. Kore speaks its language!
+    * **JSON (.json):** JavaScript Object Notation – a lightweight format often used for data exchange, especially in web applications. Compass speaks its language!
     * **YAML (.yaml):** Yet Another Markup Language – similar to JSON but often more human-readable, used for configuration files and data serialization.
-    * **XML (.xml):** Extensible Markup Language – a classic for data structuring on the web and beyond. Kore's got a handle on it.
-    * **TXT (.txt):** Simple, plain text files. Sometimes the simplest format holds the most valuable information, and Kore won't miss a beat.
+    * **XML (.xml):** Extensible Markup Language – a classic for data structuring on the web and beyond. Compass's got a handle on it.
+    * **TXT (.txt):** Simple, plain text files. Sometimes the simplest format holds the most valuable information, and Compass won't miss a beat.
 
 * **Content Creation Formats:**
-    * **Markdown (.md):** A lightweight markup language for creating formatted text using a plain-text editor. Perfect for documentation, notes, and even some web content. Kore understands its structure.
+    * **Markdown (.md):** A lightweight markup language for creating formatted text using a plain-text editor. Perfect for documentation, notes, and even some web content. Compass understands its structure.
 
-This extensive list means you can feed Kore almost any document you have, and it will intelligently process it, saving you time and effort from manual conversions. It's about letting you work with your data in the formats you're already familiar with!
+This extensive list means you can feed Compass almost any document you have, and it will intelligently process it, saving you time and effort from manual conversions. It's about letting you work with your data in the formats you're already familiar with!
 
 ### Chunking Strategies: Breaking Down Information for Better Understanding
 
-Once Kore "reads" your document, it doesn't just treat it as one giant block of text. Instead, it intelligently breaks it down into smaller, manageable pieces. We call these pieces "chunks."
+Once Compass "reads" your document, it doesn't just treat it as one giant block of text. Instead, it intelligently breaks it down into smaller, manageable pieces. We call these pieces "chunks."
 
-Why chunking? Think of it like this: if you were trying to understand a very long book, you wouldn't try to remember every single word on every single page at once. You'd break it down into chapters, then paragraphs, then sentences. Kore does something similar to ensure it accurately understands the context and meaning of your information.
+Why chunking? Think of it like this: if you were trying to understand a very long book, you wouldn't try to remember every single word on every single page at once. You'd break it down into chapters, then paragraphs, then sentences. Compass does something similar to ensure it accurately understands the context and meaning of your information.
 
-Kore employs sophisticated **Chunking Strategies** to do this effectively:
+Compass employs sophisticated **Chunking Strategies** to do this effectively:
 
-* **Sentence-based:** This is exactly what it sounds like! Kore breaks your document into individual sentences. This is fantastic for detailed analysis where the meaning hinges on precise phrasing, allowing Kore to pinpoint specific statements or facts.
+* **Sentence-based:** This is exactly what it sounds like! Compass breaks your document into individual sentences. This is fantastic for detailed analysis where the meaning hinges on precise phrasing, allowing Compass to pinpoint specific statements or facts.
 
-* **Paragraph-based:** For a broader understanding of ideas, Kore can chunk your document by paragraphs. This strategy helps Kore grasp complete thoughts or arguments presented within a single paragraph, useful for summarizing or understanding themes.
+* **Paragraph-based:** For a broader understanding of ideas, Compass can chunk your document by paragraphs. This strategy helps Compass grasp complete thoughts or arguments presented within a single paragraph, useful for summarizing or understanding themes.
 
-* **Token-based:** This is the most granular level. A "token" can be a word, a number, or even punctuation. When Kore chunks by tokens, it's breaking the document down into its absolute fundamental components. This is often used for highly technical analyses where every single piece of data, no matter how small, is crucial for accurate processing.
+* **Token-based:** This is the most granular level. A "token" can be a word, a number, or even punctuation. When Compass chunks by tokens, it's breaking the document down into its absolute fundamental components. This is often used for highly technical analyses where every single piece of data, no matter how small, is crucial for accurate processing.
 
-By using these different chunking strategies, Kore can optimize how it understands and works with your data, whether you need a high-level overview or a deep dive into the nitty-gritty details. It's all about making sure Kore processes your information in the most effective way possible to deliver the best results for you!
+By using these different chunking strategies, Compass can optimize how it understands and works with your data, whether you need a high-level overview or a deep dive into the nitty-gritty details. It's all about making sure Compass processes your information in the most effective way possible to deliver the best results for you!
 
 
 ## Intelligent Hybrid Search

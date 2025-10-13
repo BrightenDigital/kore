@@ -2,8 +2,8 @@
 
 ## Communication Strategy
 
-- **Be Direct**: Specify exactly what you want changed. For example: "Refactor the LLM obj in kore/ai/provider/llm.py so that the _handle_kwargs() method can support both sync and async operations."
-- **Add Knowledge**: Kore agents can be guided to act as experts in a field by providing them with the necessary context. Think of this as creating a cheat sheet of essential information.
+- **Be Direct**: Specify exactly what you want changed. For example: "Refactor the LLM obj in Compass/ai/provider/llm.py so that the _handle_kwargs() method can support both sync and async operations."
+- **Add Knowledge**: Compass agents can be guided to act as experts in a field by providing them with the necessary context. Think of this as creating a cheat sheet of essential information.
 - **One Feature Per Request**: This approach speeds up development and facilitates reviews. Complete one feature before moving to the next!
 
 ## Working with the Team

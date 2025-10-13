@@ -11,13 +11,13 @@ export default {
 
     // Only run in browser environment
     if (typeof window !== 'undefined') {
-      if (!document.getElementById('kore-chat-widget-script')) {
+      if (!document.getElementById('Compass-chat-widget-script')) {
         const script = document.createElement('script')
-        script.id = 'kore-chat-widget-script'
-        script.src = 'https://repo.brightenconsulting.com/kore/widgets/kore-chat-widget.min.js'
+        script.id = 'Compass-chat-widget-script'
+        script.src = 'https://repo.brightenconsulting.com/Compass/widgets/Compass-chat-widget.min.js'
         script.async = true
         
-        // Set data attributes for the Kore chat widget
+        // Set data attributes for the Compass chat widget
         script.setAttribute('data-api-key', 'sk-lYLlqqkqVoIzSzQx7OxJvHZgj1Z5BpqtX4gW4emcwOXZRpRwXQEmI7EaVvAFqjmy4tNKIqGbi_cf87-0mJfIQQ')
         script.setAttribute('data-theme', 'material')
         script.setAttribute('data-position', 'bottom-right')

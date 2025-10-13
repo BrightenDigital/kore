@@ -4,13 +4,13 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    title: "Kore AI",
-    base: "/kore/",
-    description: "Kore AI Official Documentation",
-    head: [['link', {rel: 'icon', href: '/kore/favicon.ico'}]],
+    title: "Compass AI",
+    base: "/Compass/",
+    description: "Compass AI Official Documentation",
+    head: [['link', {rel: 'icon', href: '/Compass/favicon.ico'}]],
     appearance: 'dark',
     themeConfig: {
-      logo: '/kore_logo.png',
+      logo: '/compass_logo.png',
       search: {
         provider: 'local'
       },
@@ -63,17 +63,17 @@ export default withMermaid(
           text: 'Ecosystem',
           link: '/ecosystem/ecosystem.md',
           items: [
-            { text: 'Kore Agentic RAG', link: "/ecosystem/kore_rag.md" },
-            { text: 'Kore SLM', link: "/ecosystem/kore_slm.md" },
-            { text: 'Kore M365', link: "/ecosystem/kore_m365.md" },
-            { text: 'Kore MS Teams', link: "/ecosystem/kore_msteams.md" },
-            { text: 'Kore Blueprint', link: "/technical/system_blueprint.md" },
+            { text: 'Compass Agentic RAG', link: "/ecosystem/Compass_rag.md" },
+            { text: 'Compass SLM', link: "/ecosystem/Compass_slm.md" },
+            { text: 'Compass M365', link: "/ecosystem/Compass_m365.md" },
+            { text: 'Compass MS Teams', link: "/ecosystem/Compass_msteams.md" },
+            { text: 'Compass Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },
         {
           text: 'Strategy',
           items: [
-            { text: 'Kore Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
+            { text: 'Compass Vision & Plan', link: "/ecosystem/vision_and_plan.md" },
             { text: 'Roadmap', link: "/ecosystem/roadmap.md" },
             { text: 'Known Issues', link: "/getting_started/known_issues.md" }
           ]
@@ -81,11 +81,11 @@ export default withMermaid(
       ],
 
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/BrightenDigital/kore' }
+        { icon: 'github', link: 'https://github.com/BrightenDigital/Compass' }
       ],
 
       footer: {
-        copyright: 'Copyright © 2025 Kore AI'
+        copyright: 'Copyright © 2025 Compass AI'
       }
     }
   })

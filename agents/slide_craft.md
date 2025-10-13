@@ -4,11 +4,11 @@ Transform your ideas and data into compelling, visually stunning presentations w
 
 ## Introduction
 
-Imagine having a dedicated, expert team at your fingertips, capable of understanding your presentation needs, designing a clear narrative, and meticulously crafting engaging slides. That's the power of the Kore SlideCraft Team – designed to accelerate your presentation development cycles, enhance visual quality, and provide continuous content and design insights.
+Imagine having a dedicated, expert team at your fingertips, capable of understanding your presentation needs, designing a clear narrative, and meticulously crafting engaging slides. That's the power of the Compass SlideCraft Team – designed to accelerate your presentation development cycles, enhance visual quality, and provide continuous content and design insights.
 
 **Meet Your Expert AI Presentation Team:**
 
-The Kore SlideCraft Team is comprised of specialized agents, each embodying a critical role within the presentation development lifecycle. They collaborate to ensure comprehensive understanding, meticulous planning, and precise execution of your requests.
+The Compass SlideCraft Team is comprised of specialized agents, each embodying a critical role within the presentation development lifecycle. They collaborate to ensure comprehensive understanding, meticulous planning, and precise execution of your requests.
 
 | Agent     | Role                  | Core Function |
 |-----------|-----------------------|---------------|
@@ -18,7 +18,7 @@ The Kore SlideCraft Team is comprised of specialized agents, each embodying a cr
 
 ## AI Presentation
 **The Collaborative Intelligence of the SlideCraft Team**:
-Each agent within the Kore SlideCraft Team plays a distinct yet interconnected role in responding to your presentation development requests:
+Each agent within the Compass SlideCraft Team plays a distinct yet interconnected role in responding to your presentation development requests:
 
 ### **Dekster, the Presentation Lead**
 

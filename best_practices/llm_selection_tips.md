@@ -1,6 +1,6 @@
 # 🤖 LLM Selection Tips
 
-Choosing the right Large Language Model (LLM) for your task can significantly impact the quality, speed, and creativity of your results. Kore supports multiple LLMs, each with their own strengths and ideal use cases.
+Choosing the right Large Language Model (LLM) for your task can significantly impact the quality, speed, and creativity of your results. Compass supports multiple LLMs, each with their own strengths and ideal use cases.
 
 ## Available LLMs
 

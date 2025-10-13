@@ -40,7 +40,7 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 
 > View also:<br>
 > [Database Intelligence](/agents/ai_knowlegdebase.html#database-intelligence)<br>
-> [Kore Agentic RAG (Retrieval-Augmented Generation)](/ecosystem/kore_rag.html)
+> [Compass Agentic RAG (Retrieval-Augmented Generation)](/ecosystem/Compass_rag.html)
 
 ## Smart In-Project Assistant
 ### An intelligent agent capable of providing insights about your project and code base.
@@ -63,6 +63,6 @@ Available for the AI Software team
 
 ## Enterprise-level ready
 
-Kore is engineered from the ground up to meet the stringent demands of modern enterprises. With granular controls for sensitive data and infrastructure (MCP servers), seamless integration into existing development workflows (Git), and the flexibility to manage your own LLMs, Kore delivers the security, scalability, and reliability required for mission-critical AI agent deployments.
+Compass is engineered from the ground up to meet the stringent demands of modern enterprises. With granular controls for sensitive data and infrastructure (MCP servers), seamless integration into existing development workflows (Git), and the flexibility to manage your own LLMs, Compass delivers the security, scalability, and reliability required for mission-critical AI agent deployments.
 
 ![image.png](/getting_started/assets/key_features/image11.png)

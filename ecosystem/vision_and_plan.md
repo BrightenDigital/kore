@@ -1,6 +1,6 @@
-# Kore Strategic Plan & Long-Term Vision
+# Compass Strategic Plan & Long-Term Vision
 
-Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unlock growth, and future-proof our SaaS platform. Our strategy spans **Entry**, **Expansion**, **Early Adoption**, and **Long-Term Vision**, each prioritized and color-coded by status.
+Welcome to Compass’s strategic plan — a roadmap designed to scale adoption, unlock growth, and future-proof our SaaS platform. Our strategy spans **Entry**, **Expansion**, **Early Adoption**, and **Long-Term Vision**, each prioritized and color-coded by status.
 
 
 ## Entry Strategy
@@ -40,7 +40,7 @@ Welcome to Kore’s strategic plan — a roadmap designed to scale adoption, unl
 *(e.g., Salesforce, SAP, ServiceNow)*
 - **Priority**: _Not explicitly set_
 - **Status**: _Not explicitly set_
-- **Purpose**: Make Kore’s capabilities natively accessible within enterprise workflows.
+- **Purpose**: Make Compass’s capabilities natively accessible within enterprise workflows.
 
 
 ## Early Adoption

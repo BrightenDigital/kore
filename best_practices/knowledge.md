@@ -1,6 +1,6 @@
     # 🧠 Knowledge
 
-    Knowledge is a critical component of Kore that helps the agents understand your requirements, technical constraints, and domain-specific information. Think of it as providing cheat sheets to your AI development team!
+    Knowledge is a critical component of Compass that helps the agents understand your requirements, technical constraints, and domain-specific information. Think of it as providing cheat sheets to your AI development team!
 
     ## Types of Knowledge
 
@@ -63,7 +63,7 @@
 
 # 🧠 Knowledge
 
-Knowledge is a critical component of Kore that helps the agents understand your requirements, technical constraints, and domain-specific information. Think of it as providing cheat sheets to your AI development team!
+Knowledge is a critical component of Compass that helps the agents understand your requirements, technical constraints, and domain-specific information. Think of it as providing cheat sheets to your AI development team!
 
 ## Types of Knowledge
 

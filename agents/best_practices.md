@@ -1,12 +1,12 @@
-# Best Practices with Kore AI Agents
+# Best Practices with Compass AI Agents
 
-Welcome to the exciting world of AI agents, where Kore becomes your intelligent partner! Just like any great collaboration, getting the most out of your AI agents comes down to effective communication and a few smart strategies.
+Welcome to the exciting world of AI agents, where Compass becomes your intelligent partner! Just like any great collaboration, getting the most out of your AI agents comes down to effective communication and a few smart strategies.
 
-Think of Kore as an incredibly fast and knowledgeable assistant, but one that benefits greatly from clear, concise, and well-structured instructions. 
+Think of Compass as an incredibly fast and knowledgeable assistant, but one that benefits greatly from clear, concise, and well-structured instructions. 
 
 ## Prompt Engineering
 
-Here are some best practices to ensure you and Kore AI agents work together like a dream team:
+Here are some best practices to ensure you and Compass AI agents work together like a dream team:
 
 ### 1. Be Clear, Concise, and Specific (The "Golden Rule")
 
@@ -19,7 +19,7 @@ This is by far the most important tip! AI agents don't "read between the lines" 
 
 ### 2. Provide Context: Give the Agents the Full Picture
 
-Kore AI agents perform best when they understand the background and purpose of your request.
+Compass AI agents perform best when they understand the background and purpose of your request.
 
 * **Explain the "Why":** Briefly explain *why* you need the information or action. This helps the agent understand your intent and tailor its response more effectively.
     * "I'm drafting a client proposal. Please summarize our product's key features, focusing on benefits for small businesses." (Context: client proposal, focus: small businesses)
@@ -55,7 +55,7 @@ Don't expect perfection on the first try, especially with complex requests. Thin
 
 ### 6. Test and Validate: Trust, but Verify
 
-Kore AI agents are incredibly powerful, but they are tools. Always verify critical information, especially factual data, legal advice, or financial figures, against reliable sources.
+Compass AI agents are incredibly powerful, but they are tools. Always verify critical information, especially factual data, legal advice, or financial figures, against reliable sources.
 
 * **Cross-Reference:** If the agent provides data, check it against your original documents or databases.
 * **Common Sense Check:** Does the output make logical sense in your context?
@@ -88,13 +88,13 @@ When connecting to a Git repository, you'll need to provide the proper credentia
 3. **Entering Credentials**:
     - Provide your repository URL in the format: [`https://github.com](https://github.com/)/username/repo.git`
 
-⚠️ **Security Note**: Kore securely handles your credentials, but always follow your organization's security guidelines when using PATs.
+⚠️ **Security Note**: Compass securely handles your credentials, but always follow your organization's security guidelines when using PATs.
 
 ## Working with Existing Projects
 
 When you provide a Git repo during team creation:
 
-1. Kore will clone the repository
+1. Compass will clone the repository
 2. The agents will automatically analyze the codebase
 3. System design documentation and product requirements will be generated
 4. You'll be redirected to the team page where agents are already working
@@ -103,21 +103,21 @@ When you provide a Git repo during team creation:
 
 ## Understanding Branch Management
 
-Kore's Git workflow follows these patterns:
+Compass's Git workflow follows these patterns:
 
-- **New Repository**: If you start with an empty Git repo, Kore will work on the master/main branch
-- **Existing Repository**: For repos with existing code, Kore creates a new branch for each request
+- **New Repository**: If you start with an empty Git repo, Compass will work on the master/main branch
+- **Existing Repository**: For repos with existing code, Compass creates a new branch for each request
 
 ### Branch Naming Convention
 
-Kore creates branches with a standardized naming pattern:
+Compass creates branches with a standardized naming pattern:
 
 ```
-kore-workspace-{kore_team_id}-feature-description
+Compass-workspace-{Compass_team_id}-feature-description
 
 ```
 
-This makes it easy to identify branches created by Kore and the features they contain.
+This makes it easy to identify branches created by Compass and the features they contain.
 
 ## Commit and Push Process
 
@@ -128,12 +128,12 @@ As agents implement your requests:
 3. The branch is pushed to the remote repository
 4. You'll see commit details in Nova's final summary
 
-Kore attempts to maintain a clean Git history with meaningful commits that document the development process.
+Compass attempts to maintain a clean Git history with meaningful commits that document the development process.
 
 
 ## LLM Selection Tips
 
-Choosing the right Large Language Model (LLM) for your task can significantly impact the quality, speed, and creativity of your results. Kore supports multiple LLMs, each with their own strengths and ideal use cases.
+Choosing the right Large Language Model (LLM) for your task can significantly impact the quality, speed, and creativity of your results. Compass supports multiple LLMs, each with their own strengths and ideal use cases.
 
 ### Deepseek Chat 🏃‍♀️
 

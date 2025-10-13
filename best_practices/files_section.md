@@ -1,6 +1,6 @@
 # 🖿 Files Section
 
-The Files section provides you with complete visibility and access to your codebase as it's being developed by the Kore agents.
+The Files section provides you with complete visibility and access to your codebase as it's being developed by the Compass agents.
 
 ## Overview
 
@@ -19,7 +19,7 @@ Your source code is organized exactly as it would be in your local development e
 
 ### Resources Directory
 
-In addition to your source code, Kore maintains a special `resources` directory that contains:
+In addition to your source code, Compass maintains a special `resources` directory that contains:
 
 - **Markdown documentation** generated during development
 - **Diagrams** illustrating architecture and workflows

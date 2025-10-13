@@ -1,11 +1,11 @@
 
-# Kore M365
+# Compass M365
 
-Kore M365 is a powerful component of the Kore ecosystem, purpose-built to seamlessly integrate with the Microsoft Graph API. It enables enterprises to manage identity, communication, storage, and collaboration workflows via unified, secure, and scalable APIs.
+Compass M365 is a powerful component of the Compass ecosystem, purpose-built to seamlessly integrate with the Microsoft Graph API. It enables enterprises to manage identity, communication, storage, and collaboration workflows via unified, secure, and scalable APIs.
 
 ## Overview
 
-Kore M365 abstracts the complexity of Microsoft Graph and presents a robust API layer that simplifies integration with:
+Compass M365 abstracts the complexity of Microsoft Graph and presents a robust API layer that simplifies integration with:
 
 - Azure Active Directory (AAD)
 - Microsoft Teams

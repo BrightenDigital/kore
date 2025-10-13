@@ -1,6 +1,6 @@
-# Kore SLM
+# Compass SLM
 
-Kore SLM (Small Language Model) provides a versatile suite of enterprise-grade services, including PII detection, tokenization, summarization, and classification capabilities, alongside a range of other powerful language model tasks, all within a secure, scalable cloud-native deployment.
+Compass SLM (Small Language Model) provides a versatile suite of enterprise-grade services, including PII detection, tokenization, summarization, and classification capabilities, alongside a range of other powerful language model tasks, all within a secure, scalable cloud-native deployment.
 
 ## **Automated PII detection**
 Leverages advanced natural language processing models to identify and classify personally identifiable information (PII) such as names, addresses, social security numbers, and other sensitive data in unstructured text, with high accuracy and minimal false positives.

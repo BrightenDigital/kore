@@ -1,7 +1,7 @@
 
-# Kore AI Documentation
+# Compass AI Documentation
 
-Official documentation for Kore AI - a powerful AI agent framework for software development and knowledge management.
+Official documentation for Compass AI - a powerful AI agent framework for software development and knowledge management.
 
 ## Features
 - AI agent team collaboration
@@ -10,7 +10,7 @@ Official documentation for Kore AI - a powerful AI agent framework for software 
 - Knowledge management systems
 - Technical architecture blueprints
 
-Visit the full documentation at: [https://brightendigital.github.io/kore/](https://brightendigital.github.io/kore/)
+Visit the full documentation at: [https://brightendigital.github.io/Compass/](https://brightendigital.github.io/Compass/)
 
 ## Quick Start
 1. Clone this repository

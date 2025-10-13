@@ -1,4 +1,4 @@
-# 📐 Kore System Design Blueprint
+# 📐 Compass System Design Blueprint
 
 ## Architecture Diagram
 
@@ -6,15 +6,15 @@
 
 ## 1. System Overview
 
-The Kore system is an AI-powered enterprise platform deployed on Azure cloud infrastructure. It provides intelligent document processing, search capabilities, and integration with Microsoft 365 services through a modern Angular frontend.
+The Compass system is an AI-powered enterprise platform deployed on Azure cloud infrastructure. It provides intelligent document processing, search capabilities, and integration with Microsoft 365 services through a modern Angular frontend.
 
 ## 2. Core Components
 
 ### 2.1 Frontend Layer
 
-### KoreAI (Angular Frontend)
+### CompassAI (Angular Frontend)
 
-- **Purpose**: Primary user interface for the Kore platform
+- **Purpose**: Primary user interface for the Compass platform
 - **Technology**: Angular framework
 - **Deployment**: Azure Web App
 - **Key Features**:
@@ -36,7 +36,7 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
 
 ### 2.2 Backend Services
 
-### KoreAPI (Main Backend)
+### CompassAPI (Main Backend)
 
 - **Purpose**: Core application backend and business logic
 - **Technology**: Python-based web service
@@ -47,7 +47,7 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
     - Integration orchestration between components
     - Authentication and authorisation (via Security component)
 
-### KoreFastRag
+### CompassFastRag
 
 - **Purpose**: Handles document search and retrieval
 - **Technology**: Serverless function
@@ -58,7 +58,7 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
     - Reranking of search results
     - Integration with document storage systems
 
-### KoreGraphAPI
+### CompassGraphAPI
 
 - **Purpose**: Handles Microsoft 365 service integrations
 - **Technology**: .NET-based web service
@@ -79,9 +79,9 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
     - AI request routing and load balancing
     - Prompt engineering and optimization
     - Context management for LLM interactions
-    - Integration with internal KoreSLM for specialized tasks
+    - Integration with internal CompassSLM for specialized tasks
 
-### KoreSLM (Small Language Model)
+### CompassSLM (Small Language Model)
 
 - **Purpose**: Specialized internal language model
 - **Technology**: Optimized language model
@@ -146,24 +146,24 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
 
 ### Document Search Flow
 
-1. User submits search query via KoreAI frontend
-2. KoreAPI validates request and routes to KoreFastRag
-3. KoreFastRag performs BM25 and vector search
+1. User submits search query via CompassAI frontend
+2. CompassAPI validates request and routes to CompassFastRag
+3. CompassFastRag performs BM25 and vector search
 4. ModelContextProtocol servers prepare context
 5. Results returned to frontend with relevant documents
 
 ### Microsoft 365 Integration Flow
 
 1. User requests documents from M365 services
-2. KoreGraphAPI authenticates via Security component
-3. KoreGraphAPI retrieves documents from appropriate service
+2. CompassGraphAPI authenticates via Security component
+3. CompassGraphAPI retrieves documents from appropriate service
 4. Documents are processed and returned to frontend
 
 ### AI Processing Flow
 
 1. User submits content for AI processing
-2. KoreAPI routes request to AI Core
-3. AI Core determines appropriate model (external or KoreSLM)
+2. CompassAPI routes request to AI Core
+3. AI Core determines appropriate model (external or CompassSLM)
 4. Model processes content with context from ModelContextProtocol
 5. Results returned to user with appropriate formatting
 
@@ -202,7 +202,7 @@ The Kore system is an AI-powered enterprise platform deployed on Azure cloud inf
 
 ### 4.2 Scaling Considerations
 
-- KoreFastRag uses serverless architecture for elastic scaling
+- CompassFastRag uses serverless architecture for elastic scaling
 - Container-based components scale based on CPU/memory metrics
 - Azure App Service autoscaling for web components
 - Redis Cache for high-throughput operations
