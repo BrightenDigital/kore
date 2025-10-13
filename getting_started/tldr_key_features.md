@@ -40,7 +40,7 @@ A powerful, enterprise-grade agentic platform with a simple conversational UI th
 
 > View also:<br>
 > [Database Intelligence](/agents/ai_knowlegdebase.html#database-intelligence)<br>
-> [Compass Agentic RAG (Retrieval-Augmented Generation)](/ecosystem/Compass_rag.html)
+> [Compass Agentic RAG (Retrieval-Augmented Generation)](/ecosystem/compass_rag.html)
 
 ## Smart In-Project Assistant
 ### An intelligent agent capable of providing insights about your project and code base.
