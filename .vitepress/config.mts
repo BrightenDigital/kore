@@ -38,6 +38,7 @@ export default withMermaid(
           items: [
             { text: 'AI Knowledge Base', link: "/agents/ai_knowlegdebase.md" },
             { text: 'AI Software team', link: "/agents/ai_software_team.md" },
+            { text: 'Business BI team', link: "/agents/business_bi.md" },
             { text: 'SlideCraft team', link: "/agents/slide_craft.md" },
             { text: 'Best practices', link: "/agents/best_practices.md" },
             { text: 'Tutorials', items:[
