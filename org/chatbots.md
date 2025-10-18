@@ -42,7 +42,7 @@ This is where you assemble the core intelligence of your chatbot. Compass is bui
 
   * **Bruce (Architect):** For designing robust systems.
   * **Martha (Product Manager):** For meticulous requirements analysis.
-  * **Nova (Software Engineer):** For precise coding and implementation.
+  * **Nova (Engineer):** For precise coding and implementation.
   * **Francis (Prompt Engineer):** For refining AI-generated responses.
   * **Sarah (Versatile Assistant):** For code writing and data interpretation.
   * **David (Research Assistant):** For web surfing and research.

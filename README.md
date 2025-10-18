@@ -31,7 +31,7 @@ Unlike traditional AI assistants, Compass agents **observe, think, plan, and act
 
 Deploy specialized AI agents that work as cohesive teams, each bringing domain expertise:
 
-- **🏗️ AI Software Team** - Full-stack development with Martha (Product Manager), Bruce (Architect), and Nova (Software Engineer)
+- **🏗️ AI Software Team** - Full-stack development with Martha (Product Manager), Bruce (Architect), and Nova (Engineer)
 - **📚 AI Knowledge Base** - Context-aware search and insights powered by Albert (Knowledge Seeker)
 - **📊 SlideCraft Team** - Transform complex data into compelling PowerPoint and PDF presentations
 - **🎯 Custom Enterprise Chatbots** - Build domain-specific AI assistants tailored to your organization
@@ -271,10 +271,7 @@ Compass is an enterprise platform. For licensing information, please contact our
 
 Built with cutting-edge technologies:
 
-- [VitePress](https://vitepress.dev/) - Documentation framework
-- [Vue.js](https://vuejs.org/) - Progressive JavaScript framework
-- [Anthropic Claude](https://www.anthropic.com/) - Advanced language model
-- [Microsoft Graph](https://developer.microsoft.com/graph) - Enterprise integration
+- [Compass Agentic Platform](https://compassap.ai/) - Compass Agentic Platform
 
 ---
 

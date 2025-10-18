@@ -16,9 +16,10 @@ The Compass Business BI Team is a synergistic collective of specialized agents, 
 |---------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DashDan  | 📊 **Lead BI Strategist**  | The visionary of the team, Aurora masterfully interprets your goals, orchestrates the data narrative, and conceptualizes the most effective way to visualize your story. |
 | Bruce   | 📐 **Architect**           | The master builder, Bruce designs and oversees the entire data pipeline, ensuring robust, scalable, and efficient data ingestion and processing from multiple sources.      |
-| Nova    | 💻 **Software Engineer**   | The hands-on implementer, Nova brings the final dashboard to life, crafting a stunning, feature-rich, and animated user experience with slick, responsive effects.        |
+| Nova    | 💻 **Engineer**   | The hands-on implementer, Nova brings the final dashboard to life, crafting a stunning, feature-rich, and animated user experience with slick, responsive effects.        |
 
-## The BI Pipeline: From Raw Data to Insight
+## The BI Pipeline
+### From Raw Data to Insight
 
 The team operates in a seamless, four-stage process, ensuring a meticulous and intelligent transformation of your data.
 
@@ -57,7 +58,7 @@ With a deep understanding of the data, Aurora's primary focus shifts to crafting
 
 ### Step 4: Crafting the Interactive Dashboard
 
-With the blueprint and narrative in hand, Nova, the Software Engineer, takes center stage to build the final product. She transforms the concepts into a stunning and highly interactive dashboard that feels effortless and elegant.
+With the blueprint and narrative in hand, Nova, the Engineer, takes center stage to build the final product. She transforms the concepts into a stunning and highly interactive dashboard that feels effortless and elegant.
 
 *   **Feature-Rich Interface:** The dashboard is packed with powerful features, including intuitive **filtering**, dynamic **ordering**, and one-click **export** options for sharing your insights.
 *   **Animated & Slick Effects:** Data presentation is enhanced with subtle animations and slick transition effects, making the experience of exploring data feel like a breeze.

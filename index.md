@@ -3,7 +3,8 @@
 layout: home
 
 hero:
-  name: "Compass Agentic Platform"
+  image:
+      src: /public/compass.png
   text: "Official Docs"
   tagline: Let Compass Agents handle the core of your work while you focus on the details
   actions:
@@ -18,10 +19,10 @@ features:
   - title: Autonomy in Action
     details: Agents that observe, think, plan and act autonomously — Compass powers true autonomy with seamless perception-to-action flow.
     #link: /use_cases/start_from_template.md
-  - title: Agentic RAG
+  - title: Agentic skill augmentation
     details: Powers Compass agents to think, decide, and act with real-time knowledge grounded in your enterprise data.
     #link: /best_practices/working_with_git.md
-  - title: Supercharged for Enterprise
+  - title: Supercharged for the enterprise
     #link: /use_cases/greenfield_development.md
     details: Packed with MS365, Git, MCP, sensitive data masking and observability — everything you need, ready out of the box.
 ---

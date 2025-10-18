@@ -36,23 +36,20 @@ export default withMermaid(
           text: 'Agents',
           link: '/agents/home.md',
           items: [
-            { text: 'AI Knowledge Base', link: "/agents/ai_knowlegdebase.md" },
-            { text: 'AI Software team', link: "/agents/ai_software_team.md" },
-            { text: 'Business BI team', link: "/agents/business_bi.md" },
-            { text: 'SlideCraft team', link: "/agents/slide_craft.md" },
-            { text: 'Best practices', link: "/agents/best_practices.md" },
-            { text: 'Tutorials', items:[
-              { text: 'Create Software team', link: "/tutorials/create-team-git.md" },
-            ]
-            }
+            { text: 'Discover and ask questions', link: "/agents/ai_knowlegdebase.md" },
+            { text: 'Software team', link: "/agents/ai_software_team.md" },
+            { text: 'Document anything', link: "/agents/drafsmiths.md" },
+            { text: 'Get Insights', link: "/agents/business_bi.md" },
+            { text: 'Build a presentation', link: "/agents/slide_craft.md" },
+            { text: 'Build a business web portal', link: "/agents/web_collective.md" }
           ]
         },
         {
           text: 'Projects',
-          link: '',
+          link: '/projects/projects.md',
           items: [
-            { text: 'Simple workflows', link: "" },
-            { text: 'Complex workflows', link: "" }
+            { text: 'The Challenge', link: "/projects/complex-challenge.md" },
+            { text: 'The Workflow', link: "/projects/workflow.md" }
           ]
         },
         {
@@ -77,7 +74,7 @@ export default withMermaid(
             { text: 'Compass SLM', link: "/ecosystem/compass_slm.md" },
             { text: 'Compass M365', link: "/ecosystem/compass_m365.md" },
             { text: 'Compass MS Teams', link: "/ecosystem/compass_msteams.md" },
-            { text: 'Compass MCP Servers', link: "" },
+            { text: 'Compass MCP Servers', link: "/ecosystem/mcpservers.md" },
             { text: 'Compass Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },

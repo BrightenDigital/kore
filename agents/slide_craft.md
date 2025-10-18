@@ -14,7 +14,7 @@ The Compass SlideCraft Team is comprised of specialized agents, each embodying a
 |-----------|-----------------------|---------------|
 | Dekster    | 📝 **Presentation Lead** | The visionary and content strategist of the team, focused on meticulous content generation, visual conceptualization, and guiding the overall presentation narrative. Dekster ensures the technical implementation aligns perfectly with your communication goals and audience needs. |
 | Bruce     | 📐 **Architect**         | The master builder, meticulously designing the system structure and technical planning to ensure robust, scalable, and maintainable solutions. Bruce provides the foundational technical blueprint for your project. (Applicable for underlying system architecture if SlideCraft integrates with other tools or complex data sources) |
-| Nova     | 💻 **Software Engineer** | The hands-on implementer, responsible for bringing designs to life through precise coding, efficient implementation, and adherence to best practices. Nova ensures your vision translates into high-quality, functional code. (Applicable for developing underlying features or integrations of the SlideCraft tool itself, or for specific slide types requiring custom code/data display). |
+| Nova     | 💻 **Engineer** | The hands-on implementer, responsible for bringing designs to life through precise coding, efficient implementation, and adherence to best practices. Nova ensures your vision translates into high-quality, functional code. (Applicable for developing underlying features or integrations of the SlideCraft tool itself, or for specific slide types requiring custom code/data display). |
 
 ## AI Presentation
 **The Collaborative Intelligence of the SlideCraft Team**:
@@ -46,7 +46,7 @@ Each agent within the Compass SlideCraft Team plays a distinct yet interconnecte
 
 ---
 
-Dekster, your AI Presentation Lead, doesn't work alone. She teams up with two key members from the AI Software Team: **Bruce, the Architect**, and **Nova, the Software Engineer**. This powerful collaboration ensures that while Dekster focuses on crafting compelling content and stunning visuals, the technical integrity and functionality of your presentation are expertly handled.
+Dekster, your AI Presentation Lead, doesn't work alone. She teams up with two key members from the AI Software Team: **Bruce, the Architect**, and **Nova, the Engineer**. This powerful collaboration ensures that while Dekster focuses on crafting compelling content and stunning visuals, the technical integrity and functionality of your presentation are expertly handled.
 
 ---
 
@@ -60,9 +60,9 @@ Bruce steps in to provide the **technical blueprint** for your presentation, esp
 
 ---
 
-### **Nova, the Software Engineer**
+### **Nova, the Engineer**
 
-With Bruce's blueprint in hand, Nova, the Software Engineer, brings it to life with **precision implementation**. She's the one who handles the coding and technical execution, making sure everything runs smoothly and efficiently. Nova focuses on:
+With Bruce's blueprint in hand, Nova, the Engineer, brings it to life with **precision implementation**. She's the one who handles the coding and technical execution, making sure everything runs smoothly and efficiently. Nova focuses on:
 
 * **Integrating necessary packages**: She'll pull in any external tools or libraries needed for things like data visualization or interactive elements.
 * **Building custom features**: If your presentation needs dynamic content, unique charts, or special interactive components, Nova writes the code to make it happen.

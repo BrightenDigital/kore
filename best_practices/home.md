@@ -16,7 +16,7 @@
 - **Bruce (@Bruce)** - Architect
     - Ideal for new projects or major architecture changes
     - Focuses on creating solid structures for development
-- **Nova (@Nova)** - Software Engineer
+- **Nova (@Nova)** - Engineer
     - Your primary implementation partner
     - Creates task docs, analyses files, develops implementation plans, and writes code
 

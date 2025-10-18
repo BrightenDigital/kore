@@ -1,4 +1,4 @@
-# **Governing AI for Enterprise Excellence**
+# **Governing AI for Enterprise**
 
 At the heart of every successful digital transformation lies robust governance, security, and the intelligent management of data and AI assets. Compass understands that deploying advanced AI agents and Large Language Models (LLMs) within an enterprise environment demands more than just powerful capabilities; it requires a platform built for control, compliance, and customisation. The **Organization** section of Compass provides a centralised command centre for enterprises to manage their AI ecosystem, ensuring secure, efficient, and strategically aligned operations.
 
