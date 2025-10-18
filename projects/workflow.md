@@ -2,6 +2,8 @@
 
 Compass Projects introduce a structured, AI-powered workflow that ensures alignment and consistency from start to finish. This process pairs human expertise with the power of specialized AI teams, all governed by a single, unifying blueprint.
 
+**Quick Start with Blueprints**: For common workflows across Software Development, Marketing, Customer Service, Operations, Compliance, and Analytics, explore our [Built-in Project Blueprints](./builtin-blueprints.md) to launch pre-configured multi-team systems in 10-20 minutes.
+
 #### **A Step-by-Step Guide to the Project Workflow**
 
 The workflow is designed to be both powerful and intuitive, guiding your teams toward a seamless and integrated outcome.

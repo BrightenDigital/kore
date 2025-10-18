@@ -4,7 +4,7 @@ layout: home
 
 hero:
   image:
-      src: /public/compass.png
+      src: /compass.png
   text: "Official Docs"
   tagline: Let Compass Agents handle the core of your work while you focus on the details
   actions:

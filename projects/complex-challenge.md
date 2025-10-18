@@ -18,3 +18,9 @@ This disconnected approach inevitably results in significant pain points for the
 -   **Communication Overhead**: Endless meetings and email chains are required to align teams, clarify requirements, and resolve inconsistencies.
 
 These challenges don't just impact efficiency; they stifle innovation and compromise the quality of the final deliverable. Compass Projects are designed to eliminate this friction, transforming a chaotic process into a model of coordinated success.
+
+## **The Solution: Pre-Built Blueprints for Instant Productivity**
+
+Rather than building multi-team workflows from scratch, Compass offers [Built-in Project Blueprints](./builtin-blueprints.md) that provide ready-to-deploy configurations for common business scenarios. These blueprints combine specialized AI teams with proven workflow patterns, allowing you to launch sophisticated multi-team systems in minutes instead of days.
+
+Whether you're managing software development, customer support, market research, content creation, compliance documentation, or operational processes, there's a blueprint designed to eliminate the setup complexity and guide your teams toward coordinated success.

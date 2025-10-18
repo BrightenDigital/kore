@@ -49,7 +49,8 @@ export default withMermaid(
           link: '/projects/projects.md',
           items: [
             { text: 'The Challenge', link: "/projects/complex-challenge.md" },
-            { text: 'The Workflow', link: "/projects/workflow.md" }
+            { text: 'The Workflow', link: "/projects/workflow.md" },
+            { text: 'Projects blueprints', link: "/projects/builtin-blueprints.md" }
           ]
         },
         {

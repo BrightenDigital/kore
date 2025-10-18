@@ -9,3 +9,6 @@ Explore the key aspects of Compass Projects:
 
 -   [**The Projects Workflow: Human-AI Teaming at Scale**](./workflow.md)
     -   Discover the step-by-step process that pairs human expertise with specialized AI teams to ensure consistency and quality.
+
+-   [**Built-in Project Blueprints**](./builtin-blueprints.md)
+    -   Explore ready-to-use project templates across Software Development, Customer Service, Marketing, Compliance, Operations, and Analytics domains.
