@@ -21,7 +21,7 @@
 
 Unlike traditional AI assistants, Compass agents **observe, think, plan, and act autonomously**—transforming how enterprises handle software development, knowledge management, content generation, and complex workflow automation.
 
-> ✨ **This documentation was entirely built using Compass AI**
+> ✨ **This documentation was entirely built using Compass Agentic Platform**
 
 ---
 
