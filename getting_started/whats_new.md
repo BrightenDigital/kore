@@ -357,6 +357,149 @@ Improved tools and utilities for developers.
 
 ---
 
+## August 2025
+
+Welcome to the August 2025 release! This month delivers significant improvements to the user interface, enhanced team management capabilities, and powerful new features for knowledge organization. We've focused on making Compass more intuitive, more flexible, and more powerful for everyday use.
+
+> **TL;DR**: The August 2025 Compass update (v1.0.164-v1.0.176) introduces **enhanced UI/UX with grid and list views**, **improved knowledge management with role-specific uploads**, **MCP server propagation**, **user language preferences**, and **comprehensive team lifecycle improvements**. Key improvements include **agent icon customization**, **execution timers**, **model selection enhancements**, and **streamlined team creation workflows**.
+
+### Enhanced User Interface & Experience
+
+We've completely refreshed the Compass interface to make it more intuitive and visually appealing.
+
+* **Grid and List View Modes:** Switch between grid and list views for teams and agents, giving you flexibility in how you organize and visualize your workspace.
+* **Agent Icon Customization:** Personalize your agents with custom icons from an expanded icon library, making it easier to identify and distinguish between different team members.
+* **Improved Chat Interface:** Enhanced chat bot component with better scroll functionality, active agent highlighting, and cleaner message display.
+* **Execution Timer:** Real-time execution timer shows how long your AI teams have been working, providing transparency into task progress.
+* **Dark Theme Compatibility:** Refined CSS and styling to ensure seamless compatibility with dark themes across all components.
+* **Responsive Design:** Improved mobile and tablet experience with better layout management and touch-friendly controls.
+
+### Knowledge Management Enhancements
+
+Powerful new capabilities for organizing and managing your organizational knowledge.
+
+* **Role-Specific Knowledge Uploads:** Upload knowledge and assign it to specific agents or share it across the entire team, giving you granular control over information distribution.
+* **Enhanced Upload Instructions:** Improved guidance and instructions in the knowledge upload dialog, making it easier to understand how to structure and provide information.
+* **Summarize Option:** New option to enable or disable automatic summarization of uploaded knowledge, optimizing for either comprehensive detail or concise overviews.
+* **Image Analysis:** Upload images and have them automatically analyzed and described by advanced image models, making visual information accessible to AI agents.
+* **Multilingual Support:** Improved handling of multilingual documents with automatic language identification for better knowledge retrieval.
+
+### Team Management & Configuration
+
+Streamlined workflows for creating and managing AI teams.
+
+* **MCP Server Propagation:** When creating teams from marketplace templates, MCP server configurations are automatically propagated, ensuring consistent tool access across your organization.
+* **Disabled LLM Models Filtering:** The system now automatically filters out disabled LLM models from selection, preventing configuration errors and ensuring only approved models are used.
+* **User Language Preferences:** Set your preferred language for the interface, with support for multiple languages and localized content.
+* **Team Reconstruction Support:** Enhanced ability to reconstruct teams from existing configurations, making it easier to restore or duplicate successful setups.
+* **Improved Team Creation Flow:** Streamlined team creation process with better validation, clearer instructions, and more intuitive configuration options.
+
+### Model & Provider Enhancements
+
+Expanded support for language models and improved model management.
+
+* **New Model Support:** Added support for Gemini 2.5 Pro and other cutting-edge language models.
+* **Provider Images:** Visual provider logos and images throughout the interface make it easier to identify which AI provider you're using.
+* **Model Selection Improvements:** Enhanced model selection interface with better descriptions, capability indicators, and performance metrics.
+* **Friendly Model Names:** Improved model naming throughout the interface for better clarity and understanding.
+* **Actions Friendly Names:** Human-readable names for agent actions make it easier to understand what your AI teams are doing.
+
+### Performance & Reliability
+
+Behind-the-scenes improvements for better performance and stability.
+
+* **Optimized File Operations:** Improved performance for file list retrieval and document processing.
+* **Better Error Handling:** Enhanced error messages and recovery mechanisms throughout the platform.
+* **Snackbar Notifications:** Improved notification system with longer display times and better positioning for important messages.
+* **WebSocket Improvements:** Enhanced real-time communication with better connection management and message handling.
+* **Caching Enhancements:** Improved caching strategies for faster page loads and reduced server load.
+
+### Developer Experience
+
+Tools and features that make working with Compass more productive.
+
+* **API Brain Item Instructions:** Added detailed instructions to API brain items for better integration guidance.
+* **Improved Documentation:** Enhanced inline help and tooltips throughout the interface.
+* **Better Debugging:** Improved logging and error reporting for easier troubleshooting.
+* **Version Tracking:** Clear version indicators (v1.0.164-v1.0.176) help track which features are available in your deployment.
+
+---
+
+## July 2025
+
+Welcome to the July 2025 release! This month marks a significant milestone in Compass's evolution with major improvements to the chat interface, enhanced knowledge management, and powerful new customization options. We've focused on making Compass more responsive, more intuitive, and more adaptable to your organization's unique needs.
+
+> **TL;DR**: The July 2025 Compass update introduces **enhanced chat interface with avatars and improved navigation**, **knowledge upload improvements with role-specific targeting**, **team customization with icons and descriptions**, **WebSocket service enhancements**, and **comprehensive UI/UX refinements**. Key improvements include **better file handling**, **improved agent selection**, and **streamlined team management workflows**.
+
+### Chat Interface Revolution
+
+We've completely reimagined the chat experience to make interactions with your AI teams more natural and productive.
+
+* **Agent Avatars:** Each AI agent now has a distinctive avatar, making it easier to follow conversations and understand who's contributing to your project.
+* **Enhanced Scroll Functionality:** Improved scrolling behavior ensures you never lose your place in long conversations, with automatic scroll-to-bottom for new messages.
+* **Better Message Display:** Refined message layout with improved spacing, typography, and visual hierarchy for easier reading.
+* **Active Agent Indicators:** Clear visual indicators show which agent is currently active and working on your request.
+* **Improved Navigation:** Enhanced navigation between different sections of the chat interface for smoother workflow.
+
+### Knowledge Management Improvements
+
+Powerful new capabilities for managing and organizing your organizational knowledge.
+
+* **Role-Specific Knowledge Upload:** Upload knowledge and assign it to specific agents (like Martha, Bruce, or Nova) or share it across the entire team, giving you precise control over information distribution.
+* **Enhanced Upload Dialog:** Completely redesigned knowledge upload interface with better file handling, clearer instructions, and improved validation.
+* **Better File Support:** Improved handling of various file formats including documents, spreadsheets, presentations, and code files.
+* **Upload Instructions:** Detailed guidance in the upload dialog helps you understand how to structure and provide knowledge effectively.
+* **Knowledge Organization:** Better organization and categorization of uploaded knowledge for easier management and retrieval.
+
+### Team Customization & Management
+
+New tools for personalizing and managing your AI teams.
+
+* **Custom Team Icons:** Choose from an expanded library of icons to personalize your teams and make them easily identifiable.
+* **Agent Descriptions:** Add custom descriptions to agents to clarify their roles and responsibilities within your organization.
+* **Team Configuration:** Enhanced team setup interface with better validation and clearer configuration options.
+* **Agent Selection Improvements:** Improved agent selection interface with better visual feedback and clearer role descriptions.
+* **Team Templates:** Enhanced marketplace templates with better descriptions and clearer use cases.
+
+### WebSocket & Real-Time Communication
+
+Significant improvements to real-time communication and responsiveness.
+
+* **Enhanced WebSocket Service:** Completely refactored WebSocket service with improved connection management and better error handling.
+* **Better Connection Stability:** Improved connection stability with automatic reconnection and better handling of network interruptions.
+* **Real-Time Updates:** Faster and more reliable real-time updates for team status, message delivery, and file changes.
+* **Improved Message Handling:** Better handling of large messages and complex data structures in real-time communication.
+
+### User Interface Refinements
+
+Comprehensive improvements to the overall user experience.
+
+* **Improved Layouts:** Refined layouts throughout the application for better use of screen space and improved visual hierarchy.
+* **Better Responsiveness:** Enhanced responsive design ensures a great experience on all device sizes.
+* **Visual Consistency:** Improved visual consistency across all components with refined color schemes and typography.
+* **Loading Indicators:** Better loading indicators and progress feedback throughout the application.
+* **Error Messages:** Clearer, more helpful error messages with actionable guidance for resolution.
+
+### Performance Enhancements
+
+Behind-the-scenes improvements for better performance and reliability.
+
+* **Faster Page Loads:** Optimized asset loading and caching for faster initial page loads.
+* **Improved Rendering:** Better rendering performance for large conversations and complex interfaces.
+* **Memory Management:** Improved memory management reduces resource usage and improves stability.
+* **Network Optimization:** Optimized network requests reduce bandwidth usage and improve responsiveness.
+
+### Bug Fixes & Stability
+
+Numerous bug fixes and stability improvements throughout the platform.
+
+* **Upload Reliability:** Fixed issues with file uploads and improved error handling.
+* **Chat Stability:** Resolved issues with chat message delivery and display.
+* **Team Management:** Fixed various issues with team creation and configuration.
+* **Navigation Fixes:** Resolved navigation issues and improved routing throughout the application.
+
+---
+
 ## June 2025
 
 Welcome to our latest sprint update! This release for Compass delivers a significant leap forward in organizational intelligence, administrative control, and user experience. We've focused on empowering your teams with more robust management tools and a smoother, more intuitive interface.
