@@ -4,12 +4,12 @@
 
 ### *Where Autonomous AI Agents Transform Enterprise Workflows*
 
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://brightendigital.github.io/compass/)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://brightendigital.github.io/kore/)
 [![Platform](https://img.shields.io/badge/platform-Enterprise-purple.svg)](https://app.compassap.ai)
 [![License](https://img.shields.io/badge/license-Enterprise-green.svg)]()
 [![Status](https://img.shields.io/badge/status-Production-success.svg)]()
 
-[**Try Compass**](https://app.compassap.ai) • [**Documentation**](https://brightendigital.github.io/compass/) • [**What's New**](https://brightendigital.github.io/compass/getting_started/whats_new.html)
+[**Try Compass**](https://app.compassap.ai) • [**Documentation**](https://brightendigital.github.io/kore/) • [**What's New**](https://brightendigital.github.io/kore/getting_started/whats_new.html)
 
 </div>
 
