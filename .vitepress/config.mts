@@ -68,15 +68,17 @@ export default withMermaid(
           ]
         },
         {
-          text: 'Ecosystem',
+          text: 'Compass Ecosystem',
           link: '/ecosystem/ecosystem.md',
           items: [
-            { text: 'Compass Agentic RAG', link: "/ecosystem/compass_rag.md" },
-            { text: 'Compass SLM', link: "/ecosystem/compass_slm.md" },
-            { text: 'Compass M365', link: "/ecosystem/compass_m365.md" },
-            { text: 'Compass MS Teams', link: "/ecosystem/compass_msteams.md" },
-            { text: 'Compass MCP Servers', link: "/ecosystem/mcpservers.md" },
-            { text: 'Compass Blueprint', link: "/technical/system_blueprint.md" },
+            { text: 'CLI', link: "/ecosystem/compass_cli.md" },
+            { text: 'Excel Add-in', link: "/ecosystem/compass_excel.md" },
+            { text: 'Agentic RAG', link: "/ecosystem/compass_rag.md" },
+            { text: 'SLM', link: "/ecosystem/compass_slm.md" },
+            { text: 'M365 Integration', link: "/ecosystem/compass_m365.md" },
+            { text: 'MS Teams', link: "/ecosystem/compass_msteams.md" },
+            { text: 'MCP Servers', link: "/ecosystem/mcpservers.md" },
+            { text: 'Blueprint', link: "/technical/system_blueprint.md" },
           ]
         },
         {

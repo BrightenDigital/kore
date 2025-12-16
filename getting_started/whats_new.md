@@ -1,502 +1,507 @@
-markdown
 # 🚀 What's New
+
+At Compass, we're always working to make our platform more powerful and easier to use. Here’s a look at our latest updates, explained in simple terms.
 
 ## December 2025
 
-Welcome to the December 2025 release of Compass! This month brings powerful enhancements to our presentation capabilities, advanced orchestration features, and significant improvements to our CLI experience. We've focused on making Compass more intelligent, more flexible, and more enterprise-ready than ever before.
+Welcome to the December 2025 release of Compass! This month, we're excited to introduce major upgrades that make creating presentations a breeze, managing complex projects simpler, and your overall experience better and more secure.
 
-> **TL;DR**: The December 2025 Compass update (v1.0.44) introduces **OnDeck presentation refinement**, **TaskOrchestrator for complex workflows**, **enhanced CLI with directory authorization**, **organization templates**, **audio generation capabilities**, and **comprehensive prompt management**. Key improvements include **delta-based presentation modifications**, **MapToRoles for intelligent team composition**, **blueprint management**, and **Azure Blob Storage integration** for scalable asset management.
+> **In a nutshell**: The December 2025 update makes creating presentations smarter, introduces a new way to manage complex projects, and improves security. You can now create company-wide templates, generate audio, and manage AI prompts more easily. We've also made it easier to build the right team for your projects and store files securely in the cloud.
 
-### Presentation Excellence with OnDeck
+### Smarter Presentation Creation
 
-We've revolutionized how you work with presentations through our enhanced OnDeck (formerly Presenter2) capabilities.
+We've revolutionized how you work with presentations, making the process more intelligent and efficient.
 
-* **Delta-Based Presentation Modification:** OnDeck now intelligently modifies existing presentations by tracking changes and applying only necessary updates, preserving your existing work while incorporating new content seamlessly.
-* **Selective Image Regeneration:** Images are regenerated only when content changes require it, significantly improving performance and reducing unnecessary API calls.
-* **State-Aware Actions:** The presentation engine now maintains awareness of the current presentation state, enabling more intelligent decision-making during modifications.
-* **Versioned Output:** All presentation exports now include version numbers in filenames, making it easy to track iterations and maintain document history.
-* **Enhanced Slide Generation:** Improved prompt handling for visual generation ensures more accurate and contextually relevant slide imagery.
+*   **Smart Updates:** When you edit presentations, Compass now only updates the parts that have changed, saving you time and effort.
+*   **Faster Image Handling:** Presentation images are only recreated when absolutely necessary, making updates much quicker.
+*   **Intelligent Editing:** The presentation tool is now smarter about its current state, making better decisions when you ask for changes.
+*   **Easy Version Tracking:** Every presentation you export now includes a version number in its filename, so you can easily keep track of different drafts.
+*   **Better Slide Images:** We've improved how Compass understands your requests for images, resulting in more accurate and relevant visuals for your slides.
 
-### Intelligent Orchestration & Team Composition
+### Better Project and Team Management
 
-Compass now features advanced orchestration capabilities for managing complex, multi-team workflows.
+Compass now has advanced features for managing large projects that involve multiple teams.
 
-* **TaskOrchestrator Role:** A new specialized role that coordinates multiple teams, manages task distribution, and ensures seamless workflow execution across complex projects.
-* **MapToRoles Action:** Intelligent role suggestion and team composition based on project requirements, automatically identifying capability gaps and recommending appropriate team members.
-* **Global Roles Service:** Centralized role management with caching for improved performance and consistency across the platform.
-* **Direct Role Hiring:** TaskOrchestrator can now directly hire and execute roles with cache support, streamlining team assembly and task execution.
-* **Workflow Coordination:** Enhanced coordination logic ensures smooth handoffs between teams and maintains project context throughout complex workflows.
+*   **Project Coordinator for Complex Tasks:** A new AI role helps coordinate work across different teams, making sure your projects run smoothly.
+*   **Automated Team Building:** Compass can now suggest the best people for a project and help you build the right team for the job.
+*   **Centralized Team Roles:** We've made it easier to manage different roles across your organization for better consistency.
+*   **Faster Team Assembly:** The Project Coordinator can now assemble teams more quickly, getting your projects started faster.
+*   **Smoother Project Handoffs:** Improved coordination between teams ensures that work is handed off smoothly without losing important information.
 
-### CLI Enhancements & Developer Experience
+### An Improved Tech Experience
 
-The Compass CLI has received significant improvements for better security and usability.
+We've made significant improvements for our more technical users to enhance security and usability.
 
-* **Directory Trust Authorization:** New security feature requiring explicit user authorization before accessing directories, preventing unauthorized file system access.
-* **Enhanced Console Experience:** Improved waiting indicators, trigger handlers, and live team log streaming for better visibility into agent activities.
-* **Suppress Output Context:** Async context manager for cleaner console output during long-running operations.
-* **Team Reconstruction Support:** Seamless team state restoration with user prompts and automatic role reinitialization.
-* **Working Directory Support:** CLI now supports custom working directories via command-line options, enabling flexible project organization.
+*   **Enhanced Security for Your Files:** A new security feature asks for your permission before accessing project folders, keeping your files safe.
+*   **A Clearer View of AI Activities:** We've improved the console to give you a better real-time look at what your AI teams are doing.
+*   **Cleaner Operation Logs:** You can now hide unnecessary technical details from the console for a cleaner view of important information.
+*   **Easily Restore Your Teams:** If you need to, you can now seamlessly restore your teams to a previous state.
+*   **More Flexibility for Your Projects:** You can now specify a working folder for your projects, giving you more flexibility in how you organize your work.
 
-### Organization Templates & Customization
+### Standardize Your Work with Templates
 
-Empower your organization with custom templates and standards.
+Create a consistent look and feel for all your company's documents.
 
-* **Organization Template Management:** Upload, manage, and share custom templates across your organization for consistent output formatting.
-* **Primary Template Selection:** Designate primary templates for different file types, ensuring agents use your preferred formats by default.
-* **Template Fallback Logic:** Intelligent fallback system that tries organization templates first, then base templates, ensuring agents always have appropriate guidance.
-* **Template Listing API:** Comprehensive endpoints for listing team and organization templates with filtering capabilities.
-* **Default Templates Integration:** Templates are automatically populated in team contexts and available to all agents.
+*   **Company-Wide Templates:** You can now upload and share custom templates across your organization.
+*   **Set Default Formats:** Choose a primary template for different file types to ensure your teams always use the correct format.
+*   **Smart Template Selection:** Compass will always try to use your organization's templates first, ensuring consistency.
+*   **Easily Find Templates:** We've made it simple to find and manage all your company's templates.
+*   **Templates for Everyone:** Templates are automatically available to all your AI teams.
 
-### Audio & Sound Generation
+### Create Your Own Audio
 
-Expand your creative capabilities with new audio generation features.
+Bring your projects to life with custom audio.
 
-* **Sound Effect Generation:** Generate custom sound effects and audio clips using natural language descriptions.
-* **Audio File Management:** Seamlessly save and organize generated audio files within your project structure.
-* **Integration with WriteDiff:** Audio generation is now integrated into the code modification workflow, enabling multimedia content creation.
-* **Prompt Optimization:** Intelligent prompt truncation and optimization ensures high-quality audio generation within model constraints.
+*   **Generate Sound Effects:** Create custom sound effects and audio clips just by describing what you want.
+*   **Manage Audio Files:** Easily save and organize your generated audio files within your projects.
+*   **Audio in Your Workflow:** Audio generation is now part of our standard workflow, making it easy to add sound to your content.
+*   **High-Quality Sound:** We've optimized the process to ensure you get high-quality audio every time.
 
-### Blueprint Management & Project Templates
+### Share and Reuse Projects
 
-Streamline project setup with enhanced blueprint capabilities.
+Set up new projects faster with reusable "Blueprints."
 
-* **Blueprint Publishing:** Publish and share project blueprints within your organization's marketplace.
-* **Blueprint Import/Export:** Import complete project structures with team assignments and workflow configurations.
-* **Blueprint Verification:** Verify and validate blueprints before deployment to ensure compatibility and completeness.
-* **Category Support:** Organize blueprints by category for easier discovery and selection.
-* **Team Assignment Metadata:** Blueprints now include detailed team assignment information, including categories and workflow positions.
+*   **Share Project Blueprints:** You can now publish and share project setups (Blueprints) with your entire organization.
+*   **Import and Export Projects:** Easily import a complete project, including team members and workflow settings.
+*   **Verified Blueprints:** We check blueprints to make sure they're complete and ready to go before you use them.
+*   **Organize by Category:** Find the right blueprint for your needs by browsing categories.
+*   **Detailed Team Information:** Blueprints now include all the details about team assignments and roles.
 
-### Azure Blob Storage Integration
+### Secure and Scalable File Storage
 
-Enterprise-grade asset management with Azure Blob Storage.
+We've integrated with Azure Blob Storage for enterprise-grade file management.
 
-* **Image Upload to Azure:** Automatically upload generated images to Azure Blob Storage for scalable, reliable asset management.
-* **Blob Name Tracking:** Track blob storage resources in team contexts for easy cleanup and management.
-* **URL-Based Image References:** Presentations and documents now reference images via Azure URLs, eliminating local file dependencies.
-* **Automatic Cleanup:** Blob storage resources are automatically cleaned up when teams are deleted, preventing orphaned assets.
-* **Secure Storage:** All uploads use secure Azure connections with proper authentication and encryption.
+*   **Cloud-Based Image Storage:** Images generated by Compass are now automatically uploaded to a secure cloud storage location.
+*   **Easy Resource Tracking:** Keep track of your stored files for easy management and cleanup.
+*   **No More Local Files:** Presentations and documents now use cloud-based links for images, so you don't have to worry about local file paths.
+*   **Automatic Cleanup:** When you delete a team, all associated files in storage are automatically removed.
+*   **Secure Storage:** All your files are stored securely with encryption.
 
-### Prompt Management System
+### Easily Manage Your AI Prompts
 
-Centralized prompt management for consistency and flexibility.
+We’ve created a new centralized system for managing the prompts you use to interact with AI.
 
-* **PromptManager Service:** New centralized service for managing prompts with multi-tenancy support and versioning.
-* **Dynamic Prompt Retrieval:** Actions and roles now retrieve prompts dynamically from the PromptManager, enabling runtime updates without code changes.
-* **Prompt Database:** Dedicated database table for storing and managing prompts with comprehensive metadata.
-* **Type-Safe Formatting:** Prompts support type-safe parameter substitution with validation and error handling.
-* **Usage Examples:** Comprehensive examples and documentation for creating and managing prompts.
+*   **Central Prompt Library:** A new service lets you manage all your prompts in one place, with versioning and support for multiple teams.
+*   **Always the Latest Prompts:** AI team members now get their prompts from this central library, so they’re always using the most up-to-date versions.
+*   **Prompt Database:** A dedicated database stores all your prompts with helpful details.
+*   **Error-Free Formatting:** We’ve made sure your prompts are formatted correctly every time, with built-in checks.
+*   **Helpful Examples:** We’ve included examples to help you get started with creating and managing prompts.
 
-### Performance & Stability Improvements
+### A Faster and More Stable Compass
 
-* **Distributed Locking:** Enhanced distributed locking for history file operations prevents race conditions in multi-worker environments.
-* **Cache Reconciliation:** Automated cache reconciliation job detects and repairs drift between memory and Redis.
-* **Storage Health Monitoring:** Async storage health monitoring with lock management ensures system reliability.
-* **Redis Connection Improvements:** Simplified Redis initialization with better error logging and connection management.
-* **Multi-Worker Support:** Improved support for multiple workers with proper task distribution and synchronization.
+We’ve made several behind-the-scenes improvements to make Compass more reliable and performant.
 
-### Developer Experience Enhancements
+*   **More Reliable History:** We've improved how we handle file history to prevent issues when multiple people are working at once.
+*   **Improved Caching:** Our automatic cache-checking system ensures your data is always consistent.
+*   **System Health Monitoring:** We've added new monitoring to ensure the platform remains reliable.
+*   **Better Connections:** We've improved our connection management for better performance and easier troubleshooting.
+*   **Support for More Workers:** Compass now works better when multiple tasks are running at the same time.
 
-* **Comprehensive Docstrings:** Added extensive documentation to core modules including Role, Action, Context, Config, and Environment classes.
-* **Markdown Documentation:** Generated detailed markdown documentation for key system components.
-* **Debug Configurations:** Added VS Code debug configurations for easier development and troubleshooting.
-* **Timer Decorators:** Detailed performance timing throughout the codebase for identifying bottlenecks.
-* **Improved Error Handling:** Enhanced error messages and stack traces for faster debugging.
+### Improvements for Developers
+
+We've added a number of enhancements to make life easier for developers.
+
+*   **Better Documentation:** We've added detailed explanations to our core code to make it easier to understand.
+*   **Markdown Documentation:** We’ve created detailed documentation for key parts of the system.
+*   **Easier Debugging:** We’ve added new configurations for VS Code to simplify development and troubleshooting.
+*   **Performance Tracking:** We've added timers throughout the code to help identify and fix performance issues.
+*   **Clearer Error Messages:** We've improved error messages to make debugging faster.
 
 ---
 
 ## November 2025
 
-Welcome to the November 2025 release! This month brings significant enhancements to our LLM ecosystem, powerful new presentation capabilities, and major improvements to our knowledge management system. We've focused on expanding model support, enhancing document processing, and delivering enterprise-grade features.
+Welcome to our November update! This month, we’re excited to bring you support for the latest AI models, powerful new presentation tools, and major improvements to our knowledge management system. We've focused on giving you more choices, better document tools, and enterprise-grade features.
 
-> **TL;DR**: The November 2025 Compass update (v1.0.40-v1.0.43) introduces **Claude Opus 4.5**, **Gemini 2.5 Pro**, **enhanced Excel AI capabilities**, **push notifications**, **Presenter2/OnDeck for advanced presentations**, and **comprehensive brain queue management**. Key improvements include **image generation with Azure integration**, **PDF conversion**, **MCP injection instructions**, and **organization rules integration**.
+> **In a nutshell**: The November 2025 update brings you the latest AI models like **Claude Opus 4.5** and **Gemini 2.5 Pro**. We've also introduced a powerful new presentation tool, enhanced our **Excel AI** features, and added **push notifications** to keep you informed. Plus, we've made significant improvements to how Compass manages and processes knowledge.
 
-### Expanded LLM Support
+### Access to the Latest AI Models
 
-Compass now supports the latest and most powerful language models from leading providers.
+Compass now supports the most powerful language models available.
 
-* **Claude Opus 4.5 (claude-opus-4-5-20251101):** Added support for Anthropic's most capable model with enhanced reasoning and extended context capabilities.
-* **Claude Haiku 4.5 (claude-haiku-4-5-20251001):** Fast, efficient model for high-throughput tasks with excellent cost-performance ratio.
-* **Gemini 2.5 Pro Preview:** Integration with Google's latest Gemini model featuring advanced multimodal capabilities.
-* **GPT-5 Codex & GPT-5.1:** Support for OpenAI's next-generation models with improved coding and reasoning abilities.
-* **Model Provider Mapping:** Enhanced token counter with comprehensive model-to-provider mapping for accurate cost tracking.
+*   **Claude Opus 4.5:** We’ve added support for Anthropic’s most advanced model, offering better reasoning and a larger memory.
+*   **Claude Haiku 4.5:** A fast and efficient model perfect for quick tasks at a great price.
+*   **Gemini 2.5 Pro Preview:** Get a sneak peek at Google’s latest AI model with advanced capabilities.
+*   **GPT-5 Models:** We’ve also added support for OpenAI’s next-generation models for improved coding and reasoning.
+*   **Accurate Cost Tracking:** We’ve improved our cost tracking to give you a clear picture of your spending across different AI providers.
 
-### Presenter2 (OnDeck) - Advanced Presentation Generation
+### Next-Level Presentation Creation
 
-Transform your presentation workflow with our new advanced presentation engine.
+Transform your workflow with our new advanced presentation engine.
 
-* **Slidecraft Integration:** New Presenter2 role (renamed to OnDeck) with sophisticated slide generation capabilities.
-* **Image Generation & Publishing:** Automatic image generation for slides with parallel processing and batch operations.
-* **Azure Blob Storage Integration:** Generated images are uploaded to Azure Blob Storage and referenced via URLs in presentations.
-* **Versioned Filenames:** Presentations are exported with version numbers and sanitized filenames for better organization.
-* **Visual Prompt Enhancement:** Improved visual generation prompts with detailed guidance for image creation.
-* **Batch Processing:** Efficient batch processing of slides and images for faster presentation generation.
+*   **Sophisticated Slide Generation:** Our new presentation tool, **OnDeck**, makes it easy to create beautiful and professional slides.
+*   **Automatic Image Creation:** Compass can now automatically generate images for your slides, and even create multiple images at once.
+*   **Cloud-Based Image Storage:** Generated images are stored securely in the cloud and linked in your presentations.
+*   **Versioned Files:** Presentations are saved with version numbers, making it easy to keep track of your work.
+*   **Better Image Prompts:** We’ve improved how we generate images from your descriptions, resulting in better visuals.
+*   **Faster Creation:** Our new batch processing feature creates slides and images more quickly.
 
-### Excel AI Service
+### Bring AI to Your Spreadsheets
 
-Powerful AI capabilities for Excel document processing and generation.
+We’ve added powerful new AI features for working with Excel.
 
-* **Excel Document Creation:** Generate Excel spreadsheets with AI-powered content and formatting.
-* **Organization Rules Integration:** Excel AI service now incorporates organization rules and policies into system prompts.
-* **User API Key Support:** Excel endpoints support user-specific API keys with caching for improved performance.
-* **Tenant Context:** Full tenant organization rules and policies are available to Excel AI operations.
-* **Enhanced Prompts:** Improved system prompts for better Excel content generation and formatting.
+*   **Create AI-Powered Spreadsheets:** Generate Excel files with content and formatting created by AI.
+*   **Follow Company Rules:** The Excel AI now automatically follows your organization’s rules and policies.
+*   **Better Performance:** We’ve improved performance with caching for user-specific keys.
+*   **Full Context:** Excel AI operations now have access to your full company policies for more accurate results.
+*   **Improved Prompts:** We’ve fine-tuned our AI prompts for better spreadsheet content and formatting.
 
-### Push Notifications
+### Stay Updated with Real-Time Alerts
 
-Stay informed with real-time notifications for important events.
+Get real-time notifications for important events so you never miss a thing.
 
-* **Task Completion Notifications:** Receive notifications when AI teams complete tasks or reach milestones.
-* **Error Notifications:** Get alerted when errors occur during task execution.
-* **Metadata Support:** Rich notification metadata including team information, task details, and status updates.
-* **VAPID Key Management:** Secure push notification setup with VAPID key generation and management.
-* **Blob Storage Cleanup:** Notifications include information about resource cleanup and blob storage operations.
+*   **Task Completion Alerts:** Get notified when your AI teams complete their tasks.
+*   **Error Notifications:** Receive an alert if something goes wrong during a task.
+*   **Detailed Information:** Notifications include helpful details like team and task information.
+*   **Secure Notifications:** Our push notification system is set up with strong security.
+*   **Resource Cleanup Alerts:** Get notified when temporary files are cleaned up.
 
-### Knowledge Management Enhancements
+### Smarter Knowledge Organization
 
-Significant improvements to how Compass processes and manages knowledge.
+We’ve made major improvements to how Compass processes and manages your company’s knowledge.
 
-* **Brain Update Queue:** New queue system with Redis locking for safe concurrent brain.json updates.
-* **Async File Operations:** Brain queue now uses aiofiles for improved performance and reliability.
-* **Source Metadata Handling:** Enhanced brain source metadata with async queue fallback.
-* **Add Source Updates:** New update type for adding sources to the brain with proper queue integration.
-* **Individual Source Processing:** Brain sources are now processed individually for better error handling and tracking.
+*   **Safer Knowledge Updates:** A new queue system ensures that your knowledge base is updated safely, even when multiple people are working at once.
+*   **Faster File Operations:** We’ve improved the speed and reliability of our file operations.
+*   **Better Source Information:** We’ve enhanced how we handle information about the source of your knowledge.
+*   **Easier Source Additions:** You can now easily add new knowledge sources to your company's "brain."
+*   **Improved Error Handling:** Knowledge sources are now processed one by one for better error handling.
 
-### Document Processing & Conversion
+### Better Document Creation and Conversion
 
-Enhanced capabilities for document generation and conversion.
+We’ve enhanced our tools for creating and converting documents.
 
-* **PDF Conversion:** Automatic PDF conversion for generated documents using LibreOffice.
-* **Async PDF Processing:** Non-blocking PDF conversion that doesn't interrupt workflow.
-* **Error Handling:** Graceful error handling for PDF conversion with detailed logging.
-* **Multiple Format Support:** Documents can be exported in DOCX, PDF, and other formats.
-* **Version Management:** Document exports include version numbers for better tracking.
+*   **Automatic PDF Conversion:** Compass can now automatically convert your generated documents to PDF.
+*   **Seamless PDF Creation:** This process happens in the background so it doesn’t slow you down.
+*   **Smart Error Handling:** If there’s an issue with PDF conversion, we handle it gracefully and provide detailed logs.
+*   **Multiple Formats:** Export your documents in various formats, including DOCX and PDF.
+*   **Version Management:** Exported documents include version numbers for easy tracking.
 
-### MCP Server Enhancements
+### Better Tool Integration
 
-Expanded Model Context Protocol capabilities for better tool integration.
+We’ve improved how our AI tools work together for a more seamless experience.
 
-* **Injection Instructions:** MCP servers can now provide injection instructions for tool usage guidance.
-* **Context7 MCP Server:** New Context7 server for enhanced contextual information retrieval.
-* **Tool Usage Instructions:** Automatic injection of MCP tool usage instructions into agent prompts.
-* **Organization/User Enforcement:** MCP tools now enforce organization and user ID requirements.
-* **Project ID Support:** MCP tool arguments include kore_project_id for project-scoped operations.
+*   **Helpful Tool Guidance:** Our AI models now get better instructions on how to use different tools.
+*   **New Context Server:** A new server provides better contextual information for more accurate results.
+*   **Automatic Instructions:** AI team members automatically receive instructions on how to use available tools.
+*   **Enforced Company Rules:** Our tools now enforce your company's security and access rules.
+*   **Project-Specific Operations:** Tools now operate within the scope of a specific project for better organization.
 
-### Image Generation & Management
+### Advanced Image Creation and Cloud Storage
 
-Comprehensive image generation capabilities with cloud storage integration.
+Create and manage images with our new cloud-integrated features.
 
-* **Generate and Upload Image:** New unified function for generating images and uploading to Azure Blob Storage.
-* **Filename Support:** Image generation now supports custom filenames for better organization.
-* **Cost Tracking:** Detailed cost calculation and logging for image generation operations.
-* **Observability Support:** Image generation includes persistent JSON logging for operations tracking.
-* **Error Handling:** Robust error handling with fallback mechanisms for image generation failures.
+*   **All-in-One Image Generation:** A new function lets you generate an image and upload it to secure cloud storage in one step.
+*   **Custom Filenames:** You can now give your images custom filenames for better organization.
+*   **Cost Tracking:** We now track and log the cost of every image generation.
+*   **Operations Tracking:** We keep a detailed log of all image generation activities for better oversight.
+*   **Reliable Error Handling:** We’ve built in robust error handling to ensure image generation is reliable.
 
-### Performance & Reliability
+### Faster and More Reliable
 
-* **Cache Synchronization:** Improved cache synchronization between memory and Redis for data consistency.
-* **Distributed Locking:** Enhanced distributed locking for team operations to prevent race conditions.
-* **Storage Health Checks:** Async storage health monitoring with lock management.
-* **Version Tracking:** Team state now includes version field for better state management.
-* **Backup Sync Utilities:** Enhanced backup sync with detailed logging and error handling.
+*   **Consistent Data:** We’ve improved our data synchronization to ensure your information is always up to date.
+*   **Reliable Team Operations:** Enhanced locking mechanisms prevent issues when multiple operations run at once.
+*   **System Health Checks:** We’ve added new monitoring to keep an eye on storage health.
+*   **Better State Management:** A new version field helps us manage team states more effectively.
+*   **Improved Backup Utilities:** Our backup tools now have better logging and error handling.
 
 ---
 
 ## October 2025
 
-Welcome to the October 2025 release! This month brings groundbreaking features including Claude Code integration, comprehensive project management capabilities, and powerful workflow orchestration. We've focused on enabling complex multi-team collaboration and providing enterprise-grade project management tools.
+Welcome to the October 2025 release! This month brings exciting new features, including integration with Claude Code for development, powerful project management tools, and advanced workflow capabilities. We’ve focused on enabling complex, multi-team projects and providing enterprise-grade management tools.
 
-> **TL;DR**: The October 2025 Compass update (v1.0.28-v1.0.35) introduces **Claude Code integration**, **Projects with workflow management**, **Chat Companion**, **KoreDocs management**, **organizational blueprints**, and **comprehensive cost tracking**. Key improvements include **team workflows**, **project blueprints**, **federated querying**, and **enhanced team lifecycle management**.
+> **In a nutshell**: The October 2025 update introduces **Claude Code integration** for developers, new **Project and Workflow Management** tools, a **Chat Companion** assistant, and automated **documentation management**. We've also added features for sharing **organizational project templates** and tracking **costs**.
 
-### Claude Code Integration
+### Supercharge Development with Claude Code
 
-Seamless integration with Anthropic's Claude Code for enhanced development capabilities.
+We've integrated Anthropic's Claude Code to bring powerful new development capabilities to Compass.
 
-* **ClaudeCode Role:** New specialized role for Claude Code interactions with async action handling and message integration.
-* **ClaudeChat Action:** Dedicated action for Claude Code queries with workspace boundary enforcement.
-* **SDK Integration:** Integration with claude-agent-sdk v0.1.5 for robust Claude Code functionality.
-* **Marketplace Entry:** Claude Code assistant available in the marketplace with pre-configured MCP server settings.
-* **Security Rules:** Strict workspace path confidentiality and security rules for Claude Code operations.
+*   **New Claude Code Role:** A new specialized AI role helps with coding tasks.
+*   **Dedicated Claude Code Action:** A new action allows you to interact with Claude Code for your development queries.
+*   **Robust Integration:** We've integrated the latest SDK for reliable Claude Code functionality.
+*   **Available in the Marketplace:** The Claude Code assistant is now available in our marketplace with pre-configured settings.
+*   **Secure and Confidential:** We've implemented strict security rules to keep your code and projects safe.
 
-### Projects & Workflow Management
+### Manage Complex Projects with Ease
 
-Revolutionary project management capabilities for complex multi-team initiatives.
+We’ve introduced revolutionary new tools for managing large projects with multiple teams.
 
-* **Project Creation & Management:** Create and manage projects with multiple team assignments and workflow configurations.
-* **Workflow Settings:** Define workflows with team ordering, connections, and execution modes (auto/manual).
-* **Team-Project Association:** Associate teams with projects and manage their roles within project workflows.
-* **Project Running State:** Track project execution state with automatic updates on team start/stop.
-* **Blueprint Import/Export:** Import complete project structures with team assignments and workflow definitions.
+*   **Create and Manage Projects:** You can now create and manage projects, assign multiple teams, and configure their workflows.
+*   **Custom Workflows:** Define how your teams work together by setting their order, connections, and whether they run automatically or manually.
+*   **Link Teams to Projects:** Associate teams with specific projects and define their roles within the project.
+*   **Track Project Status:** Keep an eye on your project’s progress with automatic status updates.
+*   **Import and Export Projects:** Easily import a complete project setup, including teams and workflow definitions.
 
-### Organizational Blueprints
+### Share Project Templates Across Your Company
 
-Share and reuse project templates across your organization.
+You can now share and reuse project templates throughout your organization.
 
-* **Blueprint Publishing:** Publish project blueprints to organizational marketplace for team discovery and reuse.
-* **Blueprint Retrieval:** Retrieve and filter blueprints by status, category, and other criteria.
-* **Blueprint Deletion:** Permanently delete blueprints from organizational marketplace.
-* **Blueprint Models:** Comprehensive models for blueprint metadata, team assignments, and workflow configurations.
-* **Status Management:** Manage blueprint lifecycle through draft, published, and released states.
+*   **Publish Project Templates:** Share your project setups (Blueprints) in your company’s marketplace for others to use.
+*   **Find and Filter Templates:** Easily find the templates you need by filtering by status, category, and more.
+*   **Delete Old Templates:** Keep your marketplace tidy by removing old or outdated templates.
+*   **Detailed Template Information:** Templates include all the details about the project, including team assignments and workflows.
+*   **Manage Template Status:** Manage the lifecycle of your templates from draft to published.
 
-### Chat Companion
+### A Smarter Chat Assistant
 
-Intelligent chat assistant with organization context and MCP integration.
+Our new Chat Companion is an intelligent assistant that understands your organization.
 
-* **Organization Rules Integration:** Chat companion incorporates organization rules and policies into responses.
-* **KoreDocs Support:** Access to organization documentation (koreDocs.md) for contextual assistance.
-* **MCP Server Setup:** Chat companion includes MCP server configuration for enhanced capabilities.
-* **User Context:** Full user information and organization context available to chat companion.
-* **Streaming Support:** Real-time streaming responses for interactive chat experience.
+*   **Follows Company Rules:** The chat assistant incorporates your company’s rules and policies into its responses.
+*   **Knows Your Documentation:** It can access your company’s documentation to provide helpful, context-aware assistance.
+*   **Enhanced Capabilities:** The assistant comes with pre-configured settings for advanced capabilities.
+*   **Understands Your Context:** It has access to user and company information for more relevant responses.
+*   **Interactive Chat Experience:** Get real-time, streaming responses for a more interactive feel.
 
-### KoreDocs Management
+### Automated Documentation
 
-Automated documentation management with LLM-powered updates.
+We’ve automated documentation management to keep your information up to date.
 
-* **Automated Updates:** KoreDocs.md is automatically updated based on project changes and team activities.
-* **API Endpoints:** Comprehensive CRUD endpoints for managing KoreDocs content.
-* **Markdown Extraction:** Centralized markdown extraction utility for consistent documentation formatting.
-* **Git Integration:** KoreDocs changes are tracked in Git with proper diff handling.
-* **Fallback Defaults:** Default KoreDocs content provided when organization-specific documentation is unavailable.
+*   **Automatic Updates:** Your documentation is now automatically updated based on project changes.
+*   **Manage Your Docs:** We’ve provided a full set of tools for managing your documentation content.
+*   **Consistent Formatting:** A new tool ensures all your documentation has a consistent look and feel.
+*   **Track Changes:** Documentation changes are tracked in Git, so you always have a history.
+*   **Helpful Defaults:** If you don’t have your own documentation, we provide default content to get you started.
 
-### Cost Tracking & Usage Analytics
+### Keep Track of Costs and Usage
 
-Comprehensive cost tracking and usage analytics for better resource management.
+New tools give you better insight into your resource usage and spending.
 
-* **Model-Level Cost Tracking:** Track costs by specific model and provider for detailed analytics.
-* **Organization Costs Endpoint:** Aggregate cost data across all teams and projects in an organization.
-* **Usage Tracking:** Track token usage per model with detailed breakdowns.
-* **Cost Models:** Comprehensive models for tracking costs, usage, and team expenses.
-* **Teams Costs Aggregation:** Aggregate cost data across multiple teams for organizational reporting.
+*   **Track Costs by Model:** See exactly how much you’re spending on each AI model and provider.
+*   **View Company-Wide Costs:** Get a complete overview of costs across all teams and projects in your organization.
+*   **Monitor Token Usage:** Track how many tokens are being used by each model.
+*   **Detailed Cost Models:** Our new models provide a comprehensive breakdown of costs, usage, and expenses.
+*   **Aggregate Team Costs:** Easily combine cost data from multiple teams for company-wide reporting.
 
-### Team Lifecycle Enhancements
+### Improved Team Management
 
-Improved team management with better state tracking and cleanup.
+We’ve enhanced our team management features for better state tracking and cleanup.
 
-* **Team History Management:** Enhanced history retrieval with archiving support and timezone handling.
-* **Message Archiving:** Archive old messages with has_archived_messages flag for better performance.
-* **Team Deletion Cleanup:** Comprehensive cleanup of team resources including blob storage and project associations.
-* **TTL Support:** Time-to-live support for teams with automatic stale team cleanup.
-* **Team Refresh:** Refresh team status and update cache with proper state synchronization.
+*   **Better Team History:** You can now retrieve your team’s history more easily, with support for archiving.
+*   **Archive Old Messages:** Keep your chat history clean by archiving old messages.
+*   **Comprehensive Cleanup:** When you delete a team, all associated resources, including files and project links, are removed.
+*   **Automatic Cleanup:** We've added support for automatically removing old or inactive teams.
+*   **Refresh Team Status:** You can now refresh a team’s status to ensure all information is up to date.
 
-### Database Intelligence
+### Connect to Your Data Intelligently
 
-Enhanced database connectivity and query capabilities.
+We’ve enhanced our database features for better connectivity and querying.
 
-* **Federated Querying:** Query multiple databases and data sources simultaneously for comprehensive results.
-* **Schema Inference:** Dynamic schema analysis and understanding for optimal query generation.
-* **Safe SQL Generation:** Generate safe, optimized SQL queries with injection prevention.
-* **Multi-Engine Support:** Support for MSSQL Server, PostgreSQL, MySQL, and Oracle databases.
-* **Real-Time Processing:** Real-time query execution with optional result persistence.
+*   **Query Multiple Databases:** You can now query multiple databases and data sources at the same time.
+*   **Smart Schema Analysis:** Compass can now dynamically analyze your database structure to generate better queries.
+*   **Safe and Optimized SQL:** We generate safe and optimized SQL queries that prevent security vulnerabilities.
+*   **Support for Multiple Databases:** We support a wide range of databases, including MSSQL, PostgreSQL, MySQL, and Oracle.
+*   **Real-Time Processing:** Execute queries in real-time with the option to save the results.
 
 ---
 
 ## September 2025
 
-Welcome to the September 2025 release! This month brings foundational improvements to our core platform, enhanced email capabilities, and significant performance optimizations. We've focused on stability, security, and developer experience.
+Welcome to the September 2025 release! This month, we're bringing you foundational improvements to our core platform, new email capabilities, and significant performance optimizations. We've focused on making Compass more stable, secure, and developer-friendly.
 
-> **TL;DR**: The September 2025 Compass update (v1.0.23-v1.0.27) introduces **SendGrid email integration**, **enhanced document processing**, **improved Git workflows**, **booster management**, and **comprehensive logging**. Key improvements include **attachment support**, **context filtering**, **team state management**, and **performance optimizations**.
+> **In a nutshell**: The September 2025 update introduces **SendGrid integration for emails**, better **document processing**, improved **Git workflows**, and enhanced **logging**. We've also added **attachment support** for emails, improved context filtering, and made several **performance optimizations**.
 
-### Email Service Enhancements
+### More Powerful Email Features
 
-Powerful email capabilities with SendGrid integration and attachment support.
+We've enhanced our email capabilities with SendGrid integration and attachment support.
 
-* **SendGrid Integration:** Updated EmailService to use SendGrid for reliable email delivery.
-* **Attachment Support:** Full support for email attachments with proper file path handling.
-* **CC/BCC Support:** Enhanced email service with CC and BCC recipient support.
-* **SMTP Configuration:** Optional SMTP settings for organizations preferring traditional email delivery.
-* **Email Triggers:** Comprehensive trigger logging for email actions and delivery status.
+*   **SendGrid Integration:** We've updated our email service to use SendGrid for more reliable email delivery.
+*   **Attachment Support:** You can now send emails with attachments.
+*   **CC/BCC Support:** We've added support for CC and BCC recipients.
+*   **SMTP Option:** If you prefer, you can still use traditional SMTP for email delivery.
+*   **Email Logging:** We now keep a detailed log of all email actions and their delivery status.
 
-### Document Processing Improvements
+### Better Document Creation
 
-Enhanced document handling and media generation capabilities.
+We’ve improved our document handling and media generation features.
 
-* **Media Generation:** Improved CreateMedia action with better document generation and export logic.
-* **Document Versioning:** Automatic versioning for generated documents with proper filename handling.
-* **Image Integration:** Seamless integration of generated images into documents before export.
-* **Office File Handling:** Improved handling of empty paragraphs and better error tracing in office file processing.
-* **Markdown to DOCX:** Enhanced markdown to DOCX conversion with proper base path handling.
+*   **Improved Media Generation:** We’ve enhanced our `CreateMedia` action for better document generation and exporting.
+*   **Automatic Document Versioning:** Generated documents are now automatically versioned.
+*   **Image Integration:** Seamlessly add generated images into your documents before exporting.
+*   **Better Office File Handling:** We've improved how we process Office files for better reliability.
+*   **Markdown to DOCX Conversion:** Our Markdown to DOCX conversion is now more robust.
 
-### Git Integration Enhancements
+### Smoother Integration with Git
 
-Improved Git workflows and repository management.
+We’ve improved our Git workflows and repository management.
 
-* **Branch Management:** Enhanced branch creation and management with better naming conventions.
-* **Commit Improvements:** Better commit message formatting and history tracking.
-* **Repository Sync:** Improved repository synchronization with proper conflict handling.
-* **Deployment Integration:** Enhanced deployment service integration with sandbox support.
-* **Git URL Retrieval:** Dynamic Git URL retrieval for teams without pre-configured repositories.
+*   **Better Branch Management:** We've enhanced how you create and manage branches.
+*   **Improved Commits:** We've improved the formatting of commit messages and history tracking.
+*   **Better Repository Syncing:** We've improved how we sync with your repositories and handle conflicts.
+*   **Deployment Integration:** We've enhanced our integration with deployment services.
+*   **Dynamic Git URLs:** Compass can now dynamically retrieve Git URLs for teams that don't have one pre-configured.
 
-### Booster Management
+### Manage Team Capabilities
 
-Comprehensive booster management for team capabilities.
+We’ve added comprehensive tools for managing your team's "Boosters" or special capabilities.
 
-* **Publish/Verify Endpoints:** New endpoints for publishing and verifying team boosters with pagination.
-* **Category Filtering:** Filter boosters by category for easier discovery and management.
-* **Tenant Boosters:** Organization-level booster management with category support.
-* **Booster Models:** Enhanced models for booster metadata and configuration.
-* **Stack Integration:** Boosters integrated with stack definitions for enhanced functionality.
+*   **Publish and Verify Boosters:** New tools allow you to publish and verify team boosters.
+*   **Filter by Category:** You can now filter boosters by category to find what you need more easily.
+*   **Company-Level Boosters:** Manage boosters at the company level.
+*   **Enhanced Booster Models:** We've improved our models for booster metadata and configuration.
+*   **Stack Integration:** Boosters are now integrated with stack definitions for enhanced functionality.
 
-### Performance Optimizations
+### A Faster Compass
 
-Significant performance improvements across the platform.
+We’ve made significant performance improvements across the platform.
 
-* **Summarize Actions:** Performance improvements to _new_summarize_actions for faster processing.
-* **Context Filtering:** Enhanced FilterContextParser with XML tag format support and improved parsing logic.
-* **Deep Search:** Optimized deep search functionality with better MCP server integration.
-* **Logger Rotation:** Added logger rotation and retention for better log management.
-* **Caching Improvements:** Enhanced caching strategies for improved response times.
+*   **Faster Summaries:** We’ve improved the performance of our summarize actions.
+*   **Better Context Filtering:** Our context filter is now smarter and more efficient.
+*   **Optimized Deep Search:** We’ve optimized our deep search functionality.
+*   **Better Log Management:** We've added log rotation to better manage log files.
+*   **Caching Improvements:** We’ve enhanced our caching for faster response times.
 
-### Developer Experience
+### Improvements for Developers
 
-Improved tools and utilities for developers.
+We've added new tools and utilities to make development easier.
 
-* **Coding Context:** Extended category field with more context types for better code organization.
-* **Debug Logging:** Enhanced debug logging throughout the codebase for easier troubleshooting.
-* **Error Handling:** Improved error handling with better exception messages and stack traces.
-* **Validation:** Runtime validation for LLM models and roles to catch configuration errors early.
-* **Documentation:** Improved inline documentation and code comments for better maintainability.
+*   **More Context Types:** We’ve expanded our category field with more context types for better code organization.
+*   **Enhanced Debug Logging:** We've added more detailed logging to help with troubleshooting.
+*   **Better Error Handling:** We’ve improved our error messages for faster debugging.
+*   **Early Error Detection:** We now validate LLM models and roles at runtime to catch errors early.
+*   **Improved Documentation:** We’ve improved our inline documentation and code comments.
 
 ---
 
 ## August 2025
 
-Welcome to the August 2025 release! This month delivers significant improvements to the user interface, enhanced team management capabilities, and powerful new features for knowledge organization. We've focused on making Compass more intuitive, more flexible, and more powerful for everyday use.
+Welcome to the August 2025 release! This month, we're delivering significant improvements to the user interface, new team management capabilities, and powerful features for knowledge organization. We've focused on making Compass more intuitive, flexible, and powerful for your daily work.
 
-> **TL;DR**: The August 2025 Compass update (v1.0.164-v1.0.176) introduces **enhanced UI/UX with grid and list views**, **improved knowledge management with role-specific uploads**, **MCP server propagation**, **user language preferences**, and **comprehensive team lifecycle improvements**. Key improvements include **agent icon customization**, **execution timers**, **model selection enhancements**, and **streamlined team creation workflows**.
+> **In a nutshell**: The August 2025 update brings a **fresh new look and feel** with grid and list views, **smarter knowledge management**, and **easier team setup**. We've also added **agent icon customization**, an **execution timer**, and improved **model selection**.
 
-### Enhanced User Interface & Experience
+### A Fresh New Look and Feel
 
 We've completely refreshed the Compass interface to make it more intuitive and visually appealing.
 
-* **Grid and List View Modes:** Switch between grid and list views for teams and agents, giving you flexibility in how you organize and visualize your workspace.
-* **Agent Icon Customization:** Personalize your agents with custom icons from an expanded icon library, making it easier to identify and distinguish between different team members.
-* **Improved Chat Interface:** Enhanced chat bot component with better scroll functionality, active agent highlighting, and cleaner message display.
-* **Execution Timer:** Real-time execution timer shows how long your AI teams have been working, providing transparency into task progress.
-* **Dark Theme Compatibility:** Refined CSS and styling to ensure seamless compatibility with dark themes across all components.
-* **Responsive Design:** Improved mobile and tablet experience with better layout management and touch-friendly controls.
+*   **Grid and List Views:** Switch between grid and list views for your teams and agents to organize your workspace your way.
+*   **Custom Agent Icons:** Personalize your agents with custom icons from our expanded library to easily tell them apart.
+*   **Improved Chat Interface:** Our chat has been enhanced with better scrolling, highlighting for active agents, and a cleaner message display.
+*   **Execution Timer:** A real-time timer now shows you how long your AI teams have been working.
+*   **Dark Theme Ready:** We've refined our styling to ensure everything looks great in dark mode.
+*   **Mobile-Friendly Design:** We've improved the experience on mobile and tablet devices.
 
-### Knowledge Management Enhancements
+### Smarter Ways to Manage Knowledge
 
-Powerful new capabilities for organizing and managing your organizational knowledge.
+We've added powerful new capabilities for organizing and managing your company's knowledge.
 
-* **Role-Specific Knowledge Uploads:** Upload knowledge and assign it to specific agents or share it across the entire team, giving you granular control over information distribution.
-* **Enhanced Upload Instructions:** Improved guidance and instructions in the knowledge upload dialog, making it easier to understand how to structure and provide information.
-* **Summarize Option:** New option to enable or disable automatic summarization of uploaded knowledge, optimizing for either comprehensive detail or concise overviews.
-* **Image Analysis:** Upload images and have them automatically analyzed and described by advanced image models, making visual information accessible to AI agents.
-* **Multilingual Support:** Improved handling of multilingual documents with automatic language identification for better knowledge retrieval.
+*   **Role-Specific Knowledge:** You can now upload knowledge and assign it to specific AI agents or share it with the whole team.
+*   **Clearer Upload Instructions:** We've improved the guidance in the knowledge upload dialog to make it easier to add information.
+*   **Summarization Option:** You can now choose whether to automatically summarize uploaded knowledge.
+*   **Image Analysis:** Upload an image, and Compass will analyze and describe it, making visual information accessible to your AI agents.
+*   **Multilingual Support:** We've improved our handling of documents in different languages.
 
-### Team Management & Configuration
+### Easier Team Setup
 
-Streamlined workflows for creating and managing AI teams.
+We've streamlined the process for creating and managing your AI teams.
 
-* **MCP Server Propagation:** When creating teams from marketplace templates, MCP server configurations are automatically propagated, ensuring consistent tool access across your organization.
-* **Disabled LLM Models Filtering:** The system now automatically filters out disabled LLM models from selection, preventing configuration errors and ensuring only approved models are used.
-* **User Language Preferences:** Set your preferred language for the interface, with support for multiple languages and localized content.
-* **Team Reconstruction Support:** Enhanced ability to reconstruct teams from existing configurations, making it easier to restore or duplicate successful setups.
-* **Improved Team Creation Flow:** Streamlined team creation process with better validation, clearer instructions, and more intuitive configuration options.
+*   **Automatic Tool Configuration:** When you create a team from a template, its tool configurations are now automatically applied.
+*   **Approved AI Models Only:** The system now filters out disabled AI models, ensuring you only use approved ones.
+*   **Language Preferences:** Set your preferred language for the interface.
+*   **Easily Recreate Teams:** We’ve made it easier to reconstruct teams from existing configurations.
+*   **Streamlined Team Creation:** The team creation process is now simpler and more intuitive.
 
-### Model & Provider Enhancements
+### More AI Choices
 
-Expanded support for language models and improved model management.
+We've expanded our support for different AI models and improved how you manage them.
 
-* **New Model Support:** Added support for Gemini 2.5 Pro and other cutting-edge language models.
-* **Provider Images:** Visual provider logos and images throughout the interface make it easier to identify which AI provider you're using.
-* **Model Selection Improvements:** Enhanced model selection interface with better descriptions, capability indicators, and performance metrics.
-* **Friendly Model Names:** Improved model naming throughout the interface for better clarity and understanding.
-* **Actions Friendly Names:** Human-readable names for agent actions make it easier to understand what your AI teams are doing.
+*   **New Model Support:** We've added support for Gemini 2.5 Pro and other leading AI models.
+*   **Provider Logos:** Visual logos make it easy to see which AI provider you're using.
+*   **Better Model Selection:** Our model selection interface now includes better descriptions and performance details.
+*   **Clearer Model Names:** We've improved model names throughout the interface for better clarity.
+*   **Easy-to-Understand Actions:** Agent actions now have human-readable names so you can easily see what your AI teams are doing.
 
-### Performance & Reliability
+### A Faster and More Reliable Experience
 
-Behind-the-scenes improvements for better performance and stability.
+We've made several behind-the-scenes improvements for better performance and stability.
 
-* **Optimized File Operations:** Improved performance for file list retrieval and document processing.
-* **Better Error Handling:** Enhanced error messages and recovery mechanisms throughout the platform.
-* **Snackbar Notifications:** Improved notification system with longer display times and better positioning for important messages.
-* **WebSocket Improvements:** Enhanced real-time communication with better connection management and message handling.
-* **Caching Enhancements:** Improved caching strategies for faster page loads and reduced server load.
+*   **Faster File Operations:** We’ve improved the performance of file and document processing.
+*   **Clearer Error Messages:** We’ve enhanced our error messages and recovery options.
+*   **Better Notifications:** Our notification system has been improved for better visibility of important messages.
+*   **Real-Time Improvements:** We’ve enhanced our real-time communication for better connection management.
+*   **Smarter Caching:** Our caching has been improved for faster page loads.
 
-### Developer Experience
+### Productivity Boost for Developers
 
-Tools and features that make working with Compass more productive.
+We’ve added tools and features to make working with Compass more productive.
 
-* **API Brain Item Instructions:** Added detailed instructions to API brain items for better integration guidance.
-* **Improved Documentation:** Enhanced inline help and tooltips throughout the interface.
-* **Better Debugging:** Improved logging and error reporting for easier troubleshooting.
-* **Version Tracking:** Clear version indicators (v1.0.164-v1.0.176) help track which features are available in your deployment.
+*   **Better API Guidance:** We've added detailed instructions to our API for easier integration.
+*   **Improved Documentation:** We’ve enhanced the help and tooltips throughout the interface.
+*   **Easier Troubleshooting:** We’ve improved our logging and error reporting.
+*   **Version Tracking:** Clear version numbers help you track which features are available in your version of Compass.
 
 ---
 
 ## July 2025
 
-Welcome to the July 2025 release! This month marks a significant milestone in Compass's evolution with major improvements to the chat interface, enhanced knowledge management, and powerful new customization options. We've focused on making Compass more responsive, more intuitive, and more adaptable to your organization's unique needs.
+Welcome to the July 2025 release! This month, we've made major improvements to our chat interface, knowledge management, and customization options. We've focused on making Compass more responsive, intuitive, and adaptable to your company's needs.
 
-> **TL;DR**: The July 2025 Compass update introduces **enhanced chat interface with avatars and improved navigation**, **knowledge upload improvements with role-specific targeting**, **team customization with icons and descriptions**, **WebSocket service enhancements**, and **comprehensive UI/UX refinements**. Key improvements include **better file handling**, **improved agent selection**, and **streamlined team management workflows**.
+> **In a nutshell**: The July 2025 update introduces a **new chat interface with avatars**, improved **knowledge upload with role-specific targeting**, and **team customization with icons and descriptions**. We've also enhanced our real-time services and made comprehensive UI refinements.
 
-### Chat Interface Revolution
+### A Whole New Chat Experience
 
-We've completely reimagined the chat experience to make interactions with your AI teams more natural and productive.
+We've completely reimagined the chat experience to make working with your AI teams more natural and productive.
 
-* **Agent Avatars:** Each AI agent now has a distinctive avatar, making it easier to follow conversations and understand who's contributing to your project.
-* **Enhanced Scroll Functionality:** Improved scrolling behavior ensures you never lose your place in long conversations, with automatic scroll-to-bottom for new messages.
-* **Better Message Display:** Refined message layout with improved spacing, typography, and visual hierarchy for easier reading.
-* **Active Agent Indicators:** Clear visual indicators show which agent is currently active and working on your request.
-* **Improved Navigation:** Enhanced navigation between different sections of the chat interface for smoother workflow.
+*   **Agent Avatars:** Each AI agent now has its own avatar, making it easier to follow conversations.
+*   **Better Scrolling:** We’ve improved the scrolling behavior in chat so you never lose your place.
+*   **Cleaner Message Display:** We’ve refined the layout of messages for easier reading.
+*   **Active Agent Indicators:** Clear visual cues show you which agent is currently working on your request.
+*   **Smoother Navigation:** We’ve improved navigation within the chat interface.
 
-### Knowledge Management Improvements
+### Better Ways to Organize Information
 
-Powerful new capabilities for managing and organizing your organizational knowledge.
+We’ve added powerful new capabilities for managing and organizing your company’s knowledge.
 
-* **Role-Specific Knowledge Upload:** Upload knowledge and assign it to specific agents (like Martha, Bruce, or Nova) or share it across the entire team, giving you precise control over information distribution.
-* **Enhanced Upload Dialog:** Completely redesigned knowledge upload interface with better file handling, clearer instructions, and improved validation.
-* **Better File Support:** Improved handling of various file formats including documents, spreadsheets, presentations, and code files.
-* **Upload Instructions:** Detailed guidance in the upload dialog helps you understand how to structure and provide knowledge effectively.
-* **Knowledge Organization:** Better organization and categorization of uploaded knowledge for easier management and retrieval.
+*   **Role-Specific Knowledge:** You can now upload knowledge and assign it to specific agents or share it across the whole team.
+*   **Redesigned Upload Dialog:** We’ve completely redesigned the knowledge upload interface for a better experience.
+*   **Improved File Support:** We’ve improved our handling of different file formats.
+*   **Clear Upload Instructions:** Detailed guidance helps you structure and provide knowledge effectively.
+*   **Better Organization:** We’ve made it easier to organize and categorize your uploaded knowledge.
 
-### Team Customization & Management
+### Personalize Your AI Teams
 
-New tools for personalizing and managing your AI teams.
+We’ve added new tools for personalizing and managing your AI teams.
 
-* **Custom Team Icons:** Choose from an expanded library of icons to personalize your teams and make them easily identifiable.
-* **Agent Descriptions:** Add custom descriptions to agents to clarify their roles and responsibilities within your organization.
-* **Team Configuration:** Enhanced team setup interface with better validation and clearer configuration options.
-* **Agent Selection Improvements:** Improved agent selection interface with better visual feedback and clearer role descriptions.
-* **Team Templates:** Enhanced marketplace templates with better descriptions and clearer use cases.
+*   **Custom Team Icons:** Choose from an expanded library of icons to personalize your teams.
+*   **Custom Agent Descriptions:** Add descriptions to your agents to clarify their roles.
+*   **Improved Team Configuration:** The team setup interface is now clearer and easier to use.
+*   **Better Agent Selection:** We’ve improved the agent selection interface with better visual feedback.
+*   **Enhanced Team Templates:** Our marketplace templates now have better descriptions and clearer use cases.
 
-### WebSocket & Real-Time Communication
+### Faster, Real-Time Updates
 
-Significant improvements to real-time communication and responsiveness.
+We’ve made significant improvements to our real-time communication features.
 
-* **Enhanced WebSocket Service:** Completely refactored WebSocket service with improved connection management and better error handling.
-* **Better Connection Stability:** Improved connection stability with automatic reconnection and better handling of network interruptions.
-* **Real-Time Updates:** Faster and more reliable real-time updates for team status, message delivery, and file changes.
-* **Improved Message Handling:** Better handling of large messages and complex data structures in real-time communication.
+*   **Enhanced Real-Time Service:** We’ve refactored our WebSocket service for better connection management and error handling.
+*   **More Stable Connections:** We’ve improved connection stability with automatic reconnections.
+*   **Faster, More Reliable Updates:** Get faster and more reliable real-time updates for team status, messages, and file changes.
+*   **Better Message Handling:** We’ve improved how we handle large messages and complex data.
 
-### User Interface Refinements
+### A Polished and User-Friendly Design
 
-Comprehensive improvements to the overall user experience.
+We’ve made comprehensive improvements to the overall user experience.
 
-* **Improved Layouts:** Refined layouts throughout the application for better use of screen space and improved visual hierarchy.
-* **Better Responsiveness:** Enhanced responsive design ensures a great experience on all device sizes.
-* **Visual Consistency:** Improved visual consistency across all components with refined color schemes and typography.
-* **Loading Indicators:** Better loading indicators and progress feedback throughout the application.
-* **Error Messages:** Clearer, more helpful error messages with actionable guidance for resolution.
+*   **Improved Layouts:** We've refined layouts throughout the application for a better visual hierarchy.
+*   **More Responsive:** Our enhanced responsive design ensures a great experience on all devices.
+*   **Visually Consistent:** We've improved visual consistency across all components.
+*   **Better Loading Indicators:** We’ve improved our loading indicators and progress feedback.
+*   **Clearer Error Messages:** We now provide clearer and more helpful error messages.
 
-### Performance Enhancements
+### Better Performance All Around
 
-Behind-the-scenes improvements for better performance and reliability.
+We’ve made several behind-the-scenes improvements for better performance and reliability.
 
-* **Faster Page Loads:** Optimized asset loading and caching for faster initial page loads.
-* **Improved Rendering:** Better rendering performance for large conversations and complex interfaces.
-* **Memory Management:** Improved memory management reduces resource usage and improves stability.
-* **Network Optimization:** Optimized network requests reduce bandwidth usage and improve responsiveness.
+*   **Faster Page Loads:** We’ve optimized asset loading for faster initial page loads.
+*   **Improved Rendering Performance:** We’ve improved rendering performance for large conversations.
+*   **Better Memory Management:** Improved memory management makes the platform more stable.
+*   **Optimized Network Requests:** We’ve optimized our network requests to reduce bandwidth usage.
 
-### Bug Fixes & Stability
+### More Stable and Reliable
 
-Numerous bug fixes and stability improvements throughout the platform.
+We’ve made numerous bug fixes and stability improvements throughout the platform.
 
-* **Upload Reliability:** Fixed issues with file uploads and improved error handling.
-* **Chat Stability:** Resolved issues with chat message delivery and display.
-* **Team Management:** Fixed various issues with team creation and configuration.
-* **Navigation Fixes:** Resolved navigation issues and improved routing throughout the application.
+*   **More Reliable Uploads:** We've fixed issues with file uploads and improved error handling.
+*   **More Stable Chat:** We've resolved issues with chat message delivery and display.
+*   **Team Management Fixes:** We’ve fixed various issues with team creation and configuration.
+*   **Navigation Fixes:** We've resolved navigation issues for a smoother experience.
 
 ---
 
@@ -504,79 +509,75 @@ Numerous bug fixes and stability improvements throughout the platform.
 
 Welcome to our latest sprint update! This release for Compass delivers a significant leap forward in organizational intelligence, administrative control, and user experience. We've focused on empowering your teams with more robust management tools and a smoother, more intuitive interface.
 
-> **TL;DR**: The June 2025 Compass update (v1.0.12 backend, v1.0.156 UI) significantly enhances **organizational intelligence**, **administrative control**, and **user experience**. Key improvements include a refactored knowledge structure with full **bucket management**, streamlined **Git integration** for team content, granular **API key and organization management**, and a new **user invitation system**. The UI/UX sees a **complete overhaul** with a new admin layout, dark theme compatibility, and improved dialogs, all supported by core system enhancements for **consistency and stability**.
+> **In a nutshell**: The June 2025 update significantly enhances **organizational intelligence**, **administrative control**, and **user experience**. Key improvements include a new knowledge structure with full **bucket management**, streamlined **Git integration**, and a new **user invitation system**. The UI also gets a **complete overhaul** with a new admin layout and dark theme compatibility.
 
-### Organizational Intelligence & Data Management
+### Smarter Data and Knowledge Management
 
 We've supercharged how Compass handles your knowledge and data, making it more flexible and powerful.
 
-### Enhanced Organizational Brain & Buckets
+### Organize Your Company's Knowledge
 
-* **Refactored Organizational Brain API:** We've completely overhauled how your organizational knowledge is structured, ensuring more efficient and scalable access.
-* **Comprehensive Bucket Management:** Take control of your data like never before!
-    * **Full CRUD for Buckets:** Create, update, and manage your data buckets with new dedicated functionality.
-    * **Secure Content Retrieval:** Retrieve brain content documents for specific buckets, ensuring accurate knowledge access.
-    * **Empty Bucket Registration:** Register empty buckets to keep your data organized from the start.
+*   **New Knowledge Structure:** We've completely overhauled how your company’s knowledge is structured for more efficient and scalable access.
+*   **Full Control Over Data Buckets:** You can now create, update, and manage your data "buckets" with new, dedicated functionality.
+*   **Secure Content Access:** Retrieve documents from specific buckets, ensuring accurate knowledge access.
+*   **Register Empty Buckets:** You can now register empty buckets to keep your data organized from the start.
 
-### Advanced Git Integration for Team Management
+### Streamlined Content Management
 
-Managing your team's code and content is now more streamlined:
+Managing your team's content is now more streamlined.
 
-* **Git Push Endpoint:** Directly push changes to your Git repositories from within Compass.
-* **Remote Head Parsing & Branch Retrieval:** Easily parse Git remote heads and retrieve lists of branches for better version control.
-* **Simplified Branch Insertion:** We've simplified the logic for inserting branches during Git cloning.
-* **Improved Git URL Retrieval:** `get_team_state` now dynamically retrieves Git URLs for teams that don't have one pre-configured, ensuring smoother operations.
+*   **Push Changes to Git:** You can now directly push changes to your Git repositories from within Compass.
+*   **Better Version Control:** We've made it easier to see remote branches for better version control.
+*   **Simplified Branching:** We've simplified the logic for creating branches during cloning.
+*   **Improved URL Retrieval:** We now dynamically retrieve Git URLs for teams that don't have one pre-configured.
 
 ---
 
-### Administrative Control & Security
+### More Control and Security for Admins
 
 This release brings a suite of new features designed to give administrators greater control and enhance security.
 
-### Granular API Key & Organization Management
+### Better Control Over Access
 
-* **New Org and ApiKey Models:** We've introduced new models for robust organization and API key management.
-* **Enhanced API Key Endpoints:** New endpoints and role updates provide superior API key management, including strong API key generation utilities.
-* **Super User Access:** A new `super_user` field has been added to the user signup process, enabling elevated privileges for key administrators.
+*   **Robust Management Tools:** We've introduced new models for robust organization and API key management.
+*   **Enhanced API Key Management:** New tools provide superior API key management, including strong key generation.
+*   **Super User Access:** A new `super_user` field enables elevated privileges for key administrators.
 
-### Streamlined User & Team Management
+### Easier User and Team Administration
 
-* **Organizational Team Management Endpoints:** Manage your organizational teams more effectively with new dedicated endpoints.
-* **User Invitation System:** Easily invite new members to your organization via a dedicated invite route and an improved email invite template.
-* **Team Creation & Updates:**
-    * New `createdAt` and `updatedAt` fields for `TeamModel` provide better auditing.
-    * Updated `CreateMarketTeamModel` to generate unique IDs using ULID.
-    * Enhanced team handling with LLM configuration checks and improved retrieval logic.
-* **Revamped Agent/Market Team Terminology:** We've renamed 'agents' to 'enterprise agents' across the platform for clearer understanding and consistency.
-* **Organizational Agent Categories:** List organization agent categories with a new endpoint and the `MarketCategories` model.
+*   **Manage Company Teams:** Manage your company’s teams more effectively with new dedicated tools.
+*   **New User Invitation System:** Easily invite new members to your organization with a dedicated invite link and an improved email template.
+*   **Team Creation and Updates:** New timestamp fields provide better auditing for teams, and we've enhanced team creation with better checks and logic.
+*   **Clearer Terminology:** We've renamed 'agents' to 'enterprise agents' for better clarity.
+*   **Organize Agent Categories:** We've added a new way to list agent categories within your organization.
 
 ---
 
-### Platform Enhancements & User Experience (UX)
+### A Better, More Intuitive Platform
 
 We've made significant improvements to the platform's core and user interface for a more reliable and intuitive experience.
 
-### UI/UX Overhauls
+### A Fresh New Interface
 
-* **Admin Layout & Sidebar:** A brand-new Admin Layout and Sidebar component for improved navigation and administrative workflows.
-* **Revamped Section Headers:** `SectionHeader` components have been integrated into MCP Servers and Secure Data Manager for consistent, clear UI.
-* **Dark Theme Compatibility:** Refactored CSS to ensure seamless compatibility with dark themes.
-* **Chatbot & Agent Management Dialogs:** Enhanced and refined dialogs for managing chatbots and agents, with clearer terminology and improved UI.
-* **Bucket Management Components:** New dialogs and components for enhanced bucket management directly within the UI.
-* **User & Invite Dialogs:** Refactored user management and invite user dialogs for a smoother experience.
-* **Snackbar Notifications:** Enhanced snackbar notifications provide clearer user feedback for actions like successful user invitations.
-* **Document Preview & Loading Indicators:** Implement document preview and loading indicators for a more responsive user experience.
-* **Updated Footer & Help Links:** Footer links now direct users to the new documentation site, and help links have been updated.
+*   **New Admin Layout:** A brand-new Admin Layout and Sidebar component improves navigation for admins.
+*   **Consistent Section Headers:** We’ve integrated new section headers for a more consistent and clear UI.
+*   **Dark Theme Ready:** We've refactored our CSS to ensure everything looks great in dark mode.
+*   **Improved Dialogs:** We’ve enhanced and refined the dialogs for managing chatbots and agents.
+*   **Bucket Management in UI:** New dialogs and components allow for bucket management directly within the UI.
+*   **Smoother User Management:** We’ve refactored the user management and invite dialogs for a smoother experience.
+*   **Clearer Notifications:** Enhanced "snackbar" notifications provide clearer feedback for your actions.
+*   **Document Preview:** We've implemented document preview and loading indicators for a more responsive experience.
+*   **Updated Help Links:** We’ve updated our footer and help links to direct you to our new documentation site.
 
-### Core System Improvements
+### A More Stable and Consistent System
 
-* **Timezone Consistency:** Updated datetime usage across models and routes to ensure UTC consistency, preventing timing discrepancies.
-* **LLM Configuration & Validation:** Enhanced team configuration handling and refactored LLM validation logic for improved stability.
-* **Refactored `BrainOrganizationalManager`:** Now includes request handling and updated path structures for organization-specific data.
-* **Dynamic Image URLs:** `imgUrl` field serializer converts `Path` to `string` in `TeamMember` model, ensuring image assets display correctly.
-* **Optimized Resource Management:** Lazy initialization of `Crawl4AiWrapper` in `BaseHandler` improves resource management.
-* **Robust FastRagHandler:** Enhanced to support role-based semantic checks and improve retrieval logic.
-* **Updated Compass_VERSION:** The platform version has been updated to **1.0.12** for the backend and **1.0.156** for the UI.
+*   **Consistent Timezones:** We’ve updated how we handle dates and times to ensure consistency across the platform.
+*   **Improved Configuration and Validation:** We've enhanced how we handle team configurations and validation for better stability.
+*   **Refactored Brain Manager:** Our `BrainOrganizationalManager` has been updated for better handling of company-specific data.
+*   **Dynamic Image URLs:** We’ve made sure image assets display correctly across the platform.
+*   **Optimized Resource Management:** We’ve improved our resource management for better performance.
+*   **More Robust Handler:** Our `FastRagHandler` has been enhanced to improve retrieval logic.
+*   **Updated Version:** The platform version has been updated to **1.0.12** for the backend and **1.0.156** for the UI.
 
 ---
 
@@ -584,37 +585,37 @@ We've made significant improvements to the platform's core and user interface fo
 
 Welcome to the latest release update! We've been busy bringing powerful new capabilities, performance enhancements, and smarter experiences to Compass. Here's what shines this month:
 
-> **TL;DR**: The May 2025 Compass update introduces "Albert," an AI knowledge companion for intelligent information retrieval and decision-making. It also features next-gen sensitive data and PII management with asynchronous processing, enhanced masking, and new secure APIs. Users can now define custom LLM configurations per tenant, and there's native Microsoft Graph support for seamless integration with user profiles, emails, OneDrive, and SharePoint.
+> **In a nutshell**: The May 2025 Compass update introduces "Albert," an AI knowledge companion for intelligent information retrieval. It also features next-gen sensitive data management, custom LLM configurations, and native Microsoft Graph support for seamless integration with your Microsoft 365 tools.
 
 ### Meet **Albert**
 ### Your New AI Knowledge Companion
 
 A brand-new Compass **agent** has landed! This intelligent agent boosts your team's capabilities by:
 
-* Actively retrieving relevant knowledge from your internal sources.
-* Providing accurate, structured answers with context awareness.
-* Streamlining decision-making with enhanced memory and evaluation logic.
+*   Actively retrieving relevant knowledge from your internal sources.
+*   Providing accurate, structured answers with context awareness.
+*   Streamlining decision-making with enhanced memory and evaluation logic.
 
 ### Privacy & Security
-### Next-Gen **Sensitive Data & PII Management**
+### Next-Gen **Sensitive Data Management**
 Handling sensitive information just got a major upgrade:
 
-* ✨ **Asynchronous PII processing** for faster, smoother handling.
-* 🔒 **Enhanced masking/unmasking** logic with full traceability and source tracking.
-* 🧾 **New models and APIs** to manage sensitive data securely across tenants.
-* 🛡️ Fully integrated into LLM processing flows to ensure compliance from end to end.
+*   ✨ **Faster processing** for a smoother experience.
+*   🔒 **Enhanced masking** logic with full traceability and source tracking.
+*   🧾 **New tools and APIs** to manage sensitive data securely.
+*   🛡️ Fully integrated into our AI processing flows to ensure compliance.
 
-### **Bring your own model**
+### **Bring Your Own Model**
 
-* Define **Custom LLM configurations per tenant**, including `context_window`, `max_tokens`, and `friendly_name`.
-* Improved tenant route handling for secure, scalable multi-tenancy.
+*   Define **custom AI model configurations** for your company, including `context_window`, `max_tokens`, and a `friendly_name`.
+*   Improved handling for secure and scalable multi-tenancy.
 
 ### Microsoft Graph
 
 Boost your enterprise workflows with:
 
-* 🔗 **Native support for Microsoft Graph**, providing seamless access to user profiles, emails, OneDrive folders, and organizational SharePoint resources.
-* Seamless file exploration and integration into knowledge processing routines.
+*   🔗 **Native support for Microsoft Graph**, providing seamless access to user profiles, emails, OneDrive folders, and SharePoint resources.
+*   Seamless file exploration and integration into your knowledge processing routines.
 
 ---
 

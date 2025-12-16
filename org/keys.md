@@ -1,5 +1,14 @@
 # **Securely Extending Compass's Across Your Enterprise**
 
+> ### How to Get Your API Key
+>
+> Follow these simple steps to obtain your API key:
+>
+> 1.  **Login to Compass:** Access your Compass account.
+> 2.  **Navigate to Organization > API Key:** In the left-hand navigation, select "Organization" then "API Key."
+> 3.  **Generate Key:** Click the "Create New Key" button and follow the prompts.
+> 4.  **Get API Key:** Your newly generated API key will be displayed. Copy and save it securely.
+
 In today's interconnected digital landscape, the ability to securely integrate and extend platform functionalities is paramount for enterprise innovation. Compass's **API Keys** section within the Organization admin dashboard provides you with the essential toolkit to manage these critical credentials, enabling your organisation to seamlessly connect external applications and custom solutions to Compass's ecosystem.
 
 As displayed in the **API Keys dashboard**, you gain an immediate, intuitive overview of all your organisation's API keys, their status, and easy management options.
@@ -8,6 +17,14 @@ As displayed in the **API Keys dashboard**, you gain an immediate, intuitive ove
 *API Keys management and status.*
 
 Think of Compass's API keys as digital passports, granting authorised external applications permission to interact with your Compass organisation on your behalf. This is incredibly powerful for custom development. Imagine your team building a bespoke internal application specifically designed to streamline ISO 9001 compliance, leveraging the deep expertise of your "ISO 9001 Chatbot". When your users configure this custom application, they'll securely connect to Compass using a specific API key that's been designated for this purpose, ensuring authorised and controlled access to that particular enterprise chatbot and its connected knowledge buckets.
+
+**Widgets & Integrations:**
+
+An API key can be used in conjunction with various Compass widgets and integrations to extend functionality and enhance productivity:
+
+  * **Chat Widget (embeddable script):** Easily integrate a Compass Chat into any website using an embeddable script.
+  * **Compass CLI:** A powerful developer tool for maximum productivity, seamlessly integrated with your IDE.
+  * **Compass Excel Add-in:** Build and work with Excel spreadsheets using natural language directly within Excel.
 
 **Unparalleled Ease and Flexibility in Key Management:**
 
