@@ -18,7 +18,7 @@ As displayed in the **API Keys dashboard**, you gain an immediate, intuitive ove
 
 Think of Compass's API keys as digital passports, granting authorised external applications permission to interact with your Compass organisation on your behalf. This is incredibly powerful for custom development. Imagine your team building a bespoke internal application specifically designed to streamline ISO 9001 compliance, leveraging the deep expertise of your "ISO 9001 Chatbot". When your users configure this custom application, they'll securely connect to Compass using a specific API key that's been designated for this purpose, ensuring authorised and controlled access to that particular enterprise chatbot and its connected knowledge buckets.
 
-**Widgets & Integrations:**
+## **Widgets & Integrations**
 
 An API key can be used in conjunction with various Compass widgets and integrations to extend functionality and enhance productivity:
 
@@ -197,7 +197,9 @@ The visual export capabilities transform technical usage data into compelling ex
 
 By identifying underutilised API keys or integrations with excessive request volumes, organisations can optimise their Compass usage patterns, potentially adjusting licensing or consolidating redundant integrations to maximise return on investment.
 
-### **A Complete Lifecycle: From Creation to Intelligence**
+## **A Complete Lifecycle**
+
+### **From Creation to Intelligence**
 
 Compass's API key capabilities represent a complete lifecycle management solution. You begin by **creating** keys with descriptive names and clear purposes. You maintain **security** through dynamic invalidation and rotation. And now, with the **API Key Usage Dashboard**, you gain continuous **intelligence** about how those keys perform in the real world.
 

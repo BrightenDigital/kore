@@ -58,7 +58,8 @@ export default withMermaid(
           link: '/org/org.md',
           items: [
             { text: 'Members', link: "/org/members.md" },
-            { text: 'Enterprise Chatbots', link: "/org/chatbots.md" },
+            { text: 'Rules & Policies', link: "/org/policies.md" },
+            { text: 'AI Agents', link: "/org/chatbots.md" },
             { text: 'Knowledge Management', link: "/org/buckets.md" },
             { text: 'Secure Data', link: "/org/data-controls.md" },
             { text: 'Language Models', link: "/org/llms.md" },
